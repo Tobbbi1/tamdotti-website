@@ -22,6 +22,8 @@ const esc = (s) => String(s).replace(/&(?!amp;|lt;|gt;|quot;|#\d+;)/g, '&amp;').
 const strip = (s) => String(s).replace(/<[^>]+>/g, '');
 const fill = (s, vars) => String(s).replace(/\{(\w+)\}/g, (m, k) => (k in vars ? vars[k] : m));
 const mail = '<a href="mailto:info@vidofood.de">info@vidofood.de</a>';
+// Footer only: company contact (Vidomedia UG). Legal pages, konto-loeschen and the home text keep `mail`.
+const footerMail = '<a href="mailto:info@vidomedia.de">info@vidomedia.de</a>';
 const prefix = (k) => (k === 'de' ? '' : `/${L[k].dir}`);
 
 // page types → url per language (null = no version in that language)
@@ -114,7 +116,7 @@ function footer(k, page) {
     `\n    <p class="foot-legal">${c.legalOriginals} <a href="/datenschutz.html" hreflang="de" lang="de">Datenschutz</a> · <a href="/impressum.html" hreflang="de" lang="de">Impressum</a></p>`;
   return `<footer class="foot">
   <div class="wrap">
-    <div class="foot-text"><p>${c.footerAbout} ${mail}</p>${originals}</div>
+    <div class="foot-text"><p>${c.footerAbout} ${footerMail}</p>${originals}</div>
     <nav aria-label="${esc(c.navLegal)}">${legalNav(k, null, { withStart: page !== 'home' })}</nav>
   </div>
 </footer>`;
