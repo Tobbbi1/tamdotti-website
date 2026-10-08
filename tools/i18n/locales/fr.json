@@ -1,0 +1,138 @@
+{
+  "code": "fr",
+  "dir": "fr",
+  "htmlLang": "fr",
+  "hreflang": "fr",
+  "ogLocale": "fr_FR",
+  "name": "Français",
+  "short": "FR",
+  "common": {
+    "homeLabel": "Tamdotti – accueil",
+    "navLegal": "Informations légales",
+    "start": "Accueil",
+    "privacy": "Confidentialité",
+    "imprint": "Mentions légales",
+    "deleteAccount": "Supprimer le compte",
+    "footerAbout": "Tamdotti est un jeu de Vidomedia UG (haftungsbeschränkt), basée à Langenhagen (Allemagne). Contact :",
+    "langTitle": "Langue",
+    "langCurrent": "Choisir la langue, actuelle : {lang}",
+    "legalOriginals": "Originaux allemands, juridiquement contraignants :"
+  },
+  "suggest": {
+    "q": "Cette page existe aussi en français.",
+    "yes": "Lire en français",
+    "no": "Non merci"
+  },
+  "home": {
+    "title": "Tamdotti – un jeu d’animal de compagnie en 3D, tout en douceur",
+    "description": "Tamdotti est un jeu d’animal de compagnie en 3D, tout en douceur : nourris, baigne et câline ton Dotti, aménage une chambre, récolte au jardin et retrouve tes amis dans la prairie. Bientôt sur l’App Store et Google Play.",
+    "ogDescription": "Prends soin de ton Dotti, aménage sa chambre, jardin et prairie. Bientôt sur l’App Store et Google Play.",
+    "navLabel": "Page",
+    "navSoon": "Bientôt",
+    "poke": "Tapote-moi",
+    "h1": "Coucou, moi c’est Wuffel.",
+    "lead": "Tamdotti est un jeu d’animal de compagnie en 3D, tout en douceur. Tu t’occupes de ton Dotti, tu lui aménages une chambre et vous sortez ensemble au jardin.",
+    "meta": "Bientôt sur iPhone et Android.",
+    "chapters": [
+      {
+        "kicker": "À la maison",
+        "title": "Une chambre à partager.",
+        "text": "Lit, tapis, lampe, plante : tu installes tout comme tu le souhaites. Repas, bain et câlins, tout se passe ici."
+      },
+      {
+        "kicker": "Jardin",
+        "title": "Dehors, ça pousse.",
+        "text": "Dans les plates-bandes, tu fais pousser des fraises, de la salade et des citrouilles. Tu vas chercher l’eau à la rivière, et ce que tu récoltes finit dans ton sac comme friandise."
+      },
+      {
+        "kicker": "Prairie en ligne",
+        "title": "Et parfois, il y a de la visite.",
+        "text": "Si tu veux, tu te connectes et tu retrouves d’autres Dottis dans la prairie. Vous vous faites coucou, vous montez sur le manège ou vous vous asseyez ensemble sur le banc. Tu peux aussi rendre visite à tes amis et faire de petits duels."
+      }
+    ],
+    "nopeTitle": "Ce que tu ne trouveras pas dans Tamdotti",
+    "nope": [
+      [
+        "Pubs",
+        "Ni bannières, ni vidéos entre deux parties."
+      ],
+      [
+        "Argent réel",
+        "Les pièces se gagnent en prenant soin de ton Dotti et en jouant."
+      ],
+      [
+        "Compte obligatoire",
+        "Un compte ne sert que pour les amis et la prairie en ligne."
+      ]
+    ],
+    "screensTitle": "À quoi ça ressemble dans l’app",
+    "screensSub": "De vraies captures d’écran, rien de retouché.",
+    "screens": [
+      [
+        "Wuffel dans sa chambre aménagée",
+        "Chambre"
+      ],
+      [
+        "Jardin avec plates-bandes et rivière",
+        "Jardin"
+      ],
+      [
+        "Aménager la maison : choisir le sol et le mur",
+        "Aménager"
+      ],
+      [
+        "Entraînement au combat avec statistiques et énergie",
+        "Entraînement"
+      ]
+    ],
+    "soonTitle": "Bientôt là.",
+    "soonText": "Tamdotti arrive bientôt sur iPhone et Android. On répond volontiers à tes questions dès maintenant : {email}",
+    "storeApple": "Bientôt sur l’",
+    "storeGoogle": "Bientôt sur",
+    "storeNote": "Pas encore dans le store – Tamdotti arrive bientôt."
+  },
+  "konto": {
+    "title": "Supprimer le compte – Tamdotti",
+    "description": "Comment supprimer ton compte Tamdotti et toutes les données associées. Mode d’emploi et aperçu des données supprimées.",
+    "h1": "Supprimer ton compte Tamdotti",
+    "intro": "Voici comment supprimer ton compte et toutes les données associées dans l’app « Tamdotti » de Vidomedia UG (haftungsbeschränkt).",
+    "requestTitle": "Demander la suppression du compte",
+    "requestText": "Tu peux demander la suppression de ton compte Tamdotti par e-mail, à tout moment et gratuitement :",
+    "steps": [
+      "<b>Envoie un e-mail à {email}</b>, de préférence depuis l’adresse liée à ton compte. Objet : {subject}.",
+      "<b>Indique l’adresse e-mail de ton compte</b> et comment tu te connectes (e-mail, Google ou Apple). Si tu le connais, ton nom d’utilisateur dans l’app nous aide aussi. Si tu utilises « Se connecter avec Apple » avec une adresse masquée, tu trouveras l’adresse de relais dans les réglages de ton identifiant Apple, sous « Se connecter avec Apple ».",
+      "<b>Nous vérifions rapidement que la demande vient bien de toi</b>, puis nous supprimons ton compte. Tu reçois une confirmation au plus tard dans un délai d’un mois, généralement bien plus tôt."
+    ],
+    "mailSubject": "Supprimer mon compte Tamdotti",
+    "mailBody": [
+      "Bonjour l’équipe Tamdotti,",
+      "",
+      "merci de supprimer mon compte Tamdotti et toutes les données associées.",
+      "",
+      "Adresse e-mail de mon compte : ",
+      "Connexion via (e-mail / Google / Apple) : ",
+      "Nom d’utilisateur (si connu) : ",
+      "",
+      "Merci !"
+    ],
+    "mailButton": "Demander la suppression par e-mail",
+    "deletedTitle": "Qu’est-ce qui est supprimé ?",
+    "deletedIntro": "Lors de la suppression de ton compte, nous effaçons définitivement toutes les données liées à ton compte et stockées sur nos serveurs :",
+    "deleted": [
+      "ton compte utilisateur et tes données de connexion (adresse e-mail, hash du mot de passe ou liaison avec Google/Apple),",
+      "ton profil (nom d’utilisateur, nom affiché, code ami, avatar, fuseau horaire, heures de repos, jeton push),",
+      "ta sauvegarde dans le cloud, tes Dottis, compétences, pièces, trophées, ton inventaire et tes mouvements de pièces,",
+      "les amitiés et les demandes d’ami,",
+      "les visites, combats et duels auxquels tu as participé, ainsi que les scores des mini-jeux,",
+      "les adhésions à des groupes de Dottis partagés et les notifications programmées."
+    ],
+    "retention": "Après la suppression, nous ne conservons aucune donnée de jeu ni de compte. Comme il n’y a pas d’achats avec de l’argent réel dans Tamdotti, il n’existe aucune obligation de conservation de données de paiement. Les journaux techniques de courte durée de notre hébergeur sont effacés automatiquement au bout de peu de temps ; les éventuelles sauvegardes sont écrasées lors du cycle de sauvegarde habituel. Nous ne conservons ton e-mail de demande de suppression que le temps nécessaire pour prouver qu’elle a été traitée.",
+    "notice": "<b>Attention :</b> la suppression est définitive. Ta progression, tes Dottis et tes pièces seront perdus.",
+    "deviceTitle": "Données sur ton appareil",
+    "deviceText": "Si tu joues sans compte, tes données de jeu restent uniquement sur ton appareil : nous n’avons alors aucune donnée te concernant sur nos serveurs. Pour effacer ces données locales, il suffit de désinstaller l’app. Si tu avais un compte, déconnecte-toi dans l’app via <b>Plus → Réglages → Se déconnecter</b>, puis désinstalle l’app pour supprimer aussi la copie locale.",
+    "partialTitle": "Supprimer seulement certaines données",
+    "partialText": "Tu ne veux pas supprimer tout ton compte, seulement certaines données ? Écris-nous aussi à {email}. Tu peux modifier toi-même ton nom d’utilisateur à tout moment dans ton profil, dans l’app.",
+    "privacyLinkText": "politique de confidentialité (en anglais)",
+    "more": "Tu trouveras plus d’informations dans notre {privacy}."
+  }
+}

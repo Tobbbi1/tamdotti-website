@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tamdotti – 一款安静治愈的 3D 宠物游戏</title>
+<meta name="description" content="Tamdotti 是一款安静治愈的 3D 宠物游戏：给你的 Dotti 喂食、洗澡、抱抱，布置房间，在花园里收获，在草地上和朋友相遇。即将登陆 App Store 和 Google Play。">
+<link rel="canonical" href="https://tamdotti.de/zh/">
+<link rel="alternate" hreflang="de" href="https://tamdotti.de/">
+<link rel="alternate" hreflang="en" href="https://tamdotti.de/en/">
+<link rel="alternate" hreflang="es" href="https://tamdotti.de/es/">
+<link rel="alternate" hreflang="fr" href="https://tamdotti.de/fr/">
+<link rel="alternate" hreflang="it" href="https://tamdotti.de/it/">
+<link rel="alternate" hreflang="pt-BR" href="https://tamdotti.de/pt-br/">
+<link rel="alternate" hreflang="nl" href="https://tamdotti.de/nl/">
+<link rel="alternate" hreflang="pl" href="https://tamdotti.de/pl/">
+<link rel="alternate" hreflang="tr" href="https://tamdotti.de/tr/">
+<link rel="alternate" hreflang="ja" href="https://tamdotti.de/ja/">
+<link rel="alternate" hreflang="ko" href="https://tamdotti.de/ko/">
+<link rel="alternate" hreflang="zh-Hans" href="https://tamdotti.de/zh/">
+<link rel="alternate" hreflang="x-default" href="https://tamdotti.de/">
+<meta name="theme-color" content="#fff4e8">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="nl_NL">
+<meta property="og:locale:alternate" content="pl_PL">
+<meta property="og:locale:alternate" content="tr_TR">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:site_name" content="Tamdotti">
+<meta property="og:title" content="Tamdotti – 一款安静治愈的 3D 宠物游戏">
+<meta property="og:description" content="照顾 Dotti、布置房间、花园与草地。即将登陆 App Store 和 Google Play。">
+<meta property="og:url" content="https://tamdotti.de/zh/">
+<meta property="og:image" content="https://tamdotti.de/img/og-image.jpg">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="64x64" href="/img/favicon-64.png">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<link rel="preload" href="/fonts/fredoka-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/css/site.css">
+<link rel="stylesheet" href="/css/home.css">
+<script type="importmap">{"imports":{"three":"/vendor/three/three.module.min.js","three/addons/":"/vendor/three/addons/"}}</script>
+<link rel="modulepreload" href="/js/home.js">
+<script src="/js/lang.js" defer></script>
+</head>
+<body class="home">
+<header class="masthead wrap">
+  <a class="wordmark" href="/zh/" aria-label="Tamdotti – 首页"><img src="/img/icon-320.webp" alt="" width="34" height="34">Tamdotti</a>
+  <nav aria-label="页面"><a href="#bald">即将推出</a></nav>
+  <details class="lang">
+    <summary class="lang-btn" aria-label="选择语言，当前：简体中文"><svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><circle cx="10" cy="10" r="7.25" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M2.9 10h14.2M10 2.8c2 2.1 2.9 4.5 2.9 7.2s-.9 5.1-2.9 7.2c-2-2.1-2.9-4.5-2.9-7.2s.9-5.1 2.9-7.2z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><span>ZH</span><svg class="lang-chev" viewBox="0 0 12 12" width="10" height="10" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+    <div class="lang-pop"><p class="lang-title">语言</p><ul><li><a href="/" hreflang="de" lang="de" data-lang="de">Deutsch</a></li><li><a href="/en/" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="/es/" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="/fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="/it/" hreflang="it" lang="it" data-lang="it">Italiano</a></li><li><a href="/pt-br/" hreflang="pt-BR" lang="pt-BR" data-lang="pt-br">Português (Brasil)</a></li><li><a href="/nl/" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a></li><li><a href="/pl/" hreflang="pl" lang="pl" data-lang="pl">Polski</a></li><li><a href="/tr/" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a></li><li><a href="/ja/" hreflang="ja" lang="ja" data-lang="ja">日本語</a></li><li><a href="/ko/" hreflang="ko" lang="ko" data-lang="ko">한국어</a></li><li><a href="/zh/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh" aria-current="true">简体中文</a></li></ul></div>
+  </details>
+</header>
+
+<main>
+  <section class="story" id="story">
+    <div class="stage" aria-hidden="true">
+      <div class="posters">
+        <picture class="poster is-on" data-station="0"><source media="(max-aspect-ratio: 9/10)" srcset="/img/poster-m-0.webp"><img src="/img/poster-d-0.webp" alt="" fetchpriority="high" decoding="async"></picture>
+      </div>
+      <canvas class="scene"></canvas>
+      <span class="poke-hint" hidden>戳戳我</span>
+    </div>
+
+    <div class="chapters">
+      <article class="chapter chapter--intro" data-station="0">
+        <div class="copy">
+          <h1>你好，我是 Wuffel。</h1>
+          <p class="lead">Tamdotti 是一款安静治愈的 3D 宠物游戏。你照顾自己的 Dotti，为它布置房间，再一起去花园走走。</p>
+          <p class="meta">即将登陆 iPhone 和 Android。</p>
+        </div>
+      </article>
+
+      <article class="chapter" data-station="1">
+        <div class="copy">
+          <p class="kicker">家</p>
+          <h2>一起住的小房间。</h2>
+          <p>床、地毯、台灯、植物，都可以按你喜欢的方式摆放。喂食、洗澡、抱抱，都在这里。</p>
+        </div>
+      </article>
+
+      <article class="chapter" data-station="2">
+        <div class="copy">
+          <p class="kicker">花园</p>
+          <h2>外面，有东西在生长。</h2>
+          <p>在菜畦里种草莓、生菜和南瓜。水要去河边打，收获的东西会变成零食，装进你的包里。</p>
+        </div>
+      </article>
+
+      <article class="chapter" data-station="3">
+        <div class="copy">
+          <p class="kicker">在线草地</p>
+          <h2>有时候，还会有客人。</h2>
+          <p>愿意的话，登录后就能在草地上遇见其他 Dotti。你们互相挥挥手，一起坐旋转木马，或者在长椅上并排坐坐。还可以去朋友家做客，来几场小小的对决。</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="nope wrap" aria-labelledby="nope-title">
+    <h2 id="nope-title">Tamdotti 里没有的东西</h2>
+    <dl>
+      <div><dt><s>广告</s></dt><dd>没有横幅，也没有中途弹出的视频。</dd></div>
+      <div><dt><s>真钱购买</s></dt><dd>金币靠照顾和玩耍来赚。</dd></div>
+      <div><dt><s>强制注册</s></dt><dd>只有好友功能和在线草地才需要账号。</dd></div>
+    </dl>
+  </section>
+
+  <section class="screens wrap" aria-labelledby="screens-title">
+    <div class="screens-head">
+      <h2 id="screens-title">在应用里是这样的</h2>
+      <p>真实截图，没有任何修饰。</p>
+    </div>
+    <div class="screens-row">
+      <figure><img src="/img/screen-zimmer.webp" width="540" height="1168" loading="lazy" decoding="async" alt="在布置好的房间里的 Wuffel"><figcaption>房间</figcaption></figure>
+      <figure><img src="/img/screen-garten.webp" width="540" height="1168" loading="lazy" decoding="async" alt="有菜畦和小河的花园"><figcaption>花园</figcaption></figure>
+      <figure><img src="/img/screen-einrichten.webp" width="540" height="1168" loading="lazy" decoding="async" alt="布置房屋：选择地板和墙面"><figcaption>布置</figcaption></figure>
+      <figure><img src="/img/screen-kampf.webp" width="540" height="1168" loading="lazy" decoding="async" alt="显示属性和能量的战斗训练"><figcaption>训练</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="soon wrap" id="bald" aria-labelledby="soon-title">
+    <h2 id="soon-title">快了。</h2>
+    <p>Tamdotti 即将登陆 iPhone 和 Android。有任何问题，现在就欢迎联系我们：<a href="mailto:info@vidofood.de">info@vidofood.de</a></p>
+    <div class="stores">
+      <button class="btn store" type="button" aria-describedby="store-note">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M16.37 12.67c-.02-2.3 1.88-3.4 1.96-3.46-1.07-1.56-2.73-1.78-3.32-1.8-1.41-.14-2.76.83-3.48.83-.72 0-1.82-.81-3-.79-1.54.02-2.96.9-3.76 2.28-1.6 2.78-.41 6.9 1.15 9.16.76 1.1 1.67 2.34 2.86 2.3 1.15-.05 1.58-.74 2.97-.74 1.38 0 1.77.74 2.98.72 1.23-.02 2.01-1.12 2.76-2.23.87-1.28 1.23-2.51 1.25-2.58-.03-.01-2.4-.92-2.42-3.65zM14.1 5.9c.63-.77 1.06-1.83.94-2.9-.91.04-2.01.61-2.66 1.37-.58.67-1.1 1.76-.96 2.8 1.01.08 2.05-.52 2.68-1.27z"/></svg>
+        <span><small>即将登陆</small>App Store</span>
+      </button>
+      <button class="btn store" type="button" aria-describedby="store-note">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M4.5 2.6c-.3.2-.5.6-.5 1.1v16.6c0 .5.2.9.5 1.1l9.3-9.4zM15 13.1l2.6 2.6-11 6.3zM6.6 2l11 6.3L15 10.9zM18.9 9.1l3 1.7c.9.5.9 1.9 0 2.4l-3 1.7-2.9-2.9z"/></svg>
+        <span><small>即将登陆</small>Google Play</span>
+      </button>
+      <p class="store-note" id="store-note" role="status" aria-live="polite" data-msg="还没有上架，Tamdotti 很快就来。"></p>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-text"><p>Tamdotti 是德国朗根哈根的 Vidomedia UG (haftungsbeschränkt) 开发的游戏。联系方式： <a href="mailto:info@vidofood.de">info@vidofood.de</a></p>
+    <p class="foot-legal">具有法律效力的是德语原文： <a href="/datenschutz.html" hreflang="de" lang="de">Datenschutz</a> · <a href="/impressum.html" hreflang="de" lang="de">Impressum</a></p></div>
+    <nav aria-label="法律信息"><a href="/en/privacy.html" hreflang="en">隐私<span class="tag" lang="en">EN</span></a><a href="/en/imprint.html" hreflang="en">运营者信息<span class="tag" lang="en">EN</span></a><a href="/zh/konto-loeschen.html">删除账号</a></nav>
+  </div>
+</footer>
+<script type="module" src="/js/home.js"></script>
+</body>
+</html>

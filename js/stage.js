@@ -19,7 +19,7 @@ const loader = new GLTFLoader();
 loader.setMeshoptDecoder(MeshoptDecoder);
 const cache = new Map();
 const glb = (name) => {
-  if (!cache.has(name)) cache.set(name, loader.loadAsync(`3d/${name}.glb`));
+  if (!cache.has(name)) cache.set(name, loader.loadAsync(`/3d/${name}.glb`));
   return cache.get(name);
 };
 

@@ -1,0 +1,138 @@
+{
+  "code": "nl",
+  "dir": "nl",
+  "htmlLang": "nl",
+  "hreflang": "nl",
+  "ogLocale": "nl_NL",
+  "name": "Nederlands",
+  "short": "NL",
+  "common": {
+    "homeLabel": "Tamdotti – home",
+    "navLegal": "Juridisch",
+    "start": "Home",
+    "privacy": "Privacy",
+    "imprint": "Colofon",
+    "deleteAccount": "Account verwijderen",
+    "footerAbout": "Tamdotti is een game van Vidomedia UG (haftungsbeschränkt) uit Langenhagen, Duitsland. Contact:",
+    "langTitle": "Taal",
+    "langCurrent": "Taal kiezen, nu: {lang}",
+    "legalOriginals": "Juridisch bindende Duitse originelen:"
+  },
+  "suggest": {
+    "q": "Deze pagina is ook in het Nederlands beschikbaar.",
+    "yes": "Lees in het Nederlands",
+    "no": "Nee, bedankt"
+  },
+  "home": {
+    "title": "Tamdotti – een rustig 3D-huisdierspel",
+    "description": "Tamdotti is een rustig 3D-huisdierspel: geef je Dotti eten, een bad en knuffels, richt een kamer in, oogst in de tuin en ontmoet vrienden op de weide. Binnenkort in de App Store en op Google Play.",
+    "ogDescription": "Zorg voor je Dotti, richt een kamer in, tuin en weide. Binnenkort in de App Store en op Google Play.",
+    "navLabel": "Pagina",
+    "navSoon": "Binnenkort",
+    "poke": "Tik me even aan",
+    "h1": "Hoi, ik ben Wuffel.",
+    "lead": "Tamdotti is een rustig 3D-huisdierspel. Je zorgt voor je Dotti, richt een kamer voor hem in en gaat samen naar buiten, de tuin in.",
+    "meta": "Binnenkort voor iPhone en Android.",
+    "chapters": [
+      {
+        "kicker": "Thuis",
+        "title": "Een kamer die jullie delen.",
+        "text": "Bed, kleed, lamp, plant: je zet alles neer zoals jij het mooi vindt. Eten, in bad en knuffelen gebeurt precies hier."
+      },
+      {
+        "kicker": "Tuin",
+        "title": "Buiten groeit er iets.",
+        "text": "In de moestuinbakken kweek je aardbeien, sla en pompoenen. Water haal je bij de rivier, en wat je oogst gaat als lekkernij in je tas."
+      },
+      {
+        "kicker": "Online weide",
+        "title": "En soms is er bezoek.",
+        "text": "Als je wilt, log je in en ontmoet je andere Dottis op de weide. Jullie zwaaien naar elkaar, gaan in de draaimolen of zitten samen op het bankje. Vrienden bezoeken en kleine duels kan ook."
+      }
+    ],
+    "nopeTitle": "Wat je in Tamdotti niet vindt",
+    "nope": [
+      [
+        "Reclame",
+        "Geen banners, geen filmpjes tussendoor."
+      ],
+      [
+        "Echt geld",
+        "Munten verdien je door te verzorgen en te spelen."
+      ],
+      [
+        "Verplicht account",
+        "Een account heb je alleen nodig voor vrienden en de online weide."
+      ]
+    ],
+    "screensTitle": "Zo ziet het eruit in de app",
+    "screensSub": "Echte schermafbeeldingen, niets nagemaakt.",
+    "screens": [
+      [
+        "Wuffel in zijn ingerichte kamer",
+        "Kamer"
+      ],
+      [
+        "Tuin met moestuinbakken en rivier",
+        "Tuin"
+      ],
+      [
+        "Huis inrichten: vloer en muur kiezen",
+        "Inrichten"
+      ],
+      [
+        "Gevechtstraining met waarden en energie",
+        "Training"
+      ]
+    ],
+    "soonTitle": "Bijna zover.",
+    "soonText": "Tamdotti komt binnenkort voor iPhone en Android. Vragen beantwoorden we nu al graag: {email}",
+    "storeApple": "Binnenkort in de",
+    "storeGoogle": "Binnenkort op",
+    "storeNote": "Nog niet in de store – Tamdotti komt binnenkort."
+  },
+  "konto": {
+    "title": "Account verwijderen – Tamdotti",
+    "description": "Zo verwijder je je Tamdotti-account en alle bijbehorende gegevens. Stappenplan en overzicht van de gegevens die worden verwijderd.",
+    "h1": "Je Tamdotti-account verwijderen",
+    "intro": "Zo verwijder je je account en alle bijbehorende gegevens in de app ‘Tamdotti’ van Vidomedia UG (haftungsbeschränkt).",
+    "requestTitle": "Verwijdering van je account aanvragen",
+    "requestText": "Je kunt de verwijdering van je Tamdotti-account op elk moment gratis per e-mail aanvragen:",
+    "steps": [
+      "<b>Stuur een e-mail naar {email}</b> – bij voorkeur vanaf het e-mailadres dat aan je account gekoppeld is. Onderwerp: {subject}.",
+      "<b>Vermeld het e-mailadres van je account</b> en hoe je inlogt (e-mail, Google of Apple). Als je het weet, helpt je gebruikersnaam in de app ook. Gebruik je ‘Log in met Apple’ met een verborgen e-mailadres, dan vind je het doorstuuradres in je Apple ID-instellingen onder ‘Log in met Apple’.",
+      "<b>We controleren kort of het verzoek van jou komt</b> en verwijderen je account. Je krijgt een bevestiging – uiterlijk binnen een maand, meestal veel sneller."
+    ],
+    "mailSubject": "Tamdotti-account verwijderen",
+    "mailBody": [
+      "Hallo Tamdotti-team,",
+      "",
+      "Verwijder alsjeblieft mijn Tamdotti-account en alle bijbehorende gegevens.",
+      "",
+      "E-mailadres van mijn account: ",
+      "Ik log in via (e-mail / Google / Apple): ",
+      "Gebruikersnaam (indien bekend): ",
+      "",
+      "Bedankt!"
+    ],
+    "mailButton": "Verwijdering per e-mail aanvragen",
+    "deletedTitle": "Wat wordt er verwijderd?",
+    "deletedIntro": "Bij het verwijderen van je account wissen we definitief alle gegevens die bij je account op onze servers zijn opgeslagen:",
+    "deleted": [
+      "je gebruikersaccount en inloggegevens (e-mailadres, wachtwoordhash of koppeling met Google/Apple),",
+      "je profiel (gebruikersnaam, weergavenaam, vriendcode, avatar, tijdzone, rusttijden, pushtoken),",
+      "je spelvoortgang in de cloud, je Dottis, vaardigheden, munten, trofeeën, je inventaris en je muntboekingen,",
+      "vriendschappen en vriendschapsverzoeken,",
+      "bezoeken, gevechten en duels waaraan je hebt deelgenomen, en scores van minigames,",
+      "lidmaatschappen van gedeelde Dotti-groepen en geplande meldingen."
+    ],
+    "retention": "Na de verwijdering bewaren we geen spel- of accountgegevens. Omdat er in Tamdotti geen aankopen met echt geld zijn, gelden er geen bewaarplichten voor betaalgegevens. Kortlevende technische logbestanden van onze serverprovider worden na korte tijd automatisch verwijderd; eventuele back-ups worden in de normale back-upcyclus overschreven. Je e-mail met het verwijderverzoek bewaren we alleen zo lang als nodig is om aan te tonen dat het is afgehandeld.",
+    "notice": "<b>Let op:</b> verwijderen kan niet ongedaan worden gemaakt. Je voortgang, je Dottis en je munten zijn daarna weg.",
+    "deviceTitle": "Gegevens op je apparaat",
+    "deviceText": "Speel je zonder account, dan staan je spelgegevens alleen op je apparaat – wij hebben dan geen gegevens van je op onze servers. Om deze lokale gegevens te wissen, verwijder je gewoon de app. Had je een account, log dan in de app uit via <b>Meer → Instellingen → Uitloggen</b> en verwijder de app om ook de lokale kopie te wissen.",
+    "partialTitle": "Alleen bepaalde gegevens verwijderen",
+    "partialText": "Wil je niet meteen je hele account verwijderen, maar alleen bepaalde gegevens? Schrijf ons dan ook op {email}. Je gebruikersnaam kun je op elk moment zelf wijzigen in je profiel in de app.",
+    "privacyLinkText": "privacyverklaring (in het Engels)",
+    "more": "Meer informatie vind je in onze {privacy}."
+  }
+}

@@ -6,35 +6,64 @@
 <title>Tamdotti – ein ruhiges 3D-Haustierspiel</title>
 <meta name="description" content="Tamdotti ist ein ruhiges 3D-Haustierspiel: dein Dotti füttern, baden und knuddeln, ein Zimmer einrichten, im Garten ernten und Freunde auf der Wiese treffen. Bald im App Store und bei Google Play.">
 <link rel="canonical" href="https://tamdotti.de/">
+<link rel="alternate" hreflang="de" href="https://tamdotti.de/">
+<link rel="alternate" hreflang="en" href="https://tamdotti.de/en/">
+<link rel="alternate" hreflang="es" href="https://tamdotti.de/es/">
+<link rel="alternate" hreflang="fr" href="https://tamdotti.de/fr/">
+<link rel="alternate" hreflang="it" href="https://tamdotti.de/it/">
+<link rel="alternate" hreflang="pt-BR" href="https://tamdotti.de/pt-br/">
+<link rel="alternate" hreflang="nl" href="https://tamdotti.de/nl/">
+<link rel="alternate" hreflang="pl" href="https://tamdotti.de/pl/">
+<link rel="alternate" hreflang="tr" href="https://tamdotti.de/tr/">
+<link rel="alternate" hreflang="ja" href="https://tamdotti.de/ja/">
+<link rel="alternate" hreflang="ko" href="https://tamdotti.de/ko/">
+<link rel="alternate" hreflang="zh-Hans" href="https://tamdotti.de/zh/">
+<link rel="alternate" hreflang="x-default" href="https://tamdotti.de/">
 <meta name="theme-color" content="#fff4e8">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="de_DE">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="nl_NL">
+<meta property="og:locale:alternate" content="pl_PL">
+<meta property="og:locale:alternate" content="tr_TR">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="zh_CN">
 <meta property="og:site_name" content="Tamdotti">
 <meta property="og:title" content="Tamdotti – ein ruhiges 3D-Haustierspiel">
 <meta property="og:description" content="Dotti pflegen, Zimmer einrichten, Garten und Wiese. Bald im App Store und bei Google Play.">
 <meta property="og:url" content="https://tamdotti.de/">
 <meta property="og:image" content="https://tamdotti.de/img/og-image.jpg">
-<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
-<link rel="icon" type="image/png" sizes="64x64" href="img/favicon-64.png">
-<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="preload" href="fonts/fredoka-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="fonts/nunito-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="css/site.css">
-<link rel="stylesheet" href="css/home.css">
-<script type="importmap">{"imports":{"three":"./vendor/three/three.module.min.js","three/addons/":"./vendor/three/addons/"}}</script>
-<link rel="modulepreload" href="js/home.js">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="64x64" href="/img/favicon-64.png">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<link rel="preload" href="/fonts/fredoka-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/nunito-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/css/site.css">
+<link rel="stylesheet" href="/css/home.css">
+<script type="importmap">{"imports":{"three":"/vendor/three/three.module.min.js","three/addons/":"/vendor/three/addons/"}}</script>
+<link rel="modulepreload" href="/js/home.js">
+<script src="/js/lang.js" defer></script>
 </head>
 <body class="home">
 <header class="masthead wrap">
-  <a class="wordmark" href="./" aria-label="Tamdotti – Startseite"><img src="img/icon-320.webp" alt="" width="34" height="34">Tamdotti</a>
+  <a class="wordmark" href="/" aria-label="Tamdotti – Startseite"><img src="/img/icon-320.webp" alt="" width="34" height="34">Tamdotti</a>
   <nav aria-label="Seite"><a href="#bald">Erscheint bald</a></nav>
+  <details class="lang">
+    <summary class="lang-btn" aria-label="Sprache wählen, aktuell Deutsch"><svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><circle cx="10" cy="10" r="7.25" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M2.9 10h14.2M10 2.8c2 2.1 2.9 4.5 2.9 7.2s-.9 5.1-2.9 7.2c-2-2.1-2.9-4.5-2.9-7.2s.9-5.1 2.9-7.2z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><span>DE</span><svg class="lang-chev" viewBox="0 0 12 12" width="10" height="10" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+    <div class="lang-pop"><p class="lang-title">Sprache</p><ul><li><a href="/" hreflang="de" lang="de" data-lang="de" aria-current="true">Deutsch</a></li><li><a href="/en/" hreflang="en" lang="en" data-lang="en">English</a></li><li><a href="/es/" hreflang="es" lang="es" data-lang="es">Español</a></li><li><a href="/fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li><li><a href="/it/" hreflang="it" lang="it" data-lang="it">Italiano</a></li><li><a href="/pt-br/" hreflang="pt-BR" lang="pt-BR" data-lang="pt-br">Português (Brasil)</a></li><li><a href="/nl/" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a></li><li><a href="/pl/" hreflang="pl" lang="pl" data-lang="pl">Polski</a></li><li><a href="/tr/" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a></li><li><a href="/ja/" hreflang="ja" lang="ja" data-lang="ja">日本語</a></li><li><a href="/ko/" hreflang="ko" lang="ko" data-lang="ko">한국어</a></li><li><a href="/zh/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh">简体中文</a></li></ul></div>
+  </details>
 </header>
 
 <main>
   <section class="story" id="story">
     <div class="stage" aria-hidden="true">
       <div class="posters">
-        <picture class="poster is-on" data-station="0"><source media="(max-aspect-ratio: 9/10)" srcset="img/poster-m-0.webp"><img src="img/poster-d-0.webp" alt="" fetchpriority="high" decoding="async"></picture>
+        <picture class="poster is-on" data-station="0"><source media="(max-aspect-ratio: 9/10)" srcset="/img/poster-m-0.webp"><img src="/img/poster-d-0.webp" alt="" fetchpriority="high" decoding="async"></picture>
       </div>
       <canvas class="scene"></canvas>
       <span class="poke-hint" hidden>Stups mich an</span>
@@ -53,7 +82,7 @@
         <div class="copy">
           <p class="kicker">Zuhause</p>
           <h2>Ein Zimmer, das ihr euch teilt.</h2>
-          <p>Bett, Teppich, Lampe, Pflanze: Du schiebst alles mit dem Finger dahin, wo es passt. Füttern, baden und knuddeln passiert genau hier.</p>
+          <p>Bett, Teppich, Lampe, Pflanze: Du stellst alles so hin, wie es dir gefällt. Füttern, baden und knuddeln passiert genau hier.</p>
         </div>
       </article>
 
@@ -90,10 +119,10 @@
       <p>Echte Bildschirmfotos, nichts nachgebaut.</p>
     </div>
     <div class="screens-row">
-      <figure><img src="img/screen-zimmer.webp" width="540" height="1168" loading="lazy" decoding="async" alt="Wuffel in seinem eingerichteten Zimmer"><figcaption>Zimmer</figcaption></figure>
-      <figure><img src="img/screen-garten.webp" width="540" height="1168" loading="lazy" decoding="async" alt="Garten mit Beeten und Fluss"><figcaption>Garten</figcaption></figure>
-      <figure><img src="img/screen-einrichten.webp" width="540" height="1168" loading="lazy" decoding="async" alt="Haus einrichten: Boden und Wand wählen"><figcaption>Einrichten</figcaption></figure>
-      <figure><img src="img/screen-kampf.webp" width="540" height="1168" loading="lazy" decoding="async" alt="Kampf-Training mit Werten und Energie"><figcaption>Training</figcaption></figure>
+      <figure><img src="/img/screen-zimmer.webp" width="540" height="1168" loading="lazy" decoding="async" alt="Wuffel in seinem eingerichteten Zimmer"><figcaption>Zimmer</figcaption></figure>
+      <figure><img src="/img/screen-garten.webp" width="540" height="1168" loading="lazy" decoding="async" alt="Garten mit Beeten und Fluss"><figcaption>Garten</figcaption></figure>
+      <figure><img src="/img/screen-einrichten.webp" width="540" height="1168" loading="lazy" decoding="async" alt="Haus einrichten: Boden und Wand wählen"><figcaption>Einrichten</figcaption></figure>
+      <figure><img src="/img/screen-kampf.webp" width="540" height="1168" loading="lazy" decoding="async" alt="Kampf-Training mit Werten und Energie"><figcaption>Training</figcaption></figure>
     </div>
   </section>
 
@@ -109,17 +138,18 @@
         <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M4.5 2.6c-.3.2-.5.6-.5 1.1v16.6c0 .5.2.9.5 1.1l9.3-9.4zM15 13.1l2.6 2.6-11 6.3zM6.6 2l11 6.3L15 10.9zM18.9 9.1l3 1.7c.9.5.9 1.9 0 2.4l-3 1.7-2.9-2.9z"/></svg>
         <span><small>Bald bei</small>Google Play</span>
       </button>
-      <p class="store-note" id="store-note" role="status" aria-live="polite"></p>
+      <p class="store-note" id="store-note" role="status" aria-live="polite" data-msg="Noch nicht im Store – Tamdotti erscheint bald."></p>
     </div>
   </section>
 </main>
 
 <footer class="foot">
   <div class="wrap">
-    <p>Tamdotti ist ein Spiel der Vidomedia UG (haftungsbeschränkt) aus Langenhagen. Kontakt: <a href="mailto:info@vidofood.de">info@vidofood.de</a></p>
-    <nav aria-label="Rechtliches"><a href="datenschutz.html">Datenschutz</a><a href="impressum.html">Impressum</a><a href="konto-loeschen.html">Konto löschen</a></nav>
+    <div class="foot-text"><p>Tamdotti ist ein Spiel der Vidomedia UG (haftungsbeschränkt) aus Langenhagen. Kontakt: <a href="mailto:info@vidofood.de">info@vidofood.de</a></p></div>
+    <nav aria-label="Rechtliches"><a href="/datenschutz.html">Datenschutz</a><a href="/impressum.html">Impressum</a><a href="/konto-loeschen.html">Konto löschen</a></nav>
   </div>
 </footer>
-<script type="module" src="js/home.js"></script>
+<script type="application/json" id="lang-suggest">{"en":{"url":"/en/","lang":"en","q":"This page is also available in English.","yes":"Read in English","no":"No thanks"},"es":{"url":"/es/","lang":"es","q":"Esta página también está en español.","yes":"Leer en español","no":"No, gracias"},"fr":{"url":"/fr/","lang":"fr","q":"Cette page existe aussi en français.","yes":"Lire en français","no":"Non merci"},"it":{"url":"/it/","lang":"it","q":"Questa pagina è disponibile anche in italiano.","yes":"Leggi in italiano","no":"No, grazie"},"pt-br":{"url":"/pt-br/","lang":"pt-BR","q":"Esta página também está disponível em português.","yes":"Ler em português","no":"Não, obrigado"},"nl":{"url":"/nl/","lang":"nl","q":"Deze pagina is ook in het Nederlands beschikbaar.","yes":"Lees in het Nederlands","no":"Nee, bedankt"},"pl":{"url":"/pl/","lang":"pl","q":"Ta strona jest też dostępna po polsku.","yes":"Czytaj po polsku","no":"Nie, dziękuję"},"tr":{"url":"/tr/","lang":"tr","q":"Bu sayfanın Türkçesi de var.","yes":"Türkçe oku","no":"Hayır, teşekkürler"},"ja":{"url":"/ja/","lang":"ja","q":"このページは日本語でもご覧いただけます。","yes":"日本語で読む","no":"閉じる"},"ko":{"url":"/ko/","lang":"ko","q":"이 페이지는 한국어로도 볼 수 있어요.","yes":"한국어로 보기","no":"괜찮아요"},"zh":{"url":"/zh/","lang":"zh-Hans","q":"此页面也有简体中文版本。","yes":"阅读中文版","no":"不用了"}}</script>
+<script type="module" src="/js/home.js"></script>
 </body>
 </html>

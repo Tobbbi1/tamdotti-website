@@ -1,0 +1,138 @@
+{
+  "code": "tr",
+  "dir": "tr",
+  "htmlLang": "tr",
+  "hreflang": "tr",
+  "ogLocale": "tr_TR",
+  "name": "Türkçe",
+  "short": "TR",
+  "common": {
+    "homeLabel": "Tamdotti – ana sayfa",
+    "navLegal": "Yasal bilgiler",
+    "start": "Ana sayfa",
+    "privacy": "Gizlilik",
+    "imprint": "Künye",
+    "deleteAccount": "Hesabı sil",
+    "footerAbout": "Tamdotti, Almanya’nın Langenhagen kentindeki Vidomedia UG (haftungsbeschränkt) şirketinin bir oyunudur. İletişim:",
+    "langTitle": "Dil",
+    "langCurrent": "Dil seç, şu anki: {lang}",
+    "legalOriginals": "Yasal olarak bağlayıcı Almanca asılları:"
+  },
+  "suggest": {
+    "q": "Bu sayfanın Türkçesi de var.",
+    "yes": "Türkçe oku",
+    "no": "Hayır, teşekkürler"
+  },
+  "home": {
+    "title": "Tamdotti – sakin bir 3D evcil hayvan oyunu",
+    "description": "Tamdotti sakin bir 3D evcil hayvan oyunu: Dotti’ni besle, yıka ve sev, bir oda döşe, bahçede hasat yap ve çayırda arkadaşlarınla buluş. Çok yakında App Store ve Google Play’de.",
+    "ogDescription": "Dotti’ne bak, odasını döşe, bahçe ve çayır. Çok yakında App Store ve Google Play’de.",
+    "navLabel": "Sayfa",
+    "navSoon": "Çok yakında",
+    "poke": "Bana bir dokun",
+    "h1": "Merhaba, ben Wuffel.",
+    "lead": "Tamdotti sakin bir 3D evcil hayvan oyunu. Dotti’nle ilgilenir, ona bir oda döşer ve birlikte bahçeye çıkarsın.",
+    "meta": "Çok yakında iPhone ve Android için.",
+    "chapters": [
+      {
+        "kicker": "Ev",
+        "title": "Paylaştığınız bir oda.",
+        "text": "Yatak, halı, lamba, bitki: her şeyi istediğin gibi yerleştirirsin. Yemek, banyo ve sarılmalar tam da burada olur."
+      },
+      {
+        "kicker": "Bahçe",
+        "title": "Dışarıda bir şeyler büyüyor.",
+        "text": "Tarhlarda çilek, marul ve balkabağı yetiştirirsin. Suyu nehirden getirirsin; hasat ettiklerin de atıştırmalık olarak çantana girer."
+      },
+      {
+        "kicker": "Çevrimiçi çayır",
+        "title": "Bazen de misafir gelir.",
+        "text": "İstersen giriş yapar ve çayırda başka Dotti’lerle buluşursun. Birbirinize el sallar, atlıkarıncaya biner ya da bankta birlikte oturursunuz. Arkadaşlarını ziyaret edebilir, küçük düellolar da yapabilirsin."
+      }
+    ],
+    "nopeTitle": "Tamdotti’de olmayanlar",
+    "nope": [
+      [
+        "Reklam",
+        "Ne banner ne de araya giren videolar."
+      ],
+      [
+        "Gerçek para",
+        "Jetonları bakım yaparak ve oynayarak kazanırsın."
+      ],
+      [
+        "Zorunlu hesap",
+        "Hesaba yalnızca arkadaşlar ve çevrimiçi çayır için ihtiyacın var."
+      ]
+    ],
+    "screensTitle": "Uygulamada böyle görünüyor",
+    "screensSub": "Gerçek ekran görüntüleri, hiçbir şey sonradan yapılmadı.",
+    "screens": [
+      [
+        "Wuffel döşenmiş odasında",
+        "Oda"
+      ],
+      [
+        "Tarhlı ve nehirli bahçe",
+        "Bahçe"
+      ],
+      [
+        "Evi döşemek: zemin ve duvar seçimi",
+        "Döşeme"
+      ],
+      [
+        "Değerler ve enerjiyle dövüş antrenmanı",
+        "Antrenman"
+      ]
+    ],
+    "soonTitle": "Az kaldı.",
+    "soonText": "Tamdotti çok yakında iPhone ve Android’de. Sorularını şimdiden memnuniyetle yanıtlarız: {email}",
+    "storeApple": "Çok yakında",
+    "storeGoogle": "Çok yakında",
+    "storeNote": "Henüz mağazada değil – Tamdotti çok yakında geliyor."
+  },
+  "konto": {
+    "title": "Hesabı sil – Tamdotti",
+    "description": "Tamdotti hesabını ve ilgili tüm verileri nasıl silersin? Adım adım anlatım ve silinen verilere genel bakış.",
+    "h1": "Tamdotti hesabını sil",
+    "intro": "Vidomedia UG (haftungsbeschränkt) tarafından sunulan “Tamdotti” uygulamasındaki hesabını ve ilgili tüm verileri böyle silersin.",
+    "requestTitle": "Hesap silme talebi",
+    "requestText": "Tamdotti hesabının silinmesini istediğin zaman, ücretsiz olarak e-postayla talep edebilirsin:",
+    "steps": [
+      "<b>{email} adresine bir e-posta gönder</b> – mümkünse hesabına bağlı e-posta adresinden. Konu: {subject}.",
+      "<b>Hesabının e-posta adresini</b> ve nasıl giriş yaptığını (e-posta, Google veya Apple) yaz. Biliyorsan uygulamadaki kullanıcı adın da işimize yarar. “Apple ile Giriş Yap” özelliğini gizli e-postayla kullanıyorsan, yönlendirme adresini Apple Kimliği ayarlarında “Apple ile Giriş Yap” bölümünde bulabilirsin.",
+      "<b>Talebin senden geldiğini kısaca kontrol eder</b> ve hesabını sileriz. En geç bir ay içinde, genellikle çok daha hızlı bir onay alırsın."
+    ],
+    "mailSubject": "Tamdotti hesabımı sil",
+    "mailBody": [
+      "Merhaba Tamdotti ekibi,",
+      "",
+      "lütfen Tamdotti hesabımı ve ilgili tüm verileri silin.",
+      "",
+      "Hesabımın e-posta adresi: ",
+      "Giriş yöntemi (e-posta / Google / Apple): ",
+      "Kullanıcı adı (biliyorsam): ",
+      "",
+      "Teşekkürler!"
+    ],
+    "mailButton": "E-postayla silme talep et",
+    "deletedTitle": "Neler silinir?",
+    "deletedIntro": "Hesabın silindiğinde, sunucularımızda hesabına ait kayıtlı tüm verileri kalıcı olarak kaldırırız:",
+    "deleted": [
+      "kullanıcı hesabın ve giriş bilgilerin (e-posta adresi, parola özeti veya Google/Apple bağlantısı),",
+      "profilin (kullanıcı adı, görünen ad, arkadaş kodu, avatar, saat dilimi, sessiz saatler, push token),",
+      "buluttaki oyun kaydın, Dotti’lerin, yeteneklerin, jetonların, kupaların, envanterin ve jeton hareketlerin,",
+      "arkadaşlıklar ve arkadaşlık istekleri,",
+      "katıldığın ziyaretler, dövüşler ve düellolar ile mini oyun puanları,",
+      "ortak Dotti gruplarındaki üyelikler ve planlanmış bildirimler."
+    ],
+    "retention": "Silme işleminden sonra hiçbir oyun veya hesap verisi saklamayız. Tamdotti’de gerçek parayla satın alma olmadığından, ödeme verileri için saklama yükümlülüğü de yoktur. Sunucu sağlayıcımızın kısa ömürlü teknik kayıtları kısa süre sonra otomatik olarak silinir; olası yedek kopyaların üzerine olağan yedekleme döngüsünde yazılır. Silme talebi e-postanı yalnızca talebin işlendiğini kanıtlamak için gerektiği süre boyunca saklarız.",
+    "notice": "<b>Not:</b> Silme işlemi geri alınamaz. İlerlemen, Dotti’lerin ve jetonların kaybolur.",
+    "deviceTitle": "Cihazındaki veriler",
+    "deviceText": "Hesapsız oynuyorsan oyun verilerin yalnızca cihazında durur – bu durumda sunucularımızda senden hiçbir veri yoktur. Bu yerel verileri silmek için uygulamayı kaldırman yeterli. Hesabın varsa, uygulamada <b>Diğer → Ayarlar → Çıkış yap</b> yoluyla çıkış yap ve yerel kopyayı da silmek için uygulamayı kaldır.",
+    "partialTitle": "Yalnızca belirli verileri silmek",
+    "partialText": "Tüm hesabını değil, yalnızca belirli verileri mi silmek istiyorsun? Bunun için de bize {email} adresinden yaz. Kullanıcı adını uygulamadaki profilinden istediğin zaman kendin değiştirebilirsin.",
+    "privacyLinkText": "gizlilik politikamızda (İngilizce)",
+    "more": "Daha fazla bilgiyi {privacy} bulabilirsin."
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "code": "it",
+  "dir": "it",
+  "htmlLang": "it",
+  "hreflang": "it",
+  "ogLocale": "it_IT",
+  "name": "Italiano",
+  "short": "IT",
+  "common": {
+    "homeLabel": "Tamdotti – home",
+    "navLegal": "Informazioni legali",
+    "start": "Home",
+    "privacy": "Privacy",
+    "imprint": "Note legali",
+    "deleteAccount": "Elimina account",
+    "footerAbout": "Tamdotti è un gioco di Vidomedia UG (haftungsbeschränkt), con sede a Langenhagen (Germania). Contatti:",
+    "langTitle": "Lingua",
+    "langCurrent": "Scegli la lingua, attuale: {lang}",
+    "legalOriginals": "Originali tedeschi, giuridicamente vincolanti:"
+  },
+  "suggest": {
+    "q": "Questa pagina è disponibile anche in italiano.",
+    "yes": "Leggi in italiano",
+    "no": "No, grazie"
+  },
+  "home": {
+    "title": "Tamdotti – un tranquillo gioco di animaletti in 3D",
+    "description": "Tamdotti è un tranquillo gioco di animaletti in 3D: dai da mangiare, fai il bagnetto e coccola il tuo Dotti, arreda una cameretta, raccogli in giardino e incontra gli amici sul prato. Presto su App Store e Google Play.",
+    "ogDescription": "Prenditi cura del tuo Dotti, arreda la cameretta, giardino e prato. Presto su App Store e Google Play.",
+    "navLabel": "Pagina",
+    "navSoon": "In arrivo",
+    "poke": "Dammi un colpetto",
+    "h1": "Ciao, sono Wuffel.",
+    "lead": "Tamdotti è un tranquillo gioco di animaletti in 3D. Ti prendi cura del tuo Dotti, gli arredi una cameretta e uscite insieme in giardino.",
+    "meta": "Presto su iPhone e Android.",
+    "chapters": [
+      {
+        "kicker": "Casa",
+        "title": "Una cameretta tutta vostra.",
+        "text": "Letto, tappeto, lampada, pianta: sistemi tutto come preferisci. Pappa, bagnetto e coccole succedono proprio qui."
+      },
+      {
+        "kicker": "Giardino",
+        "title": "Fuori cresce qualcosa.",
+        "text": "Nelle aiuole coltivi fragole, insalata e zucche. L’acqua la prendi al fiume, e quello che raccogli finisce nella borsa come leccornia."
+      },
+      {
+        "kicker": "Prato online",
+        "title": "E a volte arriva qualcuno.",
+        "text": "Se ti va, accedi e incontri altri Dotti sul prato. Vi salutate, fate un giro sulla giostra o vi sedete insieme sulla panchina. Puoi anche andare a trovare gli amici e fare piccoli duelli."
+      }
+    ],
+    "nopeTitle": "Cosa non troverai in Tamdotti",
+    "nope": [
+      [
+        "Pubblicità",
+        "Niente banner, niente video tra una partita e l’altra."
+      ],
+      [
+        "Soldi veri",
+        "Le monete le guadagni prendendoti cura del tuo Dotti e giocando."
+      ],
+      [
+        "Account obbligatorio",
+        "L’account ti serve solo per gli amici e il prato online."
+      ]
+    ],
+    "screensTitle": "Ecco com’è nell’app",
+    "screensSub": "Screenshot veri, niente di ricostruito.",
+    "screens": [
+      [
+        "Wuffel nella sua cameretta arredata",
+        "Cameretta"
+      ],
+      [
+        "Giardino con aiuole e fiume",
+        "Giardino"
+      ],
+      [
+        "Arredare la casa: scegliere pavimento e parete",
+        "Arredare"
+      ],
+      [
+        "Allenamento alla lotta con statistiche ed energia",
+        "Allenamento"
+      ]
+    ],
+    "soonTitle": "Quasi pronto.",
+    "soonText": "Tamdotti arriva presto su iPhone e Android. Se hai domande, ti rispondiamo volentieri già adesso: {email}",
+    "storeApple": "Presto su",
+    "storeGoogle": "Presto su",
+    "storeNote": "Non è ancora nello store: Tamdotti arriva presto."
+  },
+  "konto": {
+    "title": "Elimina account – Tamdotti",
+    "description": "Come eliminare il tuo account Tamdotti e tutti i dati collegati. Istruzioni e panoramica dei dati eliminati.",
+    "h1": "Eliminare il tuo account Tamdotti",
+    "intro": "Ecco come eliminare il tuo account e tutti i dati collegati nell’app “Tamdotti” di Vidomedia UG (haftungsbeschränkt).",
+    "requestTitle": "Richiedere l’eliminazione dell’account",
+    "requestText": "Puoi richiedere l’eliminazione del tuo account Tamdotti via e-mail in qualsiasi momento e gratuitamente:",
+    "steps": [
+      "<b>Scrivi un’e-mail a {email}</b>, possibilmente dall’indirizzo collegato al tuo account. Oggetto: {subject}.",
+      "<b>Indica l’indirizzo e-mail del tuo account</b> e come accedi (e-mail, Google o Apple). Se lo conosci, ci aiuta anche il tuo nome utente nell’app. Se usi “Accedi con Apple” con l’e-mail nascosta, trovi l’indirizzo di inoltro nelle impostazioni del tuo ID Apple, alla voce “Accedi con Apple”.",
+      "<b>Verifichiamo brevemente che la richiesta venga da te</b> ed eliminiamo il tuo account. Riceverai una conferma entro un mese al massimo, di solito molto prima."
+    ],
+    "mailSubject": "Eliminare account Tamdotti",
+    "mailBody": [
+      "Ciao team di Tamdotti,",
+      "",
+      "vi chiedo di eliminare il mio account Tamdotti e tutti i dati collegati.",
+      "",
+      "Indirizzo e-mail del mio account: ",
+      "Accesso tramite (e-mail / Google / Apple): ",
+      "Nome utente (se lo conosco): ",
+      "",
+      "Grazie!"
+    ],
+    "mailButton": "Richiedi l’eliminazione via e-mail",
+    "deletedTitle": "Cosa viene eliminato?",
+    "deletedIntro": "Con l’eliminazione del tuo account cancelliamo in modo permanente tutti i dati del tuo account salvati sui nostri server:",
+    "deleted": [
+      "il tuo account utente e i tuoi dati di accesso (indirizzo e-mail, hash della password o collegamento con Google/Apple),",
+      "il tuo profilo (nome utente, nome visualizzato, codice amico, avatar, fuso orario, orari di riposo, token push),",
+      "il tuo salvataggio nel cloud, i tuoi Dotti, abilità, monete, trofei, il tuo inventario e i tuoi movimenti di monete,",
+      "amicizie e richieste di amicizia,",
+      "visite, combattimenti e duelli a cui hai partecipato, oltre ai punteggi dei minigiochi,",
+      "iscrizioni a gruppi di Dotti condivisi e notifiche programmate."
+    ],
+    "retention": "Dopo l’eliminazione non conserviamo alcun dato di gioco o dell’account. Poiché in Tamdotti non ci sono acquisti con denaro reale, non esistono obblighi di conservazione per dati di pagamento. I log tecnici di breve durata del nostro fornitore di server vengono cancellati automaticamente dopo poco tempo; eventuali copie di backup vengono sovrascritte nel normale ciclo di backup. Conserviamo la tua e-mail di richiesta di eliminazione solo per il tempo necessario a dimostrare che è stata gestita.",
+    "notice": "<b>Nota:</b> l’eliminazione non può essere annullata. I tuoi progressi, i tuoi Dotti e le tue monete andranno persi.",
+    "deviceTitle": "Dati sul tuo dispositivo",
+    "deviceText": "Se giochi senza account, i tuoi dati di gioco si trovano solo sul tuo dispositivo: in quel caso non abbiamo alcun tuo dato sui nostri server. Per cancellare questi dati locali basta disinstallare l’app. Se avevi un account, esci dall’app in <b>Altro → Impostazioni → Esci</b> e disinstalla l’app per rimuovere anche la copia locale.",
+    "partialTitle": "Eliminare solo alcuni dati",
+    "partialText": "Non vuoi eliminare tutto l’account, ma solo alcuni dati? Scrivici anche in questo caso a {email}. Il tuo nome utente puoi cambiarlo tu stesso in qualsiasi momento nel tuo profilo dell’app.",
+    "privacyLinkText": "informativa sulla privacy (in inglese)",
+    "more": "Trovi maggiori informazioni nella nostra {privacy}."
+  }
+}

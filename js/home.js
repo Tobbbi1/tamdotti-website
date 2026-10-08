@@ -19,7 +19,7 @@ if (posterMode !== null) chapters.forEach((c) => c.classList.add('is-in'));
 const note = document.getElementById('store-note');
 let noteTimer;
 document.querySelectorAll('.store').forEach((b) => b.addEventListener('click', () => {
-  note.textContent = 'Noch nicht im Store – Tamdotti erscheint bald.';
+  note.textContent = note.dataset.msg; // localized in the page markup
   note.classList.add('is-on');
   clearTimeout(noteTimer);
   noteTimer = setTimeout(() => note.classList.remove('is-on'), 2600);
@@ -39,7 +39,7 @@ function usePosters() {
     const pic = document.createElement('picture');
     pic.className = 'poster';
     pic.dataset.station = String(i);
-    pic.innerHTML = `<source media="(max-aspect-ratio: 9/10)" srcset="img/poster-m-${i}.webp"><img src="img/poster-d-${i}.webp" alt="" loading="lazy" decoding="async">`;
+    pic.innerHTML = `<source media="(max-aspect-ratio: 9/10)" srcset="/img/poster-m-${i}.webp"><img src="/img/poster-d-${i}.webp" alt="" loading="lazy" decoding="async">`;
     wrap.append(pic);
   }
   const posters = [...wrap.querySelectorAll('.poster')];

@@ -1,0 +1,138 @@
+{
+  "code": "pl",
+  "dir": "pl",
+  "htmlLang": "pl",
+  "hreflang": "pl",
+  "ogLocale": "pl_PL",
+  "name": "Polski",
+  "short": "PL",
+  "common": {
+    "homeLabel": "Tamdotti – strona główna",
+    "navLegal": "Informacje prawne",
+    "start": "Start",
+    "privacy": "Prywatność",
+    "imprint": "Nota prawna",
+    "deleteAccount": "Usuń konto",
+    "footerAbout": "Tamdotti to gra firmy Vidomedia UG (haftungsbeschränkt) z Langenhagen w Niemczech. Kontakt:",
+    "langTitle": "Język",
+    "langCurrent": "Wybierz język, obecnie: {lang}",
+    "legalOriginals": "Prawnie wiążące oryginały w języku niemieckim:"
+  },
+  "suggest": {
+    "q": "Ta strona jest też dostępna po polsku.",
+    "yes": "Czytaj po polsku",
+    "no": "Nie, dziękuję"
+  },
+  "home": {
+    "title": "Tamdotti – spokojna gra 3D o zwierzaku",
+    "description": "Tamdotti to spokojna gra 3D o zwierzaku: karm, kąp i przytulaj swoje Dotti, urządź mu pokój, zbieraj plony w ogrodzie i spotykaj znajomych na łące. Wkrótce w App Store i Google Play.",
+    "ogDescription": "Opieka nad Dotti, własny pokój, ogród i łąka. Wkrótce w App Store i Google Play.",
+    "navLabel": "Strona",
+    "navSoon": "Już wkrótce",
+    "poke": "Szturchnij mnie",
+    "h1": "Cześć, jestem Wuffel.",
+    "lead": "Tamdotti to spokojna gra 3D o zwierzaku. Opiekujesz się swoim Dotti, urządzasz mu pokój i razem wychodzicie do ogrodu.",
+    "meta": "Już wkrótce na iPhone’a i Androida.",
+    "chapters": [
+      {
+        "kicker": "Dom",
+        "title": "Pokój, który dzielicie.",
+        "text": "Łóżko, dywan, lampa, roślina: ustawiasz wszystko tak, jak ci się podoba. Karmienie, kąpiel i przytulanie dzieją się właśnie tutaj."
+      },
+      {
+        "kicker": "Ogród",
+        "title": "Na zewnątrz coś rośnie.",
+        "text": "Na grządkach hodujesz truskawki, sałatę i dynie. Wodę przynosisz z rzeki, a to, co zbierzesz, trafia do torby jako przysmak."
+      },
+      {
+        "kicker": "Łąka online",
+        "title": "A czasem ktoś wpada w odwiedziny.",
+        "text": "Jeśli chcesz, logujesz się i spotykasz inne Dotti na łące. Machacie do siebie, kręcicie się na karuzeli albo siedzicie razem na ławce. Możesz też odwiedzać znajomych i staczać małe pojedynki."
+      }
+    ],
+    "nopeTitle": "Czego nie ma w Tamdotti",
+    "nope": [
+      [
+        "Reklam",
+        "Żadnych banerów, żadnych filmików w trakcie gry."
+      ],
+      [
+        "Płatności",
+        "Nie ma zakupów za prawdziwe pieniądze – monety zdobywasz, opiekując się i grając."
+      ],
+      [
+        "Konta na siłę",
+        "Konto jest potrzebne tylko do znajomych i łąki online."
+      ]
+    ],
+    "screensTitle": "Tak to wygląda w aplikacji",
+    "screensSub": "Prawdziwe zrzuty ekranu, nic podrasowanego.",
+    "screens": [
+      [
+        "Wuffel w swoim urządzonym pokoju",
+        "Pokój"
+      ],
+      [
+        "Ogród z grządkami i rzeką",
+        "Ogród"
+      ],
+      [
+        "Urządzanie domu: wybór podłogi i ściany",
+        "Urządzanie"
+      ],
+      [
+        "Trening walki ze statystykami i energią",
+        "Trening"
+      ]
+    ],
+    "soonTitle": "Już niedługo.",
+    "soonText": "Tamdotti już wkrótce pojawi się na iPhone’a i Androida. Na pytania chętnie odpowiemy już teraz: {email}",
+    "storeApple": "Wkrótce w",
+    "storeGoogle": "Wkrótce w",
+    "storeNote": "Jeszcze nie ma w sklepie – Tamdotti już wkrótce."
+  },
+  "konto": {
+    "title": "Usuń konto – Tamdotti",
+    "description": "Jak usunąć konto Tamdotti i wszystkie powiązane dane. Instrukcja krok po kroku i przegląd usuwanych danych.",
+    "h1": "Usuwanie konta Tamdotti",
+    "intro": "Tak usuniesz swoje konto i wszystkie powiązane dane w aplikacji „Tamdotti” firmy Vidomedia UG (haftungsbeschränkt).",
+    "requestTitle": "Prośba o usunięcie konta",
+    "requestText": "W każdej chwili możesz bezpłatnie poprosić e-mailem o usunięcie konta Tamdotti:",
+    "steps": [
+      "<b>Napisz e-mail na adres {email}</b> – najlepiej z adresu e-mail powiązanego z twoim kontem. Temat: {subject}.",
+      "<b>Podaj adres e-mail swojego konta</b> i sposób logowania (e-mail, Google lub Apple). Jeśli ją znasz, pomoże nam też twoja nazwa użytkownika w aplikacji. Jeśli używasz funkcji „Zaloguj się, używając Apple” z ukrytym adresem e-mail, adres przekierowania znajdziesz w ustawieniach Apple ID w sekcji „Zaloguj się, używając Apple”.",
+      "<b>Krótko sprawdzamy, czy prośba pochodzi od ciebie</b>, i usuwamy konto. Otrzymasz potwierdzenie – najpóźniej w ciągu miesiąca, zwykle znacznie szybciej."
+    ],
+    "mailSubject": "Usunięcie konta Tamdotti",
+    "mailBody": [
+      "Cześć, zespole Tamdotti,",
+      "",
+      "proszę o usunięcie mojego konta Tamdotti i wszystkich powiązanych danych.",
+      "",
+      "Adres e-mail mojego konta: ",
+      "Logowanie przez (e-mail / Google / Apple): ",
+      "Nazwa użytkownika (jeśli znam): ",
+      "",
+      "Dziękuję!"
+    ],
+    "mailButton": "Poproś e-mailem o usunięcie",
+    "deletedTitle": "Co zostanie usunięte?",
+    "deletedIntro": "Usuwając konto, trwale kasujemy wszystkie dane twojego konta zapisane na naszych serwerach:",
+    "deleted": [
+      "twoje konto użytkownika i dane logowania (adres e-mail, hash hasła lub powiązanie z Google/Apple),",
+      "twój profil (nazwa użytkownika, nazwa wyświetlana, kod znajomego, awatar, strefa czasowa, godziny ciszy, token push),",
+      "twój zapis gry w chmurze, twoje Dotti, umiejętności, monety, trofea, ekwipunek i historia monet,",
+      "znajomości i zaproszenia do znajomych,",
+      "odwiedziny, walki i pojedynki z twoim udziałem oraz wyniki minigier,",
+      "członkostwa we wspólnych grupach Dotti i zaplanowane powiadomienia."
+    ],
+    "retention": "Po usunięciu nie przechowujemy żadnych danych gry ani konta. Ponieważ w Tamdotti nie ma zakupów za prawdziwe pieniądze, nie ma obowiązku przechowywania danych płatności. Krótkotrwałe logi techniczne naszego dostawcy serwerów są automatycznie usuwane po krótkim czasie; ewentualne kopie zapasowe są nadpisywane w zwykłym cyklu tworzenia kopii. Twój e-mail z prośbą o usunięcie przechowujemy tylko tak długo, jak to konieczne, by wykazać, że został obsłużony.",
+    "notice": "<b>Uwaga:</b> usunięcia nie można cofnąć. Twoje postępy, twoje Dotti i monety przepadną.",
+    "deviceTitle": "Dane na twoim urządzeniu",
+    "deviceText": "Jeśli grasz bez konta, twoje dane gry są zapisane wyłącznie na twoim urządzeniu – nie mamy wtedy żadnych twoich danych na naszych serwerach. Aby usunąć te lokalne dane, po prostu odinstaluj aplikację. Jeśli masz konto, wyloguj się w aplikacji w <b>Więcej → Ustawienia → Wyloguj</b> i odinstaluj aplikację, aby usunąć również kopię lokalną.",
+    "partialTitle": "Usuwanie wybranych danych",
+    "partialText": "Nie chcesz usuwać całego konta, tylko wybrane dane? Napisz do nas również na adres {email}. Nazwę użytkownika możesz w każdej chwili zmienić samodzielnie w profilu w aplikacji.",
+    "privacyLinkText": "polityce prywatności (po angielsku)",
+    "more": "Więcej informacji znajdziesz w naszej {privacy}."
+  }
+}

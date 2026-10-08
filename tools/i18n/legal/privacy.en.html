@@ -1,0 +1,110 @@
+<nav class="toc" aria-label="Contents"><b>Contents</b><ol><li><a href="#verantwortlicher">Controller</a></li><li><a href="#ueberblick">The essentials at a glance</a></li><li><a href="#ohne-konto">Playing without an account</a></li><li><a href="#updates">App updates (Expo)</a></li><li><a href="#konto">User account &amp; sign-in</a></li><li><a href="#online">Online features &amp; stored data</a></li><li><a href="#wiese">Online meadow (real time)</a></li><li><a href="#hosting">Servers &amp; hosting (Supabase)</a></li><li><a href="#push">Notifications</a></li><li><a href="#kein-tracking">No tracking, no ads</a></li><li><a href="#stores">App stores</a></li><li><a href="#website">This website</a></li><li><a href="#kontakt">Contact by email</a></li><li><a href="#drittland">Recipients &amp; third countries</a></li><li><a href="#speicherdauer">Storage period &amp; deletion</a></li><li><a href="#kinder">Children &amp; young people</a></li><li><a href="#rechte">Your rights</a></li><li><a href="#sicherheit">Data security</a></li><li><a href="#aenderungen">Changes</a></li></ol></nav>
+
+<h2 id="verantwortlicher">1. Controller</h2>
+<p>The controller responsible for processing personal data within the meaning of the General Data Protection Regulation (GDPR) is:</p>
+<address class="boxed">Vidomedia UG (haftungsbeschränkt)<br>Koppeldamm 29<br>30855 Langenhagen<br>Germany<br>Managing Director: Tobias Obrock<br>Email: <a href="mailto:info@vidofood.de">info@vidofood.de</a></address>
+<p>We have not appointed a data protection officer, as we are not legally required to do so. For any questions about data protection, you can reach us at the email address above.</p>
+
+<h2 id="ueberblick">2. The essentials at a glance</h2>
+<ul>
+  <li>You can play Tamdotti <b>without an account</b>. Your game progress then stays on your device.</li>
+  <li>An <b>account is optional</b> and only needed for online features (cloud save, friends, visits, duels, online meadow).</li>
+  <li>Our servers are located in the <b>EU (Ireland)</b>.</li>
+  <li>We use <b>no advertising, no tracking, no analytics or crash-reporting services</b> and we do not sell any data.</li>
+  <li>There are <b>no real-money purchases</b> in the app. Coins are purely an in-game currency.</li>
+  <li>You can have your account deleted at any time – see <a href="/en/konto-loeschen.html">Delete account</a>.</li>
+</ul>
+
+<h2 id="ohne-konto">3. Playing without an account (data on your device)</h2>
+<p>If you play without signing in, the app stores your game progress (e.g. your Dottis, room furnishings, garden, inventory, coin balance and settings) exclusively locally in the app storage of your device. This data is not transmitted to us. Reminders such as “Your Dotti is hungry” are – if you allow notifications – scheduled as <b>local notifications</b> directly on your device; no data is sent to us for this. If you use the Tamdotti widget, the game information it needs is likewise only stored locally on the device.</p>
+<p>Storing this information on your device is strictly necessary for the app function you have requested (§ 25 (2) no. 2 TDDDG; Art. 6 (1) (b) GDPR). When you uninstall the app, this local data is deleted.</p>
+
+<h2 id="updates">4. App updates (Expo EAS Update)</h2>
+<p>So that we can deliver bug fixes and small improvements quickly, the app checks at startup whether an update is available and downloads it if necessary. This service is provided by <b>650 Industries, Inc. (“Expo”), USA</b>. Technically necessary data is transmitted in the process: your IP address, the platform (iOS/Android), the app or runtime version, the update channel and the identifier of the currently installed update. No account data and no game content is transmitted.</p>
+<p>The legal basis is our legitimate interest in a secure, error-free and up-to-date app (Art. 6 (1) (f) GDPR).</p>
+
+<h2 id="konto">5. User account &amp; sign-in</h2>
+<p>You can create an account for online features. Sign-in is handled via the authentication service of our server provider Supabase (see <a href="#hosting">section 8</a>). You have the following options:</p>
+<ul>
+  <li><b>Email and password:</b> We process your email address, your password (stored only as an encrypted hash) and – if provided – a display name. An email may be sent to the address you provide to confirm your registration.</li>
+  <li><b>Sign in with Google:</b> Sign-in takes place with Google (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland). We receive a user identifier, your email address and, where applicable, your name or profile picture from Google, as provided by Google during sign-in. Google’s privacy notices also apply.</li>
+  <li><b>Sign in with Apple:</b> Sign-in takes place with Apple (Apple Distribution International Ltd., Hollyhill Industrial Estate, Hollyhill, Cork, Ireland). We receive a user identifier and your email address – on request an anonymous relay address (“Hide My Email”) – and, where applicable, your name if you choose to share it.</li>
+</ul>
+<p>To keep you signed in, the app stores a session token on your device. For security purposes, the server logs sign-in events (including time and IP address).</p>
+<p>The legal basis is the provision of the online features you have requested (Art. 6 (1) (b) GDPR) and our legitimate interest in the security of our services and in preventing abuse (Art. 6 (1) (f) GDPR). Creating an account is optional; without an account, only the online features are unavailable.</p>
+
+<h2 id="online">6. Online features &amp; stored data</h2>
+<p>When you are signed in, we store the following data on our servers in order to provide the online features (Art. 6 (1) (b) GDPR):</p>
+<div class="table-wrap"><table class="table">
+<tr><th>Area</th><th>Data</th></tr>
+<tr><td>Profile</td><td>Internal user ID, username, display name, friend code, chosen Dotti species as avatar, public Dotti info (e.g. name, species, stage), time zone and quiet hours (for notifications), time of last activity, creation and modification times</td></tr>
+<tr><td>Game progress</td><td>Cloud backup of your game progress, your Dottis with their values (e.g. needs, level, experience, abilities, equipment)</td></tr>
+<tr><td>Coins &amp; shop</td><td>Coin balance, trophies, inventory, coin transactions (e.g. care reward, daily reward, shop purchase with in-game coins) – no payment data, as there are no real-money purchases</td></tr>
+<tr><td>Friends</td><td>Friendships and friend requests (who, with whom, status)</td></tr>
+<tr><td>Visits</td><td>Visits to friends with the chosen action (e.g. petting, treat) and emoji</td></tr>
+<tr><td>Battles &amp; duels</td><td>Participants, snapshot of the competing Dottis, result, score, winner, coin reward</td></tr>
+<tr><td>Mini-games</td><td>Scores</td></tr>
+<tr><td>Shared Dottis</td><td>If used: groups for raising a Dotti together, with invite code, members, care contributions and actions</td></tr>
+<tr><td>Notifications</td><td>Push token of your device and scheduled notifications (see <a href="#push">section 9</a>)</td></tr>
+</table></div>
+<p><b>What other players see:</b> Your friends and fellow players can see your username, your avatar or your public Dotti info, as well as visits, duel results and trophies they are involved in. You share your friend code yourself so that others can add you as a friend. Your email address is not visible to other players. Please do not choose your full real name as your username.</p>
+
+<h2 id="wiese">7. Online meadow (real time)</h2>
+<p>On the online meadow, several signed-in players can meet with their Dottis at the same time. While you have the meadow open, your user ID, your name tag (username), your Dotti species, your position on the meadow, your current action (e.g. sitting) and any emotes/waves you send are transmitted via a real-time connection to the other players in the same room. This real-time data is <b>not stored permanently</b> and disappears as soon as you leave the meadow. The legal basis is Art. 6 (1) (b) GDPR.</p>
+
+<h2 id="hosting">8. Servers &amp; hosting (Supabase)</h2>
+<p>For sign-in, database, real-time connections and server functions, we use <b>Supabase</b> (Supabase, Inc., USA) as a processor. Our project is hosted in the region <b>eu-west-1 (Ireland, EU)</b>; the data is stored there in data centres of Amazon Web Services, which Supabase uses as a sub-processor. When the servers are accessed, log data is processed for technical reasons (e.g. IP address, time, requested function, error messages) to ensure operation and security (Art. 6 (1) (f) GDPR). As Supabase is a US company, access from the USA (e.g. in the course of support and maintenance) cannot be ruled out – see <a href="#drittland">section 14</a>.</p>
+
+<h2 id="push">9. Notifications</h2>
+<p><b>Local reminders</b> (e.g. hunger, thirst, bedtime) are scheduled directly on your device and do not require any data transfer.</p>
+<p><b>Push notifications</b> (e.g. friend requests, duels, daily reward) may be sent to you if you are signed in and have allowed notifications. For this, a device-specific push token is stored in your profile. The notifications are delivered to your device via Expo’s push service (650 Industries, Inc., USA) and from there via the Apple Push Notification service (Apple) or Firebase Cloud Messaging (Google). The push token and the title and text of the notification are transmitted. Quiet hours (bedtime) are respected.</p>
+<p>The legal basis is your consent (Art. 6 (1) (a) GDPR, § 25 (1) TDDDG), which you give via your device’s permission prompt. You can withdraw it at any time in your device’s system settings.</p>
+
+<h2 id="kein-tracking">10. No tracking, no ads</h2>
+<p>Tamdotti contains <b>no</b> advertising, no advertising IDs, no analytics or tracking services, no third-party crash reporting and no AI services to which your data would be sent. We do not create user profiles for advertising purposes and we do not sell any data. The app does not access your camera, microphone, contacts, photos or location.</p>
+
+<h2 id="stores">11. App stores</h2>
+<p>Tamdotti is offered via the Apple App Store and Google Play. When you download the app, Apple or Google process data (e.g. account, device, time of download) under their own responsibility. We have no influence on this; the privacy notices of the respective store apply.</p>
+
+<h2 id="website">12. This website</h2>
+<p>The website tamdotti.de is provided via <b>GitHub Pages</b> (GitHub, Inc., USA). When you visit it, technically necessary data such as your IP address, date and time, the page accessed and browser information are processed in order to deliver the page and protect it against abuse (Art. 6 (1) (f) GDPR). The website sets <b>no cookies</b>, uses no analytics tools and does not load any external fonts or third-party content.</p>
+
+<h2 id="kontakt">13. Contact by email</h2>
+<p>If you write to us by email, we process your email address, your name (if provided) and the content of your message in order to deal with your request (Art. 6 (1) (b) or (f) GDPR). We delete the messages once your request has been dealt with, unless statutory retention obligations prevent this.</p>
+
+<h2 id="drittland">14. Recipients &amp; transfers to third countries</h2>
+<p>Your data is only received by the service providers named above, to the extent necessary for the respective purpose: Supabase (servers, database, sign-in), Expo (app updates, push delivery), Apple and Google (sign-in or push delivery, if used by you) and GitHub (website hosting). We conclude agreements pursuant to Art. 28 GDPR with our processors.</p>
+<p>Some of these providers are based in the USA. Where personal data is transferred to the USA in this context, this is done on the basis of the European Commission’s adequacy decision on the EU-U.S. Data Privacy Framework (Art. 45 GDPR), provided the recipient is certified under it, and otherwise on the basis of the EU Standard Contractual Clauses (Art. 46 (2) (c) GDPR).</p>
+
+<h2 id="speicherdauer">15. Storage period &amp; deletion</h2>
+<ul>
+  <li><b>Local game data</b> stays on your device until you uninstall the app.</li>
+  <li><b>Account and game data on the server</b> is stored for as long as your account exists. If you have your account deleted, we delete this data completely – within one month of your request at the latest. How to do this is described under <a href="/en/konto-loeschen.html">Delete account</a>.</li>
+  <li><b>Real-time data of the online meadow</b> is not stored.</li>
+  <li><b>Technical logs</b> (servers, update service, website hosting) are deleted automatically by the respective providers after a short time.</li>
+  <li><b>Email enquiries</b> are deleted once they have been dealt with, unless statutory retention obligations apply.</li>
+</ul>
+
+<h2 id="kinder">16. Children &amp; young people</h2>
+<p>Tamdotti is intended for all age groups and can be played without an account and without providing any personal data. An account is required for the online features. Children under 16 should only create an account with the consent of their parents or legal guardians. We recommend that parents accompany their children when using the online features and choose a username that does not contain a real name. There are no free-text messages between players; interactions are limited to predefined actions and emojis. If we learn that an account was created without the required consent, we will delete it upon notice from the parents.</p>
+
+<h2 id="rechte">17. Your rights</h2>
+<p>Under the GDPR, you have the right to:</p>
+<ul>
+  <li>access the data stored about you (Art. 15 GDPR),</li>
+  <li>rectification of inaccurate data (Art. 16 GDPR),</li>
+  <li>erasure (Art. 17 GDPR),</li>
+  <li>restriction of processing (Art. 18 GDPR),</li>
+  <li>data portability (Art. 20 GDPR),</li>
+  <li>withdraw any consent given, with effect for the future (Art. 7 (3) GDPR).</li>
+</ul>
+<div class="boxed"><b>Right to object (Art. 21 GDPR):</b> Where we process data on the basis of legitimate interests (Art. 6 (1) (f) GDPR), you can object at any time on grounds relating to your particular situation.</div>
+<p>To do so, simply contact <a href="mailto:info@vidofood.de">info@vidofood.de</a>. You also have the right to lodge a complaint with a data protection supervisory authority. The authority responsible for us is:</p>
+<address class="boxed">Die Landesbeauftragte für den Datenschutz Niedersachsen<br>Prinzenstraße 5<br>30159 Hannover<br>Germany</address>
+
+<h2 id="sicherheit">18. Data security</h2>
+<p>Transmission between the app, the website and the servers is encrypted (TLS/HTTPS). In the database, access rules ensure that each player can only access their own data and the information shared with friends. Passwords are only stored as a hash.</p>
+
+<h2 id="aenderungen">19. Changes to this privacy policy</h2>
+<p>If the app or the legal requirements change, we will update this privacy policy. The version published here applies.</p>
+<p class="stand">Last updated: 8 October 2026 (translation of the German version of the same date)</p>

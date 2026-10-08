@@ -1,0 +1,138 @@
+{
+  "code": "zh",
+  "dir": "zh",
+  "htmlLang": "zh-Hans",
+  "hreflang": "zh-Hans",
+  "ogLocale": "zh_CN",
+  "name": "简体中文",
+  "short": "ZH",
+  "common": {
+    "homeLabel": "Tamdotti – 首页",
+    "navLegal": "法律信息",
+    "start": "首页",
+    "privacy": "隐私",
+    "imprint": "运营者信息",
+    "deleteAccount": "删除账号",
+    "footerAbout": "Tamdotti 是德国朗根哈根的 Vidomedia UG (haftungsbeschränkt) 开发的游戏。联系方式：",
+    "langTitle": "语言",
+    "langCurrent": "选择语言，当前：{lang}",
+    "legalOriginals": "具有法律效力的是德语原文："
+  },
+  "suggest": {
+    "q": "此页面也有简体中文版本。",
+    "yes": "阅读中文版",
+    "no": "不用了"
+  },
+  "home": {
+    "title": "Tamdotti – 一款安静治愈的 3D 宠物游戏",
+    "description": "Tamdotti 是一款安静治愈的 3D 宠物游戏：给你的 Dotti 喂食、洗澡、抱抱，布置房间，在花园里收获，在草地上和朋友相遇。即将登陆 App Store 和 Google Play。",
+    "ogDescription": "照顾 Dotti、布置房间、花园与草地。即将登陆 App Store 和 Google Play。",
+    "navLabel": "页面",
+    "navSoon": "即将推出",
+    "poke": "戳戳我",
+    "h1": "你好，我是 Wuffel。",
+    "lead": "Tamdotti 是一款安静治愈的 3D 宠物游戏。你照顾自己的 Dotti，为它布置房间，再一起去花园走走。",
+    "meta": "即将登陆 iPhone 和 Android。",
+    "chapters": [
+      {
+        "kicker": "家",
+        "title": "一起住的小房间。",
+        "text": "床、地毯、台灯、植物，都可以按你喜欢的方式摆放。喂食、洗澡、抱抱，都在这里。"
+      },
+      {
+        "kicker": "花园",
+        "title": "外面，有东西在生长。",
+        "text": "在菜畦里种草莓、生菜和南瓜。水要去河边打，收获的东西会变成零食，装进你的包里。"
+      },
+      {
+        "kicker": "在线草地",
+        "title": "有时候，还会有客人。",
+        "text": "愿意的话，登录后就能在草地上遇见其他 Dotti。你们互相挥挥手，一起坐旋转木马，或者在长椅上并排坐坐。还可以去朋友家做客，来几场小小的对决。"
+      }
+    ],
+    "nopeTitle": "Tamdotti 里没有的东西",
+    "nope": [
+      [
+        "广告",
+        "没有横幅，也没有中途弹出的视频。"
+      ],
+      [
+        "真钱购买",
+        "金币靠照顾和玩耍来赚。"
+      ],
+      [
+        "强制注册",
+        "只有好友功能和在线草地才需要账号。"
+      ]
+    ],
+    "screensTitle": "在应用里是这样的",
+    "screensSub": "真实截图，没有任何修饰。",
+    "screens": [
+      [
+        "在布置好的房间里的 Wuffel",
+        "房间"
+      ],
+      [
+        "有菜畦和小河的花园",
+        "花园"
+      ],
+      [
+        "布置房屋：选择地板和墙面",
+        "布置"
+      ],
+      [
+        "显示属性和能量的战斗训练",
+        "训练"
+      ]
+    ],
+    "soonTitle": "快了。",
+    "soonText": "Tamdotti 即将登陆 iPhone 和 Android。有任何问题，现在就欢迎联系我们：{email}",
+    "storeApple": "即将登陆",
+    "storeGoogle": "即将登陆",
+    "storeNote": "还没有上架，Tamdotti 很快就来。"
+  },
+  "konto": {
+    "title": "删除账号 – Tamdotti",
+    "description": "如何删除你的 Tamdotti 账号及所有相关数据：操作步骤以及会被删除的数据一览。",
+    "h1": "删除 Tamdotti 账号",
+    "intro": "以下说明如何在 Vidomedia UG (haftungsbeschränkt) 的应用“Tamdotti”中删除你的账号及所有相关数据。",
+    "requestTitle": "申请删除账号",
+    "requestText": "你可以随时通过电子邮件免费申请删除你的 Tamdotti 账号：",
+    "steps": [
+      "<b>发送邮件至 {email}</b>，最好使用与你账号关联的邮箱地址发送。邮件主题：{subject}。",
+      "<b>请提供你账号的邮箱地址</b>以及登录方式（邮箱、Google 或 Apple）。如果知道的话，提供你在应用中的用户名也会有帮助。如果你使用“通过 Apple 登录”并隐藏了邮箱，可以在 Apple ID 设置的“通过 Apple 登录”中找到转发地址。",
+      "<b>我们会简单确认申请确实来自你本人</b>，然后删除你的账号。你会收到确认通知——最迟在一个月内，通常会快得多。"
+    ],
+    "mailSubject": "删除 Tamdotti 账号",
+    "mailBody": [
+      "Tamdotti 团队你好：",
+      "",
+      "请删除我的 Tamdotti 账号及所有相关数据。",
+      "",
+      "我账号的邮箱地址：",
+      "登录方式（邮箱 / Google / Apple）：",
+      "用户名（如果知道）：",
+      "",
+      "谢谢！"
+    ],
+    "mailButton": "通过邮件申请删除",
+    "deletedTitle": "哪些数据会被删除？",
+    "deletedIntro": "删除账号后，我们会永久删除服务器上与你账号相关的所有数据：",
+    "deleted": [
+      "你的用户账号和登录数据（邮箱地址、密码哈希值，或与 Google/Apple 的关联）；",
+      "你的个人资料（用户名、显示名称、好友码、头像、时区、免打扰时段、推送令牌）；",
+      "你的云端存档、你的 Dotti、技能、金币、奖杯、物品栏以及金币记录；",
+      "好友关系和好友申请；",
+      "你参与过的拜访、战斗和对决，以及小游戏得分；",
+      "共享 Dotti 小组的成员身份和已安排的通知。"
+    ],
+    "retention": "删除后，我们不会保留任何游戏或账号数据。由于 Tamdotti 中没有真钱购买，因此不存在保存支付数据的义务。服务器提供商的短期技术日志会在短时间后自动删除；如有备份副本，也会在常规备份周期中被覆盖。你的删除申请邮件，我们只在证明已处理所需的期限内保留。",
+    "notice": "<b>注意：</b>删除后无法恢复。你的进度、你的 Dotti 和金币都将丢失。",
+    "deviceTitle": "你设备上的数据",
+    "deviceText": "如果你不登录账号游玩，游戏数据只保存在你的设备上——这种情况下，我们的服务器上没有你的任何数据。要删除这些本地数据，只需卸载应用即可。如果你曾有账号，请在应用中通过<b>更多 → 设置 → 退出登录</b>退出，然后卸载应用，以同时删除本地副本。",
+    "partialTitle": "只删除部分数据",
+    "partialText": "不想删除整个账号，只想删除某些数据？同样请写信至 {email}。你的用户名可以随时在应用的个人资料中自行修改。",
+    "privacyLinkText": "隐私政策（英文）",
+    "more": "更多信息请参阅我们的{privacy}。"
+  }
+}

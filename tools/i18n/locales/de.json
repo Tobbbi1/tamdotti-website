@@ -1,0 +1,153 @@
+{
+  "code": "de",
+  "dir": "",
+  "htmlLang": "de",
+  "hreflang": "de",
+  "ogLocale": "de_DE",
+  "name": "Deutsch",
+  "short": "DE",
+  "common": {
+    "homeLabel": "Tamdotti – Startseite",
+    "navLegal": "Rechtliches",
+    "start": "Start",
+    "privacy": "Datenschutz",
+    "imprint": "Impressum",
+    "deleteAccount": "Konto löschen",
+    "footerAbout": "Tamdotti ist ein Spiel der Vidomedia UG (haftungsbeschränkt) aus Langenhagen. Kontakt:",
+    "langTitle": "Sprache",
+    "langCurrent": "Sprache wählen, aktuell {lang}",
+    "legalOriginals": "",
+    "translationNote": ""
+  },
+  "suggest": {
+    "q": "Diese Seite gibt es auch auf Deutsch.",
+    "yes": "Auf Deutsch lesen",
+    "no": "Nein, danke"
+  },
+  "home": {
+    "title": "Tamdotti – ein ruhiges 3D-Haustierspiel",
+    "description": "Tamdotti ist ein ruhiges 3D-Haustierspiel: dein Dotti füttern, baden und knuddeln, ein Zimmer einrichten, im Garten ernten und Freunde auf der Wiese treffen. Bald im App Store und bei Google Play.",
+    "ogDescription": "Dotti pflegen, Zimmer einrichten, Garten und Wiese. Bald im App Store und bei Google Play.",
+    "navLabel": "Seite",
+    "navSoon": "Erscheint bald",
+    "poke": "Stups mich an",
+    "h1": "Hallo, ich bin Wuffel.",
+    "lead": "Tamdotti ist ein ruhiges 3D-Haustierspiel. Du kümmerst dich um dein Dotti, richtest ihm ein Zimmer ein und gehst mit ihm raus in den Garten.",
+    "meta": "Erscheint bald für iPhone und Android.",
+    "chapters": [
+      {
+        "kicker": "Zuhause",
+        "title": "Ein Zimmer, das ihr euch teilt.",
+        "text": "Bett, Teppich, Lampe, Pflanze: Du stellst alles so hin, wie es dir gefällt. Füttern, baden und knuddeln passiert genau hier."
+      },
+      {
+        "kicker": "Garten",
+        "title": "Draußen wächst was.",
+        "text": "In den Beeten ziehst du Erdbeeren, Salat und Kürbisse. Wasser holst du am Fluss, und was du erntest, wandert als Leckerli in die Tasche."
+      },
+      {
+        "kicker": "Online-Wiese",
+        "title": "Und manchmal ist Besuch da.",
+        "text": "Wenn du magst, meldest du dich an und triffst andere Dottis auf der Wiese. Ihr winkt euch zu, fahrt Karussell oder sitzt zusammen auf der Bank. Freunde besuchen und kleine Duelle gibt es auch."
+      }
+    ],
+    "nopeTitle": "Was es bei Tamdotti nicht gibt",
+    "nope": [
+      [
+        "Werbung",
+        "Keine Banner, keine Videos zwischendurch."
+      ],
+      [
+        "Käufe mit echtem Geld",
+        "Münzen verdienst du beim Pflegen und Spielen."
+      ],
+      [
+        "Konto-Zwang",
+        "Ein Konto brauchst du nur für Freunde und die Online-Wiese."
+      ]
+    ],
+    "screensTitle": "So sieht es in der App aus",
+    "screensSub": "Echte Bildschirmfotos, nichts nachgebaut.",
+    "screens": [
+      [
+        "Wuffel in seinem eingerichteten Zimmer",
+        "Zimmer"
+      ],
+      [
+        "Garten mit Beeten und Fluss",
+        "Garten"
+      ],
+      [
+        "Haus einrichten: Boden und Wand wählen",
+        "Einrichten"
+      ],
+      [
+        "Kampf-Training mit Werten und Energie",
+        "Training"
+      ]
+    ],
+    "soonTitle": "Bald da.",
+    "soonText": "Tamdotti kommt bald für iPhone und Android. Fragen beantworten wir gern vorher schon: {email}",
+    "storeApple": "Bald im",
+    "storeGoogle": "Bald bei",
+    "storeNote": "Noch nicht im Store – Tamdotti erscheint bald."
+  },
+  "konto": {
+    "title": "Konto löschen – Tamdotti",
+    "description": "So löschst du dein Tamdotti-Konto und alle zugehörigen Daten. Anleitung und Übersicht der gelöschten Daten.",
+    "h1": "Tamdotti-Konto löschen",
+    "intro": "So löschst du dein Konto und alle zugehörigen Daten in der App „Tamdotti“ der Vidomedia UG (haftungsbeschränkt).",
+    "requestTitle": "Konto-Löschung beantragen",
+    "requestText": "Du kannst die Löschung deines Tamdotti-Kontos jederzeit kostenlos per E-Mail beantragen:",
+    "steps": [
+      "<b>Schreib eine E-Mail an {email}</b> – am besten von der E-Mail-Adresse, mit der dein Konto verknüpft ist. Betreff: {subject}.",
+      "<b>Nenne die E-Mail-Adresse deines Kontos</b> und wie du dich anmeldest (E-Mail, Google oder Apple). Falls bekannt, hilft uns auch dein Benutzername in der App. Bei „Mit Apple anmelden“ mit verborgener E-Mail findest du die Weiterleitungsadresse in den Apple-ID-Einstellungen unter „Mit Apple anmelden“.",
+      "<b>Wir prüfen kurz, dass die Anfrage von dir kommt</b>, und löschen dein Konto. Du bekommst eine Bestätigung – spätestens innerhalb eines Monats, in der Regel deutlich schneller."
+    ],
+    "mailSubject": "Tamdotti Konto löschen",
+    "mailBody": [
+      "Hallo Tamdotti-Team,",
+      "",
+      "bitte löscht mein Tamdotti-Konto und alle zugehörigen Daten.",
+      "",
+      "E-Mail-Adresse meines Kontos: ",
+      "Anmeldung über (E-Mail / Google / Apple): ",
+      "Benutzername (falls bekannt): ",
+      "",
+      "Danke!"
+    ],
+    "mailButton": "Löschung per E-Mail anfragen",
+    "deletedTitle": "Was wird gelöscht?",
+    "deletedIntro": "Mit der Löschung deines Kontos entfernen wir dauerhaft alle Daten, die zu deinem Konto auf unseren Servern gespeichert sind:",
+    "deleted": [
+      "dein Benutzerkonto und deine Anmeldedaten (E-Mail-Adresse, Passwort-Hash bzw. Verknüpfung mit Google/Apple),",
+      "dein Profil (Benutzername, Anzeigename, Freundescode, Avatar, Zeitzone, Ruhezeiten, Push-Token),",
+      "deinen Cloud-Spielstand, deine Dottis, Fähigkeiten, Münzen, Trophäen, dein Inventar und deine Münz-Buchungen,",
+      "Freundschaften und Freundschaftsanfragen,",
+      "Besuche, Kämpfe und Duelle, an denen du beteiligt warst, sowie Minispiel-Punktestände,",
+      "Mitgliedschaften in gemeinsamen Dotti-Gruppen und geplante Benachrichtigungen."
+    ],
+    "retention": "Wir bewahren nach der Löschung keine Spiel- oder Kontodaten auf. Da es in Tamdotti keine Käufe mit echtem Geld gibt, bestehen keine Aufbewahrungspflichten für Zahlungsdaten. Kurzlebige technische Protokolle unseres Server-Anbieters werden automatisch nach kurzer Zeit gelöscht; eventuelle Sicherungskopien werden im regulären Sicherungszyklus überschrieben. Deine E-Mail-Anfrage zur Löschung bewahren wir nur so lange auf, wie es zum Nachweis der Bearbeitung nötig ist.",
+    "notice": "<b>Hinweis:</b> Die Löschung kann nicht rückgängig gemacht werden. Dein Fortschritt, deine Dottis und deine Münzen sind danach verloren.",
+    "deviceTitle": "Daten auf deinem Gerät",
+    "deviceText": "Wenn du ohne Konto spielst, liegen deine Spieldaten nur auf deinem Gerät – wir haben dann keine Daten von dir auf unseren Servern. Um diese lokalen Daten zu löschen, deinstalliere einfach die App. Wenn du ein Konto hattest, melde dich in der App unter <b>Mehr → Einstellungen → Abmelden</b> ab und deinstalliere die App, um auch die lokale Kopie zu entfernen.",
+    "partialTitle": "Einzelne Daten löschen",
+    "partialText": "Du möchtest nicht gleich das ganze Konto löschen, sondern nur bestimmte Daten? Schreib uns ebenfalls an {email}. Deinen Benutzernamen kannst du jederzeit selbst in der App im Profil ändern.",
+    "privacyLinkText": "Datenschutzerklärung",
+    "more": "Mehr Informationen findest du in unserer {privacy}."
+  },
+  "legal": {
+    "privacy": {
+      "title": "Datenschutzerklärung – Tamdotti",
+      "description": "Datenschutzerklärung für die App Tamdotti und die Website tamdotti.de der Vidomedia UG (haftungsbeschränkt).",
+      "h1": "Datenschutzerklärung",
+      "sub": "für die App „Tamdotti“ und die Website tamdotti.de"
+    },
+    "imprint": {
+      "title": "Impressum – Tamdotti",
+      "description": "Impressum von tamdotti.de und der App Tamdotti: Vidomedia UG (haftungsbeschränkt), Langenhagen.",
+      "h1": "Impressum",
+      "sub": "Angaben gemäß § 5 Digitale-Dienste-Gesetz (DDG)"
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "code": "en",
+  "dir": "en",
+  "htmlLang": "en",
+  "hreflang": "en",
+  "ogLocale": "en_US",
+  "name": "English",
+  "short": "EN",
+  "common": {
+    "homeLabel": "Tamdotti – home",
+    "navLegal": "Legal",
+    "start": "Home",
+    "privacy": "Privacy",
+    "imprint": "Imprint",
+    "deleteAccount": "Delete account",
+    "footerAbout": "Tamdotti is a game by Vidomedia UG (haftungsbeschränkt) from Langenhagen, Germany. Contact:",
+    "langTitle": "Language",
+    "langCurrent": "Choose language, currently {lang}",
+    "legalOriginals": "Legally binding German originals:",
+    "translationNote": "Translation – the German version is legally binding: {original}"
+  },
+  "suggest": {
+    "q": "This page is also available in English.",
+    "yes": "Read in English",
+    "no": "No thanks"
+  },
+  "home": {
+    "title": "Tamdotti – a calm 3D pet game",
+    "description": "Tamdotti is a calm 3D pet game: feed, bathe and cuddle your Dotti, furnish a room, harvest in the garden and meet friends on the meadow. Coming soon to the App Store and Google Play.",
+    "ogDescription": "Look after your Dotti, furnish a room, garden and meadow. Coming soon to the App Store and Google Play.",
+    "navLabel": "Page",
+    "navSoon": "Coming soon",
+    "poke": "Give me a poke",
+    "h1": "Hi, I’m Wuffel.",
+    "lead": "Tamdotti is a calm 3D pet game. You look after your Dotti, make a room for it and head out into the garden together.",
+    "meta": "Coming soon for iPhone and Android.",
+    "chapters": [
+      {
+        "kicker": "Home",
+        "title": "A room you share.",
+        "text": "Bed, rug, lamp, plant: you arrange everything just the way you like it. Feeding, bathing and cuddles all happen right here."
+      },
+      {
+        "kicker": "Garden",
+        "title": "Something’s growing outside.",
+        "text": "In the beds you grow strawberries, lettuce and pumpkins. You fetch water from the river, and whatever you harvest goes into your bag as a treat."
+      },
+      {
+        "kicker": "Online meadow",
+        "title": "And sometimes there’s company.",
+        "text": "If you like, you sign in and meet other Dottis on the meadow. You wave to each other, ride the merry-go-round or sit together on the bench. You can also visit friends and have little duels."
+      }
+    ],
+    "nopeTitle": "What you won’t find in Tamdotti",
+    "nope": [
+      [
+        "Ads",
+        "No banners, no videos in between."
+      ],
+      [
+        "Real-money buys",
+        "You earn coins by caring and playing."
+      ],
+      [
+        "Forced sign-up",
+        "You only need an account for friends and the online meadow."
+      ]
+    ],
+    "screensTitle": "What it looks like in the app",
+    "screensSub": "Real screenshots, nothing mocked up.",
+    "screens": [
+      [
+        "Wuffel in his furnished room",
+        "Room"
+      ],
+      [
+        "Garden with beds and a river",
+        "Garden"
+      ],
+      [
+        "Furnishing the house: picking floor and wall",
+        "Furnishing"
+      ],
+      [
+        "Battle training with stats and energy",
+        "Training"
+      ]
+    ],
+    "soonTitle": "Almost here.",
+    "soonText": "Tamdotti is coming soon for iPhone and Android. We’re happy to answer questions before then: {email}",
+    "storeApple": "Soon on the",
+    "storeGoogle": "Soon on",
+    "storeNote": "Not in the store yet – Tamdotti is coming soon."
+  },
+  "konto": {
+    "title": "Delete account – Tamdotti",
+    "description": "How to delete your Tamdotti account and all associated data. Step-by-step guide and an overview of the data that is deleted.",
+    "h1": "Delete your Tamdotti account",
+    "intro": "How to delete your account and all associated data in the app “Tamdotti” by Vidomedia UG (haftungsbeschränkt).",
+    "requestTitle": "Request account deletion",
+    "requestText": "You can request the deletion of your Tamdotti account by email at any time, free of charge:",
+    "steps": [
+      "<b>Send an email to {email}</b> – ideally from the email address linked to your account. Subject: {subject}.",
+      "<b>Tell us the email address of your account</b> and how you sign in (email, Google or Apple). If you know it, your username in the app helps too. If you use “Sign in with Apple” with a hidden email, you’ll find the relay address in your Apple ID settings under “Sign in with Apple”.",
+      "<b>We briefly check that the request comes from you</b> and delete your account. You’ll receive a confirmation – within one month at the latest, usually much sooner."
+    ],
+    "mailSubject": "Delete Tamdotti account",
+    "mailBody": [
+      "Hello Tamdotti team,",
+      "",
+      "please delete my Tamdotti account and all associated data.",
+      "",
+      "Email address of my account: ",
+      "I sign in with (email / Google / Apple): ",
+      "Username (if known): ",
+      "",
+      "Thank you!"
+    ],
+    "mailButton": "Request deletion by email",
+    "deletedTitle": "What gets deleted?",
+    "deletedIntro": "When your account is deleted, we permanently remove all data stored for your account on our servers:",
+    "deleted": [
+      "your user account and sign-in data (email address, password hash or link to Google/Apple),",
+      "your profile (username, display name, friend code, avatar, time zone, quiet hours, push token),",
+      "your cloud save, your Dottis, abilities, coins, trophies, your inventory and your coin transactions,",
+      "friendships and friend requests,",
+      "visits, battles and duels you took part in, as well as mini-game scores,",
+      "memberships in shared Dotti groups and scheduled notifications."
+    ],
+    "retention": "We do not keep any game or account data after deletion. As there are no real-money purchases in Tamdotti, there are no retention obligations for payment data. Short-lived technical logs of our server provider are deleted automatically after a short time; any backups are overwritten in the regular backup cycle. We keep your deletion request email only for as long as needed to show that it was processed.",
+    "notice": "<b>Please note:</b> Deletion cannot be undone. Your progress, your Dottis and your coins will be lost.",
+    "deviceTitle": "Data on your device",
+    "deviceText": "If you play without an account, your game data lives only on your device – we then have no data from you on our servers. To delete this local data, simply uninstall the app. If you had an account, sign out in the app under <b>More → Settings → Sign out</b> and uninstall the app to remove the local copy as well.",
+    "partialTitle": "Deleting individual data",
+    "partialText": "Don’t want to delete your whole account, just certain data? Write to us at {email} as well. You can change your username yourself at any time in your profile in the app.",
+    "privacyLinkText": "privacy policy",
+    "more": "You’ll find more information in our {privacy}."
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy policy – Tamdotti",
+      "description": "Privacy policy for the Tamdotti app and the website tamdotti.de by Vidomedia UG (haftungsbeschränkt). English translation.",
+      "h1": "Privacy policy",
+      "sub": "for the app “Tamdotti” and the website tamdotti.de"
+    },
+    "imprint": {
+      "title": "Imprint – Tamdotti",
+      "description": "Imprint (legal notice) of tamdotti.de and the Tamdotti app: Vidomedia UG (haftungsbeschränkt), Langenhagen, Germany. English translation.",
+      "h1": "Imprint",
+      "sub": "Information pursuant to § 5 of the German Digital Services Act (Digitale-Dienste-Gesetz, DDG)"
+    }
+  }
+}
