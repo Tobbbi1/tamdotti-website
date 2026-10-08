@@ -96,6 +96,28 @@
     "description": "Come eliminare il tuo account Tamdotti e tutti i dati collegati. Istruzioni e panoramica dei dati eliminati.",
     "h1": "Eliminare il tuo account Tamdotti",
     "intro": "Ecco come eliminare il tuo account e tutti i dati collegati nell’app “Tamdotti” di Vidomedia UG (haftungsbeschränkt).",
+    "appTitle": "Elimina l’account direttamente nell’app",
+    "appText": "Il modo più rapido è nell’app: l’eliminazione è immediata:",
+    "appSteps": [
+      "Apri Tamdotti e accedi con il tuo account.",
+      "Tocca <b>{more}</b> nella barra in basso. Si aprono le <b>{settings}</b>.",
+      "Scorri fino in fondo a <b>{section}</b> e tocca <b>{button}</b>.",
+      "Leggi cosa verrà eliminato, tocca <b>{continue}</b> e conferma con <b>{confirm}</b>.",
+      "Fatto: vedrai <b>{done}</b> e verrai disconnesso. Il tuo account e tutti i dati nel cloud sono eliminati."
+    ],
+    "appNote": "La sezione «{section}» compare solo se hai effettuato l’accesso. La partita sul dispositivo resta, a meno che tu non scelga «{alsoLocal}».",
+    "altTitle": "Senza app: richiesta di eliminazione via e-mail",
+    "appUi": {
+      "more": "Altro",
+      "settings": "Impostazioni",
+      "section": "Elimina account",
+      "button": "Elimina account per sempre",
+      "continue": "Continua",
+      "confirm": "Elimina per sempre",
+      "done": "Account eliminato",
+      "alsoLocal": "Reimposta anche la partita su questo dispositivo",
+      "logout": "Esci"
+    },
     "requestTitle": "Richiedere l’eliminazione dell’account",
     "requestText": "Puoi richiedere l’eliminazione del tuo account Tamdotti via e-mail in qualsiasi momento e gratuitamente:",
     "steps": [
@@ -129,7 +151,7 @@
     "retention": "Dopo l’eliminazione non conserviamo alcun dato di gioco o dell’account. Poiché in Tamdotti non ci sono acquisti con denaro reale, non esistono obblighi di conservazione per dati di pagamento. I log tecnici di breve durata del nostro fornitore di server vengono cancellati automaticamente dopo poco tempo; eventuali copie di backup vengono sovrascritte nel normale ciclo di backup. Conserviamo la tua e-mail di richiesta di eliminazione solo per il tempo necessario a dimostrare che è stata gestita.",
     "notice": "<b>Nota:</b> l’eliminazione non può essere annullata. I tuoi progressi, i tuoi Dotti e le tue monete andranno persi.",
     "deviceTitle": "Dati sul tuo dispositivo",
-    "deviceText": "Se giochi senza account, i tuoi dati di gioco si trovano solo sul tuo dispositivo: in quel caso non abbiamo alcun tuo dato sui nostri server. Per cancellare questi dati locali basta disinstallare l’app. Se avevi un account, esci dall’app in <b>Altro → Impostazioni → Esci</b> e disinstalla l’app per rimuovere anche la copia locale.",
+    "deviceText": "Se giochi senza account, i tuoi dati di gioco si trovano solo sul tuo dispositivo: in quel caso non abbiamo alcun tuo dato sui nostri server. Per cancellare questi dati locali basta disinstallare l’app. Se avevi un account, esci dall’app in <b>{more} → {settings} → {logout}</b> e disinstalla l’app per rimuovere anche la copia locale.",
     "partialTitle": "Eliminare solo alcuni dati",
     "partialText": "Non vuoi eliminare tutto l’account, ma solo alcuni dati? Scrivici anche in questo caso a {email}. Il tuo nome utente puoi cambiarlo tu stesso in qualsiasi momento nel tuo profilo dell’app.",
     "privacyLinkText": "informativa sulla privacy (in inglese)",

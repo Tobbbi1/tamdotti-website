@@ -97,6 +97,28 @@
     "description": "So löschst du dein Tamdotti-Konto und alle zugehörigen Daten. Anleitung und Übersicht der gelöschten Daten.",
     "h1": "Tamdotti-Konto löschen",
     "intro": "So löschst du dein Konto und alle zugehörigen Daten in der App „Tamdotti“ der Vidomedia UG (haftungsbeschränkt).",
+    "appTitle": "Konto direkt in der App löschen",
+    "appText": "Am schnellsten geht es in der App – die Löschung passiert sofort:",
+    "appSteps": [
+      "Öffne Tamdotti und melde dich mit deinem Konto an.",
+      "Tippe unten in der Leiste auf <b>{more}</b>. Dort öffnen sich die <b>{settings}</b>.",
+      "Scrolle ganz nach unten zum Bereich <b>{section}</b> und tippe auf <b>{button}</b>.",
+      "Lies, was gelöscht wird, tippe auf <b>{continue}</b> und bestätige mit <b>{confirm}</b>.",
+      "Fertig: Du siehst <b>{done}</b> und bist abgemeldet. Dein Konto und alle Cloud-Daten sind gelöscht."
+    ],
+    "appNote": "Der Bereich „{section}“ erscheint nur, wenn du angemeldet bist. Dein Spielstand auf dem Gerät bleibt erhalten, außer du wählst „{alsoLocal}“.",
+    "altTitle": "Ohne App: Löschung per E-Mail",
+    "appUi": {
+      "more": "Mehr",
+      "settings": "Einstellungen",
+      "section": "Konto löschen",
+      "button": "Konto dauerhaft löschen",
+      "continue": "Weiter",
+      "confirm": "Endgültig löschen",
+      "done": "Konto gelöscht",
+      "alsoLocal": "Spielstand auf diesem Gerät auch zurücksetzen",
+      "logout": "Abmelden"
+    },
     "requestTitle": "Konto-Löschung beantragen",
     "requestText": "Du kannst die Löschung deines Tamdotti-Kontos jederzeit kostenlos per E-Mail beantragen:",
     "steps": [
@@ -130,7 +152,7 @@
     "retention": "Wir bewahren nach der Löschung keine Spiel- oder Kontodaten auf. Da es in Tamdotti keine Käufe mit echtem Geld gibt, bestehen keine Aufbewahrungspflichten für Zahlungsdaten. Kurzlebige technische Protokolle unseres Server-Anbieters werden automatisch nach kurzer Zeit gelöscht; eventuelle Sicherungskopien werden im regulären Sicherungszyklus überschrieben. Deine E-Mail-Anfrage zur Löschung bewahren wir nur so lange auf, wie es zum Nachweis der Bearbeitung nötig ist.",
     "notice": "<b>Hinweis:</b> Die Löschung kann nicht rückgängig gemacht werden. Dein Fortschritt, deine Dottis und deine Münzen sind danach verloren.",
     "deviceTitle": "Daten auf deinem Gerät",
-    "deviceText": "Wenn du ohne Konto spielst, liegen deine Spieldaten nur auf deinem Gerät – wir haben dann keine Daten von dir auf unseren Servern. Um diese lokalen Daten zu löschen, deinstalliere einfach die App. Wenn du ein Konto hattest, melde dich in der App unter <b>Mehr → Einstellungen → Abmelden</b> ab und deinstalliere die App, um auch die lokale Kopie zu entfernen.",
+    "deviceText": "Wenn du ohne Konto spielst, liegen deine Spieldaten nur auf deinem Gerät – wir haben dann keine Daten von dir auf unseren Servern. Um diese lokalen Daten zu löschen, deinstalliere einfach die App. Wenn du ein Konto hattest, melde dich in der App unter <b>{more} → {settings} → {logout}</b> ab und deinstalliere die App, um auch die lokale Kopie zu entfernen.",
     "partialTitle": "Einzelne Daten löschen",
     "partialText": "Du möchtest nicht gleich das ganze Konto löschen, sondern nur bestimmte Daten? Schreib uns ebenfalls an {email}. Deinen Benutzernamen kannst du jederzeit selbst in der App im Profil ändern.",
     "privacyLinkText": "Datenschutzerklärung",

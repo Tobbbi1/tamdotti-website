@@ -97,6 +97,28 @@
     "description": "How to delete your Tamdotti account and all associated data. Step-by-step guide and an overview of the data that is deleted.",
     "h1": "Delete your Tamdotti account",
     "intro": "How to delete your account and all associated data in the app “Tamdotti” by Vidomedia UG (haftungsbeschränkt).",
+    "appTitle": "Delete your account right in the app",
+    "appText": "The fastest way is in the app – the deletion happens immediately:",
+    "appSteps": [
+      "Open Tamdotti and sign in with your account.",
+      "Tap <b>{more}</b> in the bar at the bottom. This opens <b>{settings}</b>.",
+      "Scroll all the way down to <b>{section}</b> and tap <b>{button}</b>.",
+      "Read what will be deleted, tap <b>{continue}</b> and confirm with <b>{confirm}</b>.",
+      "Done: you will see <b>{done}</b> and are signed out. Your account and all cloud data are deleted."
+    ],
+    "appNote": "The “{section}” section only appears while you are signed in. Your game on the device stays unless you choose “{alsoLocal}”.",
+    "altTitle": "Without the app: request deletion by email",
+    "appUi": {
+      "more": "More",
+      "settings": "Settings",
+      "section": "Delete account",
+      "button": "Delete account permanently",
+      "continue": "Continue",
+      "confirm": "Delete for good",
+      "done": "Account deleted",
+      "alsoLocal": "Also reset the game on this device",
+      "logout": "Sign out"
+    },
     "requestTitle": "Request account deletion",
     "requestText": "You can request the deletion of your Tamdotti account by email at any time, free of charge:",
     "steps": [
@@ -130,7 +152,7 @@
     "retention": "We do not keep any game or account data after deletion. As there are no real-money purchases in Tamdotti, there are no retention obligations for payment data. Short-lived technical logs of our server provider are deleted automatically after a short time; any backups are overwritten in the regular backup cycle. We keep your deletion request email only for as long as needed to show that it was processed.",
     "notice": "<b>Please note:</b> Deletion cannot be undone. Your progress, your Dottis and your coins will be lost.",
     "deviceTitle": "Data on your device",
-    "deviceText": "If you play without an account, your game data lives only on your device – we then have no data from you on our servers. To delete this local data, simply uninstall the app. If you had an account, sign out in the app under <b>More → Settings → Sign out</b> and uninstall the app to remove the local copy as well.",
+    "deviceText": "If you play without an account, your game data lives only on your device – we then have no data from you on our servers. To delete this local data, simply uninstall the app. If you had an account, sign out in the app under <b>{more} → {settings} → {logout}</b> and uninstall the app to remove the local copy as well.",
     "partialTitle": "Deleting individual data",
     "partialText": "Don’t want to delete your whole account, just certain data? Write to us at {email} as well. You can change your username yourself at any time in your profile in the app.",
     "privacyLinkText": "privacy policy",

@@ -233,6 +233,10 @@ function konto(k) {
   const vars = { email: mail, subject: `<code>${subject}</code>`,
     privacy: `<a href="${legalUrl('privacy', k)}"${PAGES.privacy(k) ? '' : ' hreflang="en"'}>${t.privacyLinkText}</a>` };
   const steps = t.steps.map((s) => `  <li>${fill(s, vars)}</li>`).join('\n');
+  // In-app path: names must match the app's UI exactly (konto.appUi mirrors the app's
+  // tabs.settings / settings.title / settings.delete* / settings.logout strings).
+  const ui = Object.fromEntries(Object.entries(t.appUi).map(([key, v]) => [key, esc(v)]));
+  const appSteps = t.appSteps.map((s) => `  <li>${fill(s, ui)}</li>`).join('\n');
   const list = t.deleted.map((s) => `  <li>${s}</li>`).join('\n');
   return `${head(k, 'konto', { title: t.title, description: t.description })}
 <body>
@@ -245,7 +249,14 @@ ${masthead(k, 'konto', `<nav aria-label="${esc(c.navLegal)}">${legalNav(k, 'kont
 </div></section>
 <section class="legal-body"><div class="wrap">
 <article>
-<h2>${t.requestTitle}</h2>
+<h2>${t.appTitle}</h2>
+<p>${t.appText}</p>
+<ol class="steps">
+${appSteps}
+</ol>
+<p>${fill(t.appNote, ui)}</p>
+
+<h2>${t.altTitle}</h2>
 <p>${t.requestText}</p>
 <ol class="steps">
 ${steps}
@@ -261,7 +272,7 @@ ${list}
 <div class="boxed">${t.notice}</div>
 
 <h2>${t.deviceTitle}</h2>
-<p>${t.deviceText}</p>
+<p>${fill(t.deviceText, ui)}</p>
 
 <h2>${t.partialTitle}</h2>
 <p>${fill(t.partialText, vars)}</p>

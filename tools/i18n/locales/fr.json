@@ -96,6 +96,28 @@
     "description": "Comment supprimer ton compte Tamdotti et toutes les données associées. Mode d’emploi et aperçu des données supprimées.",
     "h1": "Supprimer ton compte Tamdotti",
     "intro": "Voici comment supprimer ton compte et toutes les données associées dans l’app « Tamdotti » de Vidomedia UG (haftungsbeschränkt).",
+    "appTitle": "Supprimer ton compte directement dans l’appli",
+    "appText": "Le plus rapide, c’est dans l’appli – la suppression est immédiate :",
+    "appSteps": [
+      "Ouvre Tamdotti et connecte-toi avec ton compte.",
+      "Touche <b>{more}</b> dans la barre en bas. Cela ouvre <b>{settings}</b>.",
+      "Fais défiler tout en bas jusqu’à <b>{section}</b> et touche <b>{button}</b>.",
+      "Lis ce qui sera supprimé, touche <b>{continue}</b> et confirme avec <b>{confirm}</b>.",
+      "C’est fait : tu vois <b>{done}</b> et tu es déconnecté. Ton compte et toutes les données cloud sont supprimés."
+    ],
+    "appNote": "La rubrique « {section} » n’apparaît que si tu es connecté. Ta partie sur l’appareil est conservée, sauf si tu choisis « {alsoLocal} ».",
+    "altTitle": "Sans l’appli : demande de suppression par e-mail",
+    "appUi": {
+      "more": "Plus",
+      "settings": "Réglages",
+      "section": "Supprimer le compte",
+      "button": "Supprimer le compte définitivement",
+      "continue": "Continuer",
+      "confirm": "Supprimer pour toujours",
+      "done": "Compte supprimé",
+      "alsoLocal": "Réinitialiser aussi la partie sur cet appareil",
+      "logout": "Se déconnecter"
+    },
     "requestTitle": "Demander la suppression du compte",
     "requestText": "Tu peux demander la suppression de ton compte Tamdotti par e-mail, à tout moment et gratuitement :",
     "steps": [
@@ -129,7 +151,7 @@
     "retention": "Après la suppression, nous ne conservons aucune donnée de jeu ni de compte. Comme il n’y a pas d’achats avec de l’argent réel dans Tamdotti, il n’existe aucune obligation de conservation de données de paiement. Les journaux techniques de courte durée de notre hébergeur sont effacés automatiquement au bout de peu de temps ; les éventuelles sauvegardes sont écrasées lors du cycle de sauvegarde habituel. Nous ne conservons ton e-mail de demande de suppression que le temps nécessaire pour prouver qu’elle a été traitée.",
     "notice": "<b>Attention :</b> la suppression est définitive. Ta progression, tes Dottis et tes pièces seront perdus.",
     "deviceTitle": "Données sur ton appareil",
-    "deviceText": "Si tu joues sans compte, tes données de jeu restent uniquement sur ton appareil : nous n’avons alors aucune donnée te concernant sur nos serveurs. Pour effacer ces données locales, il suffit de désinstaller l’app. Si tu avais un compte, déconnecte-toi dans l’app via <b>Plus → Réglages → Se déconnecter</b>, puis désinstalle l’app pour supprimer aussi la copie locale.",
+    "deviceText": "Si tu joues sans compte, tes données de jeu restent uniquement sur ton appareil : nous n’avons alors aucune donnée te concernant sur nos serveurs. Pour effacer ces données locales, il suffit de désinstaller l’app. Si tu avais un compte, déconnecte-toi dans l’app via <b>{more} → {settings} → {logout}</b>, puis désinstalle l’app pour supprimer aussi la copie locale.",
     "partialTitle": "Supprimer seulement certaines données",
     "partialText": "Tu ne veux pas supprimer tout ton compte, seulement certaines données ? Écris-nous aussi à {email}. Tu peux modifier toi-même ton nom d’utilisateur à tout moment dans ton profil, dans l’app.",
     "privacyLinkText": "politique de confidentialité (en anglais)",

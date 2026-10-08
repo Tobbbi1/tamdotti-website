@@ -96,6 +96,28 @@
     "description": "Zo verwijder je je Tamdotti-account en alle bijbehorende gegevens. Stappenplan en overzicht van de gegevens die worden verwijderd.",
     "h1": "Je Tamdotti-account verwijderen",
     "intro": "Zo verwijder je je account en alle bijbehorende gegevens in de app ‘Tamdotti’ van Vidomedia UG (haftungsbeschränkt).",
+    "appTitle": "Je account direct in de app verwijderen",
+    "appText": "Het snelst gaat het in de app – het verwijderen gebeurt meteen:",
+    "appSteps": [
+      "Open Tamdotti en log in met je account.",
+      "Tik onderin de balk op <b>{more}</b>. Daar opent <b>{settings}</b>.",
+      "Scrol helemaal naar beneden naar <b>{section}</b> en tik op <b>{button}</b>.",
+      "Lees wat er wordt verwijderd, tik op <b>{continue}</b> en bevestig met <b>{confirm}</b>.",
+      "Klaar: je ziet <b>{done}</b> en bent uitgelogd. Je account en alle cloudgegevens zijn verwijderd."
+    ],
+    "appNote": "Het onderdeel ‘{section}’ verschijnt alleen als je bent ingelogd. Je spel op het apparaat blijft bewaard, tenzij je ‘{alsoLocal}’ kiest.",
+    "altTitle": "Zonder app: verwijderen aanvragen per e-mail",
+    "appUi": {
+      "more": "Meer",
+      "settings": "Instellingen",
+      "section": "Account verwijderen",
+      "button": "Account definitief verwijderen",
+      "continue": "Verder",
+      "confirm": "Definitief verwijderen",
+      "done": "Account verwijderd",
+      "alsoLocal": "Ook het spel op dit apparaat resetten",
+      "logout": "Uitloggen"
+    },
     "requestTitle": "Verwijdering van je account aanvragen",
     "requestText": "Je kunt de verwijdering van je Tamdotti-account op elk moment gratis per e-mail aanvragen:",
     "steps": [
@@ -129,7 +151,7 @@
     "retention": "Na de verwijdering bewaren we geen spel- of accountgegevens. Omdat er in Tamdotti geen aankopen met echt geld zijn, gelden er geen bewaarplichten voor betaalgegevens. Kortlevende technische logbestanden van onze serverprovider worden na korte tijd automatisch verwijderd; eventuele back-ups worden in de normale back-upcyclus overschreven. Je e-mail met het verwijderverzoek bewaren we alleen zo lang als nodig is om aan te tonen dat het is afgehandeld.",
     "notice": "<b>Let op:</b> verwijderen kan niet ongedaan worden gemaakt. Je voortgang, je Dottis en je munten zijn daarna weg.",
     "deviceTitle": "Gegevens op je apparaat",
-    "deviceText": "Speel je zonder account, dan staan je spelgegevens alleen op je apparaat – wij hebben dan geen gegevens van je op onze servers. Om deze lokale gegevens te wissen, verwijder je gewoon de app. Had je een account, log dan in de app uit via <b>Meer → Instellingen → Uitloggen</b> en verwijder de app om ook de lokale kopie te wissen.",
+    "deviceText": "Speel je zonder account, dan staan je spelgegevens alleen op je apparaat – wij hebben dan geen gegevens van je op onze servers. Om deze lokale gegevens te wissen, verwijder je gewoon de app. Had je een account, log dan in de app uit via <b>{more} → {settings} → {logout}</b> en verwijder de app om ook de lokale kopie te wissen.",
     "partialTitle": "Alleen bepaalde gegevens verwijderen",
     "partialText": "Wil je niet meteen je hele account verwijderen, maar alleen bepaalde gegevens? Schrijf ons dan ook op {email}. Je gebruikersnaam kun je op elk moment zelf wijzigen in je profiel in de app.",
     "privacyLinkText": "privacyverklaring (in het Engels)",

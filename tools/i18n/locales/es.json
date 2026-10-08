@@ -96,6 +96,28 @@
     "description": "Cómo eliminar tu cuenta de Tamdotti y todos los datos asociados. Instrucciones y resumen de los datos que se eliminan.",
     "h1": "Eliminar tu cuenta de Tamdotti",
     "intro": "Así eliminas tu cuenta y todos los datos asociados en la app «Tamdotti» de Vidomedia UG (haftungsbeschränkt).",
+    "appTitle": "Elimina tu cuenta directamente en la app",
+    "appText": "Lo más rápido es hacerlo en la app; la eliminación es inmediata:",
+    "appSteps": [
+      "Abre Tamdotti e inicia sesión con tu cuenta.",
+      "Toca <b>{more}</b> en la barra inferior. Se abrirá <b>{settings}</b>.",
+      "Desplázate hasta abajo, a <b>{section}</b>, y toca <b>{button}</b>.",
+      "Lee lo que se eliminará, toca <b>{continue}</b> y confirma con <b>{confirm}</b>.",
+      "Listo: verás <b>{done}</b> y se cerrará tu sesión. Tu cuenta y todos los datos en la nube quedan eliminados."
+    ],
+    "appNote": "La sección «{section}» solo aparece si has iniciado sesión. Tu partida en el dispositivo se conserva, salvo que elijas «{alsoLocal}».",
+    "altTitle": "Sin la app: solicitar la eliminación por correo",
+    "appUi": {
+      "more": "Más",
+      "settings": "Ajustes",
+      "section": "Eliminar cuenta",
+      "button": "Eliminar cuenta para siempre",
+      "continue": "Continuar",
+      "confirm": "Eliminar para siempre",
+      "done": "Cuenta eliminada",
+      "alsoLocal": "Restablecer también la partida en este dispositivo",
+      "logout": "Cerrar sesión"
+    },
     "requestTitle": "Solicitar la eliminación de la cuenta",
     "requestText": "Puedes solicitar la eliminación de tu cuenta de Tamdotti por correo electrónico en cualquier momento y de forma gratuita:",
     "steps": [
@@ -129,7 +151,7 @@
     "retention": "Tras la eliminación no conservamos ningún dato de juego ni de cuenta. Como en Tamdotti no hay compras con dinero real, no existe obligación de conservar datos de pago. Los registros técnicos de corta duración de nuestro proveedor de servidores se borran automáticamente al poco tiempo; las posibles copias de seguridad se sobrescriben en el ciclo habitual de copias. Tu correo de solicitud de eliminación solo lo conservamos el tiempo necesario para acreditar que se ha tramitado.",
     "notice": "<b>Importante:</b> la eliminación no se puede deshacer. Tu progreso, tus Dottis y tus monedas se perderán.",
     "deviceTitle": "Datos en tu dispositivo",
-    "deviceText": "Si juegas sin cuenta, tus datos de juego solo están en tu dispositivo; en ese caso no tenemos ningún dato tuyo en nuestros servidores. Para borrar estos datos locales, basta con desinstalar la app. Si tenías una cuenta, cierra sesión en la app en <b>Más → Ajustes → Cerrar sesión</b> y desinstala la app para eliminar también la copia local.",
+    "deviceText": "Si juegas sin cuenta, tus datos de juego solo están en tu dispositivo; en ese caso no tenemos ningún dato tuyo en nuestros servidores. Para borrar estos datos locales, basta con desinstalar la app. Si tenías una cuenta, cierra sesión en la app en <b>{more} → {settings} → {logout}</b> y desinstala la app para eliminar también la copia local.",
     "partialTitle": "Eliminar solo algunos datos",
     "partialText": "¿No quieres eliminar toda la cuenta, sino solo ciertos datos? Escríbenos también a {email}. Tu nombre de usuario puedes cambiarlo tú mismo en cualquier momento en tu perfil de la app.",
     "privacyLinkText": "política de privacidad (en inglés)",

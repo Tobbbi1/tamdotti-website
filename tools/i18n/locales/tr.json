@@ -96,6 +96,28 @@
     "description": "Tamdotti hesabını ve ilgili tüm verileri nasıl silersin? Adım adım anlatım ve silinen verilere genel bakış.",
     "h1": "Tamdotti hesabını sil",
     "intro": "Vidomedia UG (haftungsbeschränkt) tarafından sunulan “Tamdotti” uygulamasındaki hesabını ve ilgili tüm verileri böyle silersin.",
+    "appTitle": "Hesabını doğrudan uygulamada sil",
+    "appText": "En hızlı yol uygulamadır – silme işlemi hemen gerçekleşir:",
+    "appSteps": [
+      "Tamdotti’yi aç ve hesabınla giriş yap.",
+      "Alttaki çubukta <b>{more}</b> sekmesine dokun. Burada <b>{settings}</b> açılır.",
+      "En aşağıya, <b>{section}</b> bölümüne kaydır ve <b>{button}</b> düğmesine dokun.",
+      "Nelerin silineceğini oku, <b>{continue}</b> düğmesine dokun ve <b>{confirm}</b> ile onayla.",
+      "Bitti: <b>{done}</b> mesajını görürsün ve çıkış yapılır. Hesabın ve tüm bulut verilerin silinmiştir."
+    ],
+    "appNote": "“{section}” bölümü yalnızca giriş yaptığında görünür. “{alsoLocal}” seçeneğini işaretlemezsen cihazdaki oyunun kalır.",
+    "altTitle": "Uygulama olmadan: e-postayla silme talebi",
+    "appUi": {
+      "more": "Daha fazla",
+      "settings": "Ayarlar",
+      "section": "Hesabı sil",
+      "button": "Hesabı kalıcı olarak sil",
+      "continue": "Devam",
+      "confirm": "Kalıcı olarak sil",
+      "done": "Hesap silindi",
+      "alsoLocal": "Bu cihazdaki oyunu da sıfırla",
+      "logout": "Çıkış yap"
+    },
     "requestTitle": "Hesap silme talebi",
     "requestText": "Tamdotti hesabının silinmesini istediğin zaman, ücretsiz olarak e-postayla talep edebilirsin:",
     "steps": [
@@ -129,7 +151,7 @@
     "retention": "Silme işleminden sonra hiçbir oyun veya hesap verisi saklamayız. Tamdotti’de gerçek parayla satın alma olmadığından, ödeme verileri için saklama yükümlülüğü de yoktur. Sunucu sağlayıcımızın kısa ömürlü teknik kayıtları kısa süre sonra otomatik olarak silinir; olası yedek kopyaların üzerine olağan yedekleme döngüsünde yazılır. Silme talebi e-postanı yalnızca talebin işlendiğini kanıtlamak için gerektiği süre boyunca saklarız.",
     "notice": "<b>Not:</b> Silme işlemi geri alınamaz. İlerlemen, Dotti’lerin ve jetonların kaybolur.",
     "deviceTitle": "Cihazındaki veriler",
-    "deviceText": "Hesapsız oynuyorsan oyun verilerin yalnızca cihazında durur – bu durumda sunucularımızda senden hiçbir veri yoktur. Bu yerel verileri silmek için uygulamayı kaldırman yeterli. Hesabın varsa, uygulamada <b>Diğer → Ayarlar → Çıkış yap</b> yoluyla çıkış yap ve yerel kopyayı da silmek için uygulamayı kaldır.",
+    "deviceText": "Hesapsız oynuyorsan oyun verilerin yalnızca cihazında durur – bu durumda sunucularımızda senden hiçbir veri yoktur. Bu yerel verileri silmek için uygulamayı kaldırman yeterli. Hesabın varsa, uygulamada <b>{more} → {settings} → {logout}</b> yoluyla çıkış yap ve yerel kopyayı da silmek için uygulamayı kaldır.",
     "partialTitle": "Yalnızca belirli verileri silmek",
     "partialText": "Tüm hesabını değil, yalnızca belirli verileri mi silmek istiyorsun? Bunun için de bize {email} adresinden yaz. Kullanıcı adını uygulamadaki profilinden istediğin zaman kendin değiştirebilirsin.",
     "privacyLinkText": "gizlilik politikamızda (İngilizce)",

@@ -96,6 +96,28 @@
     "description": "Jak usunąć konto Tamdotti i wszystkie powiązane dane. Instrukcja krok po kroku i przegląd usuwanych danych.",
     "h1": "Usuwanie konta Tamdotti",
     "intro": "Tak usuniesz swoje konto i wszystkie powiązane dane w aplikacji „Tamdotti” firmy Vidomedia UG (haftungsbeschränkt).",
+    "appTitle": "Usuń konto bezpośrednio w aplikacji",
+    "appText": "Najszybciej zrobisz to w aplikacji – usunięcie następuje od razu:",
+    "appSteps": [
+      "Otwórz Tamdotti i zaloguj się na swoje konto.",
+      "Dotknij <b>{more}</b> na dolnym pasku. Otworzą się <b>{settings}</b>.",
+      "Przewiń na sam dół do sekcji <b>{section}</b> i dotknij <b>{button}</b>.",
+      "Przeczytaj, co zostanie usunięte, dotknij <b>{continue}</b> i potwierdź przyciskiem <b>{confirm}</b>.",
+      "Gotowe: zobaczysz <b>{done}</b> i zostaniesz wylogowany(-a). Twoje konto i wszystkie dane w chmurze są usunięte."
+    ],
+    "appNote": "Sekcja „{section}” jest widoczna tylko po zalogowaniu. Gra na urządzeniu zostaje, chyba że wybierzesz „{alsoLocal}”.",
+    "altTitle": "Bez aplikacji: prośba o usunięcie e-mailem",
+    "appUi": {
+      "more": "Więcej",
+      "settings": "Ustawienia",
+      "section": "Usuń konto",
+      "button": "Usuń konto na zawsze",
+      "continue": "Dalej",
+      "confirm": "Usuń na zawsze",
+      "done": "Konto usunięte",
+      "alsoLocal": "Zresetuj też grę na tym urządzeniu",
+      "logout": "Wyloguj się"
+    },
     "requestTitle": "Prośba o usunięcie konta",
     "requestText": "W każdej chwili możesz bezpłatnie poprosić e-mailem o usunięcie konta Tamdotti:",
     "steps": [
@@ -129,7 +151,7 @@
     "retention": "Po usunięciu nie przechowujemy żadnych danych gry ani konta. Ponieważ w Tamdotti nie ma zakupów za prawdziwe pieniądze, nie ma obowiązku przechowywania danych płatności. Krótkotrwałe logi techniczne naszego dostawcy serwerów są automatycznie usuwane po krótkim czasie; ewentualne kopie zapasowe są nadpisywane w zwykłym cyklu tworzenia kopii. Twój e-mail z prośbą o usunięcie przechowujemy tylko tak długo, jak to konieczne, by wykazać, że został obsłużony.",
     "notice": "<b>Uwaga:</b> usunięcia nie można cofnąć. Twoje postępy, twoje Dotti i monety przepadną.",
     "deviceTitle": "Dane na twoim urządzeniu",
-    "deviceText": "Jeśli grasz bez konta, twoje dane gry są zapisane wyłącznie na twoim urządzeniu – nie mamy wtedy żadnych twoich danych na naszych serwerach. Aby usunąć te lokalne dane, po prostu odinstaluj aplikację. Jeśli masz konto, wyloguj się w aplikacji w <b>Więcej → Ustawienia → Wyloguj</b> i odinstaluj aplikację, aby usunąć również kopię lokalną.",
+    "deviceText": "Jeśli grasz bez konta, twoje dane gry są zapisane wyłącznie na twoim urządzeniu – nie mamy wtedy żadnych twoich danych na naszych serwerach. Aby usunąć te lokalne dane, po prostu odinstaluj aplikację. Jeśli masz konto, wyloguj się w aplikacji w <b>{more} → {settings} → {logout}</b> i odinstaluj aplikację, aby usunąć również kopię lokalną.",
     "partialTitle": "Usuwanie wybranych danych",
     "partialText": "Nie chcesz usuwać całego konta, tylko wybrane dane? Napisz do nas również na adres {email}. Nazwę użytkownika możesz w każdej chwili zmienić samodzielnie w profilu w aplikacji.",
     "privacyLinkText": "polityce prywatności (po angielsku)",

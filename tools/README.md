@@ -12,3 +12,8 @@ Alle HTML-Seiten (außer den Assets) werden erzeugt – **nicht** die .html-Date
   `/<lang>/index.html` + `/<lang>/konto-loeschen.html`, `/en/privacy.html`, `/en/imprint.html`,
   `sitemap.xml` (mit hreflang), `robots.txt`.
 - Alle Asset-Pfade sind root-absolut (`/img/…`, `/3d/…`), die Seite muss also an der Domain-Wurzel laufen.
+- „Konto löschen“: Der In-App-Weg nutzt `konto.appUi` – das sind die **exakten** App-Texte
+  (`tabs.settings`, `settings.title`, `settings.deleteSection`, `settings.deleteButton`,
+  `settings.deleteContinue`, `settings.deleteConfirmAction`, `settings.deleteDoneTitle`,
+  `settings.deleteAlsoLocal`, `settings.logout` aus `app_src/src/i18n/locales/*.ts`).
+  Ändert sich ein Menüname in der App, hier mitziehen.

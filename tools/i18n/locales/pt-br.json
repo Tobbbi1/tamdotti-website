@@ -96,6 +96,28 @@
     "description": "Como excluir sua conta do Tamdotti e todos os dados associados. Passo a passo e visão geral dos dados excluídos.",
     "h1": "Excluir sua conta do Tamdotti",
     "intro": "Veja como excluir sua conta e todos os dados associados no app “Tamdotti” da Vidomedia UG (haftungsbeschränkt).",
+    "appTitle": "Exclua sua conta direto no app",
+    "appText": "O jeito mais rápido é pelo app – a exclusão acontece na hora:",
+    "appSteps": [
+      "Abra o Tamdotti e entre com a sua conta.",
+      "Toque em <b>{more}</b> na barra de baixo. Isso abre as <b>{settings}</b>.",
+      "Role até o fim, até <b>{section}</b>, e toque em <b>{button}</b>.",
+      "Leia o que será excluído, toque em <b>{continue}</b> e confirme com <b>{confirm}</b>.",
+      "Pronto: você verá <b>{done}</b> e sairá da conta. Sua conta e todos os dados na nuvem foram excluídos."
+    ],
+    "appNote": "A seção “{section}” só aparece quando você está conectado. Seu jogo no aparelho continua, a menos que você escolha “{alsoLocal}”.",
+    "altTitle": "Sem o app: pedir a exclusão por e-mail",
+    "appUi": {
+      "more": "Mais",
+      "settings": "Configurações",
+      "section": "Excluir conta",
+      "button": "Excluir conta para sempre",
+      "continue": "Continuar",
+      "confirm": "Excluir para sempre",
+      "done": "Conta excluída",
+      "alsoLocal": "Também redefinir o jogo neste aparelho",
+      "logout": "Sair"
+    },
     "requestTitle": "Solicitar a exclusão da conta",
     "requestText": "Você pode solicitar a exclusão da sua conta do Tamdotti por e-mail a qualquer momento, sem custo:",
     "steps": [
@@ -129,7 +151,7 @@
     "retention": "Depois da exclusão, não guardamos nenhum dado de jogo ou de conta. Como não há compras com dinheiro real no Tamdotti, não existe obrigação de guardar dados de pagamento. Registros técnicos de curta duração do nosso provedor de servidores são apagados automaticamente após pouco tempo; eventuais cópias de segurança são sobrescritas no ciclo normal de backup. Guardamos seu e-mail de solicitação de exclusão apenas pelo tempo necessário para comprovar que ele foi atendido.",
     "notice": "<b>Atenção:</b> a exclusão não pode ser desfeita. Seu progresso, seus Dottis e suas moedas serão perdidos.",
     "deviceTitle": "Dados no seu aparelho",
-    "deviceText": "Se você joga sem conta, seus dados de jogo ficam apenas no seu aparelho – nesse caso, não temos nenhum dado seu em nossos servidores. Para apagar esses dados locais, basta desinstalar o app. Se você tinha uma conta, saia dela no app em <b>Mais → Configurações → Sair</b> e desinstale o app para remover também a cópia local.",
+    "deviceText": "Se você joga sem conta, seus dados de jogo ficam apenas no seu aparelho – nesse caso, não temos nenhum dado seu em nossos servidores. Para apagar esses dados locais, basta desinstalar o app. Se você tinha uma conta, saia dela no app em <b>{more} → {settings} → {logout}</b> e desinstale o app para remover também a cópia local.",
     "partialTitle": "Excluir apenas alguns dados",
     "partialText": "Não quer excluir a conta inteira, só alguns dados? Escreva para nós também em {email}. Seu nome de usuário você mesmo pode alterar a qualquer momento no seu perfil no app.",
     "privacyLinkText": "política de privacidade (em inglês)",
