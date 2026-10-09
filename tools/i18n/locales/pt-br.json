@@ -25,14 +25,14 @@
   },
   "home": {
     "title": "Tamdotti – um jogo tranquilo de bichinho virtual em 3D",
-    "description": "Tamdotti é um jogo tranquilo de bichinho virtual em 3D: alimente, dê banho e faça carinho no seu Dotti, decore um quarto, colha no jardim e encontre amigos no campo. Em breve na App Store e no Google Play.",
-    "ogDescription": "Cuide do seu Dotti, decore o quarto, jardim e campo. Em breve na App Store e no Google Play.",
+    "description": "Tamdotti é um jogo tranquilo de bichinho virtual em 3D: alimente, dê banho e faça carinho no seu Dotti, decore um quarto, colha no jardim e encontre amigos no campo. Beta grátis aberto para iPhone e Android.",
+    "ogDescription": "Cuide do seu Dotti, decore o quarto, jardim e campo. Beta aberto para iPhone e Android.",
     "navLabel": "Página",
-    "navSoon": "Em breve",
+    "navSoon": "Beta",
     "poke": "Me cutuca",
     "h1": "Oi, eu sou o Wuffel.",
     "lead": "Tamdotti é um jogo tranquilo de bichinho virtual em 3D. Você cuida do seu Dotti, monta um quarto para ele e vocês saem juntos para o jardim.",
-    "meta": "Em breve para iPhone e Android.",
+    "meta": "Beta aberto para iPhone e Android.",
     "chapters": [
       {
         "kicker": "Em casa",
@@ -85,11 +85,28 @@
         "Treino"
       ]
     ],
-    "soonTitle": "Quase lá.",
-    "soonText": "Tamdotti chega em breve para iPhone e Android. Se tiver dúvidas, respondemos com prazer desde já: {email}",
-    "storeApple": "Em breve na",
-    "storeGoogle": "Em breve no",
-    "storeNote": "Ainda não está na loja – Tamdotti chega em breve."
+    "soonTitle": "Participe do beta.",
+    "soonText": "Tamdotti está quase pronto. Teste grátis agora mesmo no iPhone ou Android e conta pra gente do que você gosta. Dúvidas? {email}",
+    "beta": "Beta",
+    "androidTitle": "Como participar no Android",
+    "androidSteps": [
+      [
+        "Entre no grupo de testadores.",
+        "Abrir o grupo do Google",
+        "Com a conta Google que você usa na Play Store, toque em “Participar do grupo”."
+      ],
+      [
+        "Vire testador.",
+        "Abrir a página de teste",
+        "Lá, toque no botão para se tornar testador."
+      ],
+      [
+        "Instale o Tamdotti.",
+        "Abrir na Play Store",
+        "Depois de alguns minutos, é só instalar o Tamdotti como qualquer outro app."
+      ]
+    ],
+    "androidClose": "Fechar"
   },
   "konto": {
     "title": "Excluir conta – Tamdotti",

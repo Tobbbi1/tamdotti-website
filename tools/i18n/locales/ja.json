@@ -25,14 +25,14 @@
   },
   "home": {
     "title": "Tamdotti – のんびり遊べる 3D ペットゲーム",
-    "description": "Tamdotti は、のんびり遊べる 3D ペットゲーム。Dotti にごはんをあげて、お風呂に入れて、なでなで。お部屋を整えて、庭で収穫して、原っぱで友だちに会えます。App Store と Google Play で近日公開。",
-    "ogDescription": "Dotti のお世話、お部屋づくり、庭と原っぱ。App Store と Google Play で近日公開。",
+    "description": "Tamdotti は、のんびり遊べる 3D ペットゲーム。Dotti にごはんをあげて、お風呂に入れて、なでなで。お部屋を整えて、庭で収穫して、原っぱで友だちに会えます。iPhone と Android で無料ベータテスト中。",
+    "ogDescription": "Dotti のお世話、お部屋づくり、庭と原っぱ。iPhone と Android でベータテスト中。",
     "navLabel": "ページ",
-    "navSoon": "近日公開",
+    "navSoon": "ベータテスト",
     "poke": "つついてみて",
     "h1": "こんにちは、ぼくは Wuffel。",
     "lead": "Tamdotti は、のんびり遊べる 3D ペットゲーム。Dotti のお世話をして、お部屋を整えて、いっしょに庭へおでかけします。",
-    "meta": "iPhone と Android で近日公開。",
+    "meta": "iPhone と Android でベータテスト中。",
     "chapters": [
       {
         "kicker": "おうち",
@@ -85,11 +85,28 @@
         "トレーニング"
       ]
     ],
-    "soonTitle": "もうすぐです。",
-    "soonText": "Tamdotti は iPhone と Android で近日公開予定です。ご質問があれば、いまからお気軽にどうぞ：{email}",
-    "storeApple": "近日公開",
-    "storeGoogle": "近日公開",
-    "storeNote": "まだストアにはありません。もうすぐ公開です。"
+    "soonTitle": "ベータテストに参加しよう。",
+    "soonText": "Tamdotti はもうすぐ完成です。iPhone または Android でいますぐ無料で遊んで、気に入ったところを教えてください。ご質問は {email} まで。",
+    "beta": "ベータテスト",
+    "androidTitle": "Android での参加方法",
+    "androidSteps": [
+      [
+        "テスターグループに参加する。",
+        "Google グループを開く",
+        "Play ストアで使っている Google アカウントで「グループに参加」をタップ。"
+      ],
+      [
+        "テスターになる。",
+        "テストページを開く",
+        "ページ内のボタンをタップしてテスターになります。"
+      ],
+      [
+        "Tamdotti をインストール。",
+        "Play ストアで開く",
+        "数分後、ふつうのアプリと同じようにインストールできます。"
+      ]
+    ],
+    "androidClose": "閉じる"
   },
   "konto": {
     "title": "アカウント削除 – Tamdotti",

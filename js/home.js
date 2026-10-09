@@ -1,4 +1,4 @@
-// Start page UI: chapter reveals, store-button feedback, 3D stage bootstrap with poster fallback.
+// Start page UI: chapter reveals, Android beta guide, 3D stage bootstrap with poster fallback.
 const root = document.documentElement;
 const params = new URLSearchParams(location.search);
 const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches || params.has('reduced');
@@ -15,15 +15,23 @@ chapters.forEach((c) => reveal.observe(c));
 document.querySelectorAll('.nope dl').forEach((d) => reveal.observe(d));
 if (posterMode !== null) chapters.forEach((c) => c.classList.add('is-in'));
 
-/* "Bald im App Store": the buttons can't go anywhere yet – say so instead of doing nothing */
-const note = document.getElementById('store-note');
-let noteTimer;
-document.querySelectorAll('.store').forEach((b) => b.addEventListener('click', () => {
-  note.textContent = note.dataset.msg; // localized in the page markup
-  note.classList.add('is-on');
-  clearTimeout(noteTimer);
-  noteTimer = setTimeout(() => note.classList.remove('is-on'), 2600);
-}));
+/* Android beta: the button opens a small three-step guide (Google Group -> become tester -> Play Store) */
+const betaBtn = document.querySelector('[aria-controls="beta-android"]');
+const betaPanel = document.getElementById('beta-android');
+function setBeta(open) {
+  betaBtn.setAttribute('aria-expanded', String(open));
+  betaPanel.hidden = !open;
+  if (open) {
+    betaPanel.classList.remove('is-in'); void betaPanel.offsetWidth; betaPanel.classList.add('is-in');
+    const r = betaPanel.getBoundingClientRect();
+    if (r.bottom > innerHeight) betaPanel.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'nearest' });
+  }
+}
+if (betaBtn && betaPanel) {
+  betaBtn.addEventListener('click', () => setBeta(betaPanel.hidden));
+  betaPanel.querySelector('.beta-close').addEventListener('click', () => { setBeta(false); betaBtn.focus(); });
+  if (location.hash === '#beta-android') setBeta(true);
+}
 
 /* scroll anchors: scrollY at which each chapter's top meets the viewport top */
 function anchors() {

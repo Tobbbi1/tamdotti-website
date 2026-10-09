@@ -22,8 +22,13 @@ const esc = (s) => String(s).replace(/&(?!amp;|lt;|gt;|quot;|#\d+;)/g, '&amp;').
 const strip = (s) => String(s).replace(/<[^>]+>/g, '');
 const fill = (s, vars) => String(s).replace(/\{(\w+)\}/g, (m, k) => (k in vars ? vars[k] : m));
 const mail = '<a href="mailto:info@vidofood.de">info@vidofood.de</a>';
-// Footer only: company contact (Vidomedia UG). Legal pages, konto-loeschen and the home text keep `mail`.
+// Company contact (Vidomedia UG): footer + the beta-test section on the start page. Legal pages and konto-loeschen keep `mail`.
 const footerMail = '<a href="mailto:info@vidomedia.de">info@vidomedia.de</a>';
+// Beta test (start page). iPhone: TestFlight public link. Android: closed test = Google Group -> opt-in -> Play Store.
+const BETA = {
+  ios: 'https://testflight.apple.com/join/ZPDdyCGJ',
+  android: ['https://groups.google.com/g/tamdotti-tester', 'https://play.google.com/apps/testing/de.vidomedia.tamdotti', 'https://play.google.com/store/apps/details?id=de.vidomedia.tamdotti'],
+};
 const prefix = (k) => (k === 'de' ? '' : `/${L[k].dir}`);
 
 // page types → url per language (null = no version in that language)
@@ -163,7 +168,7 @@ function home(k) {
   const suggest = k === 'de' ? `<script type="application/json" id="lang-suggest">${suggestData()}</script>\n` : '';
   return `${head(k, 'home', { title: h.title, description: h.description, ogTitle: h.title, ogDescription: h.ogDescription, extra })}
 <body class="home">
-${masthead(k, 'home', `<nav aria-label="${esc(h.navLabel)}"><a href="#bald">${h.navSoon}</a></nav>`)}
+${masthead(k, 'home', `<nav aria-label="${esc(h.navLabel)}"><a href="#beta">${h.navSoon}</a></nav>`)}
 
 <main>
   <section class="story" id="story">
@@ -203,19 +208,27 @@ ${shots}
     </div>
   </section>
 
-  <section class="soon wrap" id="bald" aria-labelledby="soon-title">
+  <section class="soon wrap" id="beta" aria-labelledby="soon-title">
     <h2 id="soon-title">${h.soonTitle}</h2>
-    <p>${fill(h.soonText, { email: mail })}</p>
+    <p>${fill(h.soonText, { email: footerMail })}</p>
     <div class="stores">
-      <button class="btn store" type="button" aria-describedby="store-note">
+      <a class="btn store" href="${BETA.ios}" target="_blank" rel="noopener">
         ${STORE_APPLE}
-        <span><small>${h.storeApple}</small>App Store</span>
-      </button>
-      <button class="btn store" type="button" aria-describedby="store-note">
+        <span><small>${h.beta} · TestFlight</small>iPhone</span>
+      </a>
+      <button class="btn store" type="button" aria-expanded="false" aria-controls="beta-android">
         ${STORE_GOOGLE}
-        <span><small>${h.storeGoogle}</small>Google Play</span>
+        <span><small>${h.beta} · Google Play</small>Android</span>
       </button>
-      <p class="store-note" id="store-note" role="status" aria-live="polite" data-msg="${esc(h.storeNote)}"></p>
+    </div>
+    <div class="beta-steps" id="beta-android" role="region" aria-labelledby="beta-android-title" hidden>
+      <div class="beta-steps-head">
+        <h3 id="beta-android-title">${h.androidTitle}</h3>
+        <button class="beta-close" type="button" aria-label="${esc(h.androidClose)}"><svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true"><path d="M2.5 2.5l7 7m0-7l-7 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+      </div>
+      <ol class="steps">
+${h.androidSteps.map(([t, a, hint], i) => `        <li><b>${t}</b> <a href="${BETA.android[i]}" target="_blank" rel="noopener">${a}</a><span>${hint}</span></li>`).join('\n')}
+      </ol>
     </div>
   </section>
 </main>

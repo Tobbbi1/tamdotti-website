@@ -76,9 +76,22 @@
 .store{padding:12px 20px 12px 16px;min-width:184px;font-size:1.0625rem}
 .store span{display:flex;flex-direction:column;align-items:flex-start;gap:3px;line-height:1}
 .store small{font-size:.72rem;font-weight:600;opacity:.75}
-.store-note{flex-basis:100%;margin:var(--s2) 0 0;min-height:1.6em;font-size:var(--t-sm);font-weight:700;color:var(--accent-ink);
-  opacity:0;transform:translateY(-4px);transition:opacity 150ms ease,transform 150ms ease}
-.store-note.is-on{opacity:1;transform:none;transition:opacity 200ms var(--ease-out),transform 200ms var(--ease-out)}
+.store[aria-expanded=true]{background:var(--bark-2)}
+/* Android beta: three steps in a small card under the buttons */
+.beta-steps{max-width:560px;margin-top:var(--s5);padding:var(--s5) var(--s5) var(--s3);background:var(--paper);border:1px solid var(--line);
+  border-radius:22px;box-shadow:0 18px 36px -28px rgba(74,51,38,.55);transform-origin:top left}
+.beta-steps.is-in{animation:beta-in 220ms var(--ease-out)}
+@keyframes beta-in{from{opacity:0;transform:translateY(-6px) scale(.985)}}
+.beta-steps-head{display:flex;align-items:center;justify-content:space-between;gap:var(--s4)}
+.beta-steps h3{font-size:var(--t-lg)}
+.beta-close{appearance:none;border:0;background:none;cursor:pointer;width:36px;height:36px;margin:-6px -8px -6px 0;border-radius:10px;
+  display:grid;place-items:center;color:var(--muted);transition:background-color 150ms ease,color 150ms ease}
+@media (hover:hover) and (pointer:fine){.beta-close:hover{background:rgba(74,51,38,.06);color:var(--ink)}}
+.beta-steps .steps{margin:var(--s3) 0 0}
+.beta-steps .steps li{margin:var(--s4) 0}
+.beta-steps .steps b{color:var(--ink)}
+.beta-steps .steps a{font-weight:700}
+.beta-steps .steps span{display:block;color:var(--ink-2);font-size:var(--t-sm);margin-top:2px}
 
 /* --- phones --- */
 @media (max-aspect-ratio:9/10){
@@ -105,5 +118,5 @@
   .chapter .copy>*{transform:none;transition:opacity 300ms ease}
   .poke-hint{translate:none}
   .nope s::after{transition:clip-path 1ms linear}
-  .store-note,.store-note.is-on{transform:none}
+  .beta-steps.is-in{animation:none}
 }

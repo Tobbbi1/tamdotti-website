@@ -25,14 +25,14 @@
   },
   "home": {
     "title": "Tamdotti – 느긋한 3D 펫 게임",
-    "description": "Tamdotti는 느긋하게 즐기는 3D 펫 게임이에요. Dotti에게 밥을 주고, 목욕시키고, 꼭 안아 주세요. 방을 꾸미고, 정원에서 수확하고, 들판에서 친구를 만나요. 곧 App Store와 Google Play에 나와요.",
-    "ogDescription": "Dotti 돌보기, 방 꾸미기, 정원과 들판. 곧 App Store와 Google Play에 나와요.",
+    "description": "Tamdotti는 느긋하게 즐기는 3D 펫 게임이에요. Dotti에게 밥을 주고, 목욕시키고, 꼭 안아 주세요. 방을 꾸미고, 정원에서 수확하고, 들판에서 친구를 만나요. 지금 iPhone과 Android에서 무료 베타 테스트 중이에요.",
+    "ogDescription": "Dotti 돌보기, 방 꾸미기, 정원과 들판. 지금 iPhone과 Android에서 베타 테스트 중이에요.",
     "navLabel": "페이지",
-    "navSoon": "곧 출시",
+    "navSoon": "베타 테스트",
     "poke": "콕 찔러 봐",
     "h1": "안녕, 나는 Wuffel이야.",
     "lead": "Tamdotti는 느긋하게 즐기는 3D 펫 게임이에요. Dotti를 돌보고, 방을 꾸며 주고, 함께 정원으로 나가요.",
-    "meta": "iPhone과 Android에 곧 출시돼요.",
+    "meta": "지금 iPhone과 Android에서 베타 테스트 중이에요.",
     "chapters": [
       {
         "kicker": "집",
@@ -85,11 +85,28 @@
         "훈련"
       ]
     ],
-    "soonTitle": "곧 만나요.",
-    "soonText": "Tamdotti는 곧 iPhone과 Android에 출시돼요. 궁금한 점은 지금도 편하게 물어보세요: {email}",
-    "storeApple": "곧 출시",
-    "storeGoogle": "곧 출시",
-    "storeNote": "아직 스토어에 없어요. Tamdotti는 곧 출시돼요."
+    "soonTitle": "베타 테스트에 함께해요.",
+    "soonText": "Tamdotti가 거의 완성됐어요. 지금 iPhone이나 Android에서 무료로 해 보고 마음에 드는 점을 알려 주세요. 궁금한 점은 {email}",
+    "beta": "베타 테스트",
+    "androidTitle": "Android에서 참여하는 방법",
+    "androidSteps": [
+      [
+        "테스터 그룹에 가입하세요.",
+        "Google 그룹 열기",
+        "Play 스토어에서 쓰는 Google 계정으로 ‘그룹 가입’을 탭하세요."
+      ],
+      [
+        "테스터가 되세요.",
+        "테스트 페이지 열기",
+        "페이지의 버튼을 탭해 테스터가 되세요."
+      ],
+      [
+        "Tamdotti를 설치하세요.",
+        "Play 스토어에서 열기",
+        "몇 분 뒤 다른 앱처럼 Tamdotti를 설치할 수 있어요."
+      ]
+    ],
+    "androidClose": "닫기"
   },
   "konto": {
     "title": "계정 삭제 – Tamdotti",

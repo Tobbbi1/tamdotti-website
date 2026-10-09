@@ -25,14 +25,14 @@
   },
   "home": {
     "title": "Tamdotti – 一款安静治愈的 3D 宠物游戏",
-    "description": "Tamdotti 是一款安静治愈的 3D 宠物游戏：给你的 Dotti 喂食、洗澡、抱抱，布置房间，在花园里收获，在草地上和朋友相遇。即将登陆 App Store 和 Google Play。",
-    "ogDescription": "照顾 Dotti、布置房间、花园与草地。即将登陆 App Store 和 Google Play。",
+    "description": "Tamdotti 是一款安静治愈的 3D 宠物游戏：给你的 Dotti 喂食、洗澡、抱抱，布置房间，在花园里收获，在草地上和朋友相遇。iPhone 和 Android 免费公测进行中。",
+    "ogDescription": "照顾 Dotti、布置房间、花园与草地。iPhone 和 Android 公测进行中。",
     "navLabel": "页面",
-    "navSoon": "即将推出",
+    "navSoon": "参加测试",
     "poke": "戳戳我",
     "h1": "你好，我是 Wuffel。",
     "lead": "Tamdotti 是一款安静治愈的 3D 宠物游戏。你照顾自己的 Dotti，为它布置房间，再一起去花园走走。",
-    "meta": "即将登陆 iPhone 和 Android。",
+    "meta": "iPhone 和 Android 公测进行中。",
     "chapters": [
       {
         "kicker": "家",
@@ -85,11 +85,28 @@
         "训练"
       ]
     ],
-    "soonTitle": "快了。",
-    "soonText": "Tamdotti 即将登陆 iPhone 和 Android。有任何问题，现在就欢迎联系我们：{email}",
-    "storeApple": "即将登陆",
-    "storeGoogle": "即将登陆",
-    "storeNote": "还没有上架，Tamdotti 很快就来。"
+    "soonTitle": "来参加测试吧。",
+    "soonText": "Tamdotti 就快完成了。现在就能在 iPhone 或 Android 上免费试玩，告诉我们你喜欢什么。有问题？{email}",
+    "beta": "测试版",
+    "androidTitle": "在 Android 上参加测试",
+    "androidSteps": [
+      [
+        "加入测试者群组。",
+        "打开 Google 群组",
+        "用你在 Play 商店使用的 Google 账号，点按“加入群组”。"
+      ],
+      [
+        "成为测试者。",
+        "打开测试页面",
+        "在页面上点按按钮，成为测试者。"
+      ],
+      [
+        "安装 Tamdotti。",
+        "在 Play 商店打开",
+        "几分钟后，就能像其他应用一样安装 Tamdotti。"
+      ]
+    ],
+    "androidClose": "关闭"
   },
   "konto": {
     "title": "删除账号 – Tamdotti",

@@ -25,14 +25,14 @@
   },
   "home": {
     "title": "Tamdotti – spokojna gra 3D o zwierzaku",
-    "description": "Tamdotti to spokojna gra 3D o zwierzaku: karm, kąp i przytulaj swoje Dotti, urządź mu pokój, zbieraj plony w ogrodzie i spotykaj znajomych na łące. Wkrótce w App Store i Google Play.",
-    "ogDescription": "Opieka nad Dotti, własny pokój, ogród i łąka. Wkrótce w App Store i Google Play.",
+    "description": "Tamdotti to spokojna gra 3D o zwierzaku: karm, kąp i przytulaj swoje Dotti, urządź mu pokój, zbieraj plony w ogrodzie i spotykaj znajomych na łące. Darmowe beta-testy na iPhone’a i Androida już trwają.",
+    "ogDescription": "Opieka nad Dotti, własny pokój, ogród i łąka. Beta-testy na iPhone’a i Androida już trwają.",
     "navLabel": "Strona",
-    "navSoon": "Już wkrótce",
+    "navSoon": "Beta-testy",
     "poke": "Szturchnij mnie",
     "h1": "Cześć, jestem Wuffel.",
     "lead": "Tamdotti to spokojna gra 3D o zwierzaku. Opiekujesz się swoim Dotti, urządzasz mu pokój i razem wychodzicie do ogrodu.",
-    "meta": "Już wkrótce na iPhone’a i Androida.",
+    "meta": "Beta-testy na iPhone’a i Androida już trwają.",
     "chapters": [
       {
         "kicker": "Dom",
@@ -85,11 +85,28 @@
         "Trening"
       ]
     ],
-    "soonTitle": "Już niedługo.",
-    "soonText": "Tamdotti już wkrótce pojawi się na iPhone’a i Androida. Na pytania chętnie odpowiemy już teraz: {email}",
-    "storeApple": "Wkrótce w",
-    "storeGoogle": "Wkrótce w",
-    "storeNote": "Jeszcze nie ma w sklepie – Tamdotti już wkrótce."
+    "soonTitle": "Dołącz do beta-testów.",
+    "soonText": "Tamdotti jest prawie gotowe. Wypróbuj je już teraz za darmo na iPhonie lub Androidzie i napisz nam, co ci się podoba. Pytania? {email}",
+    "beta": "Beta-test",
+    "androidTitle": "Jak dołączyć na Androidzie",
+    "androidSteps": [
+      [
+        "Dołącz do grupy testerów.",
+        "Otwórz grupę Google",
+        "Kontem Google, którego używasz w Sklepie Play, stuknij „Dołącz do grupy”."
+      ],
+      [
+        "Zostań testerem.",
+        "Otwórz stronę testu",
+        "Stuknij tam przycisk, żeby zostać testerem."
+      ],
+      [
+        "Zainstaluj Tamdotti.",
+        "Otwórz w Sklepie Play",
+        "Po kilku minutach zainstalujesz Tamdotti jak każdą inną aplikację."
+      ]
+    ],
+    "androidClose": "Zamknij"
   },
   "konto": {
     "title": "Usuń konto – Tamdotti",

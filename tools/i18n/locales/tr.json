@@ -25,14 +25,14 @@
   },
   "home": {
     "title": "Tamdotti – sakin bir 3D evcil hayvan oyunu",
-    "description": "Tamdotti sakin bir 3D evcil hayvan oyunu: Dotti’ni besle, yıka ve sev, bir oda döşe, bahçede hasat yap ve çayırda arkadaşlarınla buluş. Çok yakında App Store ve Google Play’de.",
-    "ogDescription": "Dotti’ne bak, odasını döşe, bahçe ve çayır. Çok yakında App Store ve Google Play’de.",
+    "description": "Tamdotti sakin bir 3D evcil hayvan oyunu: Dotti’ni besle, yıka ve sev, bir oda döşe, bahçede hasat yap ve çayırda arkadaşlarınla buluş. iPhone ve Android için ücretsiz beta testi başladı.",
+    "ogDescription": "Dotti’ne bak, odasını döşe, bahçe ve çayır. iPhone ve Android için beta testi başladı.",
     "navLabel": "Sayfa",
-    "navSoon": "Çok yakında",
+    "navSoon": "Beta testi",
     "poke": "Bana bir dokun",
     "h1": "Merhaba, ben Wuffel.",
     "lead": "Tamdotti sakin bir 3D evcil hayvan oyunu. Dotti’nle ilgilenir, ona bir oda döşer ve birlikte bahçeye çıkarsın.",
-    "meta": "Çok yakında iPhone ve Android için.",
+    "meta": "iPhone ve Android için beta testi başladı.",
     "chapters": [
       {
         "kicker": "Ev",
@@ -85,11 +85,28 @@
         "Antrenman"
       ]
     ],
-    "soonTitle": "Az kaldı.",
-    "soonText": "Tamdotti çok yakında iPhone ve Android’de. Sorularını şimdiden memnuniyetle yanıtlarız: {email}",
-    "storeApple": "Çok yakında",
-    "storeGoogle": "Çok yakında",
-    "storeNote": "Henüz mağazada değil – Tamdotti çok yakında geliyor."
+    "soonTitle": "Beta testine katıl.",
+    "soonText": "Tamdotti neredeyse hazır. Şimdiden iPhone veya Android’de ücretsiz dene ve neyi sevdiğini bize anlat. Sorun mu var? {email}",
+    "beta": "Beta testi",
+    "androidTitle": "Android’de nasıl katılırsın",
+    "androidSteps": [
+      [
+        "Test grubuna katıl.",
+        "Google Grubunu aç",
+        "Play Store’da kullandığın Google hesabıyla “Gruba katıl”a dokun."
+      ],
+      [
+        "Test kullanıcısı ol.",
+        "Test sayfasını aç",
+        "Orada test kullanıcısı olma düğmesine dokun."
+      ],
+      [
+        "Tamdotti’yi yükle.",
+        "Play Store’da aç",
+        "Birkaç dakika sonra Tamdotti’yi her uygulama gibi yükleyebilirsin."
+      ]
+    ],
+    "androidClose": "Kapat"
   },
   "konto": {
     "title": "Hesabı sil – Tamdotti",

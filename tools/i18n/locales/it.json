@@ -25,14 +25,14 @@
   },
   "home": {
     "title": "Tamdotti – un tranquillo gioco di animaletti in 3D",
-    "description": "Tamdotti è un tranquillo gioco di animaletti in 3D: dai da mangiare, fai il bagnetto e coccola il tuo Dotti, arreda una cameretta, raccogli in giardino e incontra gli amici sul prato. Presto su App Store e Google Play.",
-    "ogDescription": "Prenditi cura del tuo Dotti, arreda la cameretta, giardino e prato. Presto su App Store e Google Play.",
+    "description": "Tamdotti è un tranquillo gioco di animaletti in 3D: dai da mangiare, fai il bagnetto e coccola il tuo Dotti, arreda una cameretta, raccogli in giardino e incontra gli amici sul prato. Beta gratuita aperta su iPhone e Android.",
+    "ogDescription": "Prenditi cura del tuo Dotti, arreda la cameretta, giardino e prato. Beta aperta su iPhone e Android.",
     "navLabel": "Pagina",
-    "navSoon": "In arrivo",
+    "navSoon": "Beta",
     "poke": "Dammi un colpetto",
     "h1": "Ciao, sono Wuffel.",
     "lead": "Tamdotti è un tranquillo gioco di animaletti in 3D. Ti prendi cura del tuo Dotti, gli arredi una cameretta e uscite insieme in giardino.",
-    "meta": "Presto su iPhone e Android.",
+    "meta": "Beta aperta su iPhone e Android.",
     "chapters": [
       {
         "kicker": "Casa",
@@ -85,11 +85,28 @@
         "Allenamento"
       ]
     ],
-    "soonTitle": "Quasi pronto.",
-    "soonText": "Tamdotti arriva presto su iPhone e Android. Se hai domande, ti rispondiamo volentieri già adesso: {email}",
-    "storeApple": "Presto su",
-    "storeGoogle": "Presto su",
-    "storeNote": "Non è ancora nello store: Tamdotti arriva presto."
+    "soonTitle": "Partecipa alla beta.",
+    "soonText": "Tamdotti è quasi pronto. Provalo gratis già adesso su iPhone o Android e dicci cosa ti piace. Domande? {email}",
+    "beta": "Beta",
+    "androidTitle": "Come partecipare su Android",
+    "androidSteps": [
+      [
+        "Entra nel gruppo dei tester.",
+        "Apri il gruppo Google",
+        "Con l’account Google che usi nel Play Store, tocca «Iscriviti al gruppo»."
+      ],
+      [
+        "Diventa tester.",
+        "Apri la pagina del test",
+        "Lì tocca il pulsante per diventare tester."
+      ],
+      [
+        "Installa Tamdotti.",
+        "Apri nel Play Store",
+        "Dopo qualche minuto puoi installare Tamdotti come qualsiasi altra app."
+      ]
+    ],
+    "androidClose": "Chiudi"
   },
   "konto": {
     "title": "Elimina account – Tamdotti",

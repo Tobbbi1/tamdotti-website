@@ -25,14 +25,14 @@
   },
   "home": {
     "title": "Tamdotti – un jeu d’animal de compagnie en 3D, tout en douceur",
-    "description": "Tamdotti est un jeu d’animal de compagnie en 3D, tout en douceur : nourris, baigne et câline ton Dotti, aménage une chambre, récolte au jardin et retrouve tes amis dans la prairie. Bientôt sur l’App Store et Google Play.",
-    "ogDescription": "Prends soin de ton Dotti, aménage sa chambre, jardin et prairie. Bientôt sur l’App Store et Google Play.",
+    "description": "Tamdotti est un jeu d’animal de compagnie en 3D, tout en douceur : nourris, baigne et câline ton Dotti, aménage une chambre, récolte au jardin et retrouve tes amis dans la prairie. Bêta gratuite ouverte sur iPhone et Android.",
+    "ogDescription": "Prends soin de ton Dotti, aménage sa chambre, jardin et prairie. Bêta ouverte sur iPhone et Android.",
     "navLabel": "Page",
-    "navSoon": "Bientôt",
+    "navSoon": "Bêta",
     "poke": "Tapote-moi",
     "h1": "Coucou, moi c’est Wuffel.",
     "lead": "Tamdotti est un jeu d’animal de compagnie en 3D, tout en douceur. Tu t’occupes de ton Dotti, tu lui aménages une chambre et vous sortez ensemble au jardin.",
-    "meta": "Bientôt sur iPhone et Android.",
+    "meta": "Bêta ouverte sur iPhone et Android.",
     "chapters": [
       {
         "kicker": "À la maison",
@@ -85,11 +85,28 @@
         "Entraînement"
       ]
     ],
-    "soonTitle": "Bientôt là.",
-    "soonText": "Tamdotti arrive bientôt sur iPhone et Android. On répond volontiers à tes questions dès maintenant : {email}",
-    "storeApple": "Bientôt sur l’",
-    "storeGoogle": "Bientôt sur",
-    "storeNote": "Pas encore dans le store – Tamdotti arrive bientôt."
+    "soonTitle": "Rejoins la bêta.",
+    "soonText": "Tamdotti est presque prêt. Teste-le gratuitement dès maintenant sur iPhone ou Android et dis-nous ce qui te plaît. Une question ? {email}",
+    "beta": "Bêta",
+    "androidTitle": "Rejoindre la bêta sur Android",
+    "androidSteps": [
+      [
+        "Rejoins le groupe de testeurs.",
+        "Ouvrir le groupe Google",
+        "Avec le compte Google de ton Play Store, appuie sur « Rejoindre le groupe »."
+      ],
+      [
+        "Deviens testeur.",
+        "Ouvrir la page de test",
+        "Appuie sur le bouton pour devenir testeur."
+      ],
+      [
+        "Installe Tamdotti.",
+        "Ouvrir dans le Play Store",
+        "Après quelques minutes, tu peux installer Tamdotti comme n’importe quelle appli."
+      ]
+    ],
+    "androidClose": "Fermer"
   },
   "konto": {
     "title": "Supprimer le compte – Tamdotti",
