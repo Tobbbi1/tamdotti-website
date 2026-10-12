@@ -57,8 +57,8 @@
         "Ni banners ni vídeos a mitad de partida."
       ],
       [
-        "Dinero real",
-        "Las monedas se ganan cuidando y jugando."
+        "Presión para comprar",
+        "Las monedas se ganan cuidando y jugando. El paquete de monedas es opcional y nunca necesario."
       ],
       [
         "Cuenta obligatoria",
@@ -165,7 +165,7 @@
       "visitas, combates y duelos en los que participaste, así como las puntuaciones de los minijuegos,",
       "membresías en grupos de Dottis compartidos y notificaciones programadas."
     ],
-    "retention": "Tras la eliminación no conservamos ningún dato de juego ni de cuenta. Como en Tamdotti no hay compras con dinero real, no existe obligación de conservar datos de pago. Los registros técnicos de corta duración de nuestro proveedor de servidores se borran automáticamente al poco tiempo; las posibles copias de seguridad se sobrescriben en el ciclo habitual de copias. Tu correo de solicitud de eliminación solo lo conservamos el tiempo necesario para acreditar que se ha tramitado.",
+    "retention": "Tras la eliminación no conservamos ningún dato de juego ni de cuenta. Los registros de compra de paquetes de monedas (ID de transacción, producto, fecha – sin datos de pago) se eliminan con la cuenta, salvo obligaciones legales de conservación; los datos de pago solo los tienen Apple o Google. Los registros técnicos de corta duración de nuestro proveedor de servidores se borran automáticamente al poco tiempo; las posibles copias de seguridad se sobrescriben en el ciclo habitual de copias. Tu correo de solicitud de eliminación solo lo conservamos el tiempo necesario para acreditar que se ha tramitado.",
     "notice": "<b>Importante:</b> la eliminación no se puede deshacer. Tu progreso, tus Dottis y tus monedas se perderán.",
     "deviceTitle": "Datos en tu dispositivo",
     "deviceText": "Si juegas sin cuenta, tus datos de juego solo están en tu dispositivo; en ese caso no tenemos ningún dato tuyo en nuestros servidores. Para borrar estos datos locales, basta con desinstalar la app. Si tenías una cuenta, cierra sesión en la app en <b>{more} → {settings} → {logout}</b> y desinstala la app para eliminar también la copia local.",

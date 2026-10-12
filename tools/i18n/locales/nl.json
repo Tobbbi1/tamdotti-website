@@ -57,8 +57,8 @@
         "Geen banners, geen filmpjes tussendoor."
       ],
       [
-        "Echt geld",
-        "Munten verdien je door te verzorgen en te spelen."
+        "Koopdruk",
+        "Munten verdien je door te verzorgen en te spelen. Een muntenpakket is optioneel en nooit nodig."
       ],
       [
         "Verplicht account",
@@ -165,7 +165,7 @@
       "bezoeken, gevechten en duels waaraan je hebt deelgenomen, en scores van minigames,",
       "lidmaatschappen van gedeelde Dotti-groepen en geplande meldingen."
     ],
-    "retention": "Na de verwijdering bewaren we geen spel- of accountgegevens. Omdat er in Tamdotti geen aankopen met echt geld zijn, gelden er geen bewaarplichten voor betaalgegevens. Kortlevende technische logbestanden van onze serverprovider worden na korte tijd automatisch verwijderd; eventuele back-ups worden in de normale back-upcyclus overschreven. Je e-mail met het verwijderverzoek bewaren we alleen zo lang als nodig is om aan te tonen dat het is afgehandeld.",
+    "retention": "Na de verwijdering bewaren we geen spel- of accountgegevens. Aankoopgegevens van muntenpakketten (transactie-ID, product, tijdstip – geen betaalgegevens) worden met het account verwijderd, tenzij wettelijke bewaarplichten gelden; betaalgegevens liggen alleen bij Apple of Google. Kortlevende technische logbestanden van onze serverprovider worden na korte tijd automatisch verwijderd; eventuele back-ups worden in de normale back-upcyclus overschreven. Je e-mail met het verwijderverzoek bewaren we alleen zo lang als nodig is om aan te tonen dat het is afgehandeld.",
     "notice": "<b>Let op:</b> verwijderen kan niet ongedaan worden gemaakt. Je voortgang, je Dottis en je munten zijn daarna weg.",
     "deviceTitle": "Gegevens op je apparaat",
     "deviceText": "Speel je zonder account, dan staan je spelgegevens alleen op je apparaat – wij hebben dan geen gegevens van je op onze servers. Om deze lokale gegevens te wissen, verwijder je gewoon de app. Had je een account, log dan in de app uit via <b>{more} → {settings} → {logout}</b> en verwijder de app om ook de lokale kopie te wissen.",

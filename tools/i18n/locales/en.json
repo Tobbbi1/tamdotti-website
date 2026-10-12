@@ -58,8 +58,8 @@
         "No banners, no videos in between."
       ],
       [
-        "Real-money buys",
-        "You earn coins by caring and playing."
+        "Pressure to buy",
+        "You earn coins by caring and playing. A coin pack is optional and never needed."
       ],
       [
         "Forced sign-up",
@@ -166,7 +166,7 @@
       "visits, battles and duels you took part in, as well as mini-game scores,",
       "memberships in shared Dotti groups and scheduled notifications."
     ],
-    "retention": "We do not keep any game or account data after deletion. As there are no real-money purchases in Tamdotti, there are no retention obligations for payment data. Short-lived technical logs of our server provider are deleted automatically after a short time; any backups are overwritten in the regular backup cycle. We keep your deletion request email only for as long as needed to show that it was processed.",
+    "retention": "We do not keep any game or account data after deletion. Purchase records for coin packs (transaction ID, product, time – no payment data) are deleted with the account unless statutory retention obligations apply; payment data is held only by Apple or Google. Short-lived technical logs of our server provider are deleted automatically after a short time; any backups are overwritten in the regular backup cycle. We keep your deletion request email only for as long as needed to show that it was processed.",
     "notice": "<b>Please note:</b> Deletion cannot be undone. Your progress, your Dottis and your coins will be lost.",
     "deviceTitle": "Data on your device",
     "deviceText": "If you play without an account, your game data lives only on your device – we then have no data from you on our servers. To delete this local data, simply uninstall the app. If you had an account, sign out in the app under <b>{more} → {settings} → {logout}</b> and uninstall the app to remove the local copy as well.",

@@ -57,8 +57,8 @@
         "Żadnych banerów, żadnych filmików w trakcie gry."
       ],
       [
-        "Płatności",
-        "Nie ma zakupów za prawdziwe pieniądze – monety zdobywasz, opiekując się i grając."
+        "Presja zakupów",
+        "Monety zdobywasz, opiekując się i grając. Pakiet monet jest opcjonalny i nigdy niepotrzebny."
       ],
       [
         "Konta na siłę",
@@ -165,7 +165,7 @@
       "odwiedziny, walki i pojedynki z twoim udziałem oraz wyniki minigier,",
       "członkostwa we wspólnych grupach Dotti i zaplanowane powiadomienia."
     ],
-    "retention": "Po usunięciu nie przechowujemy żadnych danych gry ani konta. Ponieważ w Tamdotti nie ma zakupów za prawdziwe pieniądze, nie ma obowiązku przechowywania danych płatności. Krótkotrwałe logi techniczne naszego dostawcy serwerów są automatycznie usuwane po krótkim czasie; ewentualne kopie zapasowe są nadpisywane w zwykłym cyklu tworzenia kopii. Twój e-mail z prośbą o usunięcie przechowujemy tylko tak długo, jak to konieczne, by wykazać, że został obsłużony.",
+    "retention": "Po usunięciu nie przechowujemy żadnych danych gry ani konta. Dane zakupów pakietów monet (ID transakcji, produkt, czas – bez danych płatniczych) są usuwane wraz z kontem, o ile nie obowiązują ustawowe obowiązki przechowywania; dane płatnicze ma tylko Apple lub Google. Krótkotrwałe logi techniczne naszego dostawcy serwerów są automatycznie usuwane po krótkim czasie; ewentualne kopie zapasowe są nadpisywane w zwykłym cyklu tworzenia kopii. Twój e-mail z prośbą o usunięcie przechowujemy tylko tak długo, jak to konieczne, by wykazać, że został obsłużony.",
     "notice": "<b>Uwaga:</b> usunięcia nie można cofnąć. Twoje postępy, twoje Dotti i monety przepadną.",
     "deviceTitle": "Dane na twoim urządzeniu",
     "deviceText": "Jeśli grasz bez konta, twoje dane gry są zapisane wyłącznie na twoim urządzeniu – nie mamy wtedy żadnych twoich danych na naszych serwerach. Aby usunąć te lokalne dane, po prostu odinstaluj aplikację. Jeśli masz konto, wyloguj się w aplikacji w <b>{more} → {settings} → {logout}</b> i odinstaluj aplikację, aby usunąć również kopię lokalną.",

@@ -58,8 +58,8 @@
         "Keine Banner, keine Videos zwischendurch."
       ],
       [
-        "Käufe mit echtem Geld",
-        "Münzen verdienst du beim Pflegen und Spielen."
+        "Kaufdruck",
+        "Münzen verdienst du beim Pflegen und Spielen. Ein Münzpaket ist optional und nie nötig."
       ],
       [
         "Konto-Zwang",
@@ -166,7 +166,7 @@
       "Besuche, Kämpfe und Duelle, an denen du beteiligt warst, sowie Minispiel-Punktestände,",
       "Mitgliedschaften in gemeinsamen Dotti-Gruppen und geplante Benachrichtigungen."
     ],
-    "retention": "Wir bewahren nach der Löschung keine Spiel- oder Kontodaten auf. Da es in Tamdotti keine Käufe mit echtem Geld gibt, bestehen keine Aufbewahrungspflichten für Zahlungsdaten. Kurzlebige technische Protokolle unseres Server-Anbieters werden automatisch nach kurzer Zeit gelöscht; eventuelle Sicherungskopien werden im regulären Sicherungszyklus überschrieben. Deine E-Mail-Anfrage zur Löschung bewahren wir nur so lange auf, wie es zum Nachweis der Bearbeitung nötig ist.",
+    "retention": "Wir bewahren nach der Löschung keine Spiel- oder Kontodaten auf. Kaufdatensätze zu Münzpaketen (Transaktions-ID, Produkt, Zeitpunkt – keine Zahlungsdaten) werden mit dem Konto gelöscht, soweit keine gesetzlichen Aufbewahrungspflichten bestehen; Zahlungsdaten liegen nur bei Apple bzw. Google. Kurzlebige technische Protokolle unseres Server-Anbieters werden automatisch nach kurzer Zeit gelöscht; eventuelle Sicherungskopien werden im regulären Sicherungszyklus überschrieben. Deine E-Mail-Anfrage zur Löschung bewahren wir nur so lange auf, wie es zum Nachweis der Bearbeitung nötig ist.",
     "notice": "<b>Hinweis:</b> Die Löschung kann nicht rückgängig gemacht werden. Dein Fortschritt, deine Dottis und deine Münzen sind danach verloren.",
     "deviceTitle": "Daten auf deinem Gerät",
     "deviceText": "Wenn du ohne Konto spielst, liegen deine Spieldaten nur auf deinem Gerät – wir haben dann keine Daten von dir auf unseren Servern. Um diese lokalen Daten zu löschen, deinstalliere einfach die App. Wenn du ein Konto hattest, melde dich in der App unter <b>{more} → {settings} → {logout}</b> ab und deinstalliere die App, um auch die lokale Kopie zu entfernen.",

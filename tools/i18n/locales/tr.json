@@ -57,8 +57,8 @@
         "Ne banner ne de araya giren videolar."
       ],
       [
-        "Gerçek para",
-        "Jetonları bakım yaparak ve oynayarak kazanırsın."
+        "Satın alma baskısı",
+        "Jetonları bakım yaparak ve oynayarak kazanırsın. Jeton paketi isteğe bağlıdır, hiç gerekmez."
       ],
       [
         "Zorunlu hesap",
@@ -165,7 +165,7 @@
       "katıldığın ziyaretler, dövüşler ve düellolar ile mini oyun puanları,",
       "ortak Dotti gruplarındaki üyelikler ve planlanmış bildirimler."
     ],
-    "retention": "Silme işleminden sonra hiçbir oyun veya hesap verisi saklamayız. Tamdotti’de gerçek parayla satın alma olmadığından, ödeme verileri için saklama yükümlülüğü de yoktur. Sunucu sağlayıcımızın kısa ömürlü teknik kayıtları kısa süre sonra otomatik olarak silinir; olası yedek kopyaların üzerine olağan yedekleme döngüsünde yazılır. Silme talebi e-postanı yalnızca talebin işlendiğini kanıtlamak için gerektiği süre boyunca saklarız.",
+    "retention": "Silme işleminden sonra hiçbir oyun veya hesap verisi saklamayız. Jeton paketi satın alma kayıtları (işlem kimliği, ürün, zaman – ödeme verisi yok), yasal saklama yükümlülüğü yoksa hesapla birlikte silinir; ödeme verileri yalnızca Apple veya Google’dadır. Sunucu sağlayıcımızın kısa ömürlü teknik kayıtları kısa süre sonra otomatik olarak silinir; olası yedek kopyaların üzerine olağan yedekleme döngüsünde yazılır. Silme talebi e-postanı yalnızca talebin işlendiğini kanıtlamak için gerektiği süre boyunca saklarız.",
     "notice": "<b>Not:</b> Silme işlemi geri alınamaz. İlerlemen, Dotti’lerin ve jetonların kaybolur.",
     "deviceTitle": "Cihazındaki veriler",
     "deviceText": "Hesapsız oynuyorsan oyun verilerin yalnızca cihazında durur – bu durumda sunucularımızda senden hiçbir veri yoktur. Bu yerel verileri silmek için uygulamayı kaldırman yeterli. Hesabın varsa, uygulamada <b>{more} → {settings} → {logout}</b> yoluyla çıkış yap ve yerel kopyayı da silmek için uygulamayı kaldır.",

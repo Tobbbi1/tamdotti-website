@@ -57,8 +57,8 @@
         "Nada de banners nem vídeos no meio do jogo."
       ],
       [
-        "Dinheiro real",
-        "Você ganha moedas cuidando e brincando."
+        "Pressão para comprar",
+        "Você ganha moedas cuidando e brincando. O pacote de moedas é opcional e nunca necessário."
       ],
       [
         "Conta obrigatória",
@@ -165,7 +165,7 @@
       "visitas, batalhas e duelos de que você participou, além das pontuações dos minijogos,",
       "participações em grupos de Dottis compartilhados e notificações agendadas."
     ],
-    "retention": "Depois da exclusão, não guardamos nenhum dado de jogo ou de conta. Como não há compras com dinheiro real no Tamdotti, não existe obrigação de guardar dados de pagamento. Registros técnicos de curta duração do nosso provedor de servidores são apagados automaticamente após pouco tempo; eventuais cópias de segurança são sobrescritas no ciclo normal de backup. Guardamos seu e-mail de solicitação de exclusão apenas pelo tempo necessário para comprovar que ele foi atendido.",
+    "retention": "Depois da exclusão, não guardamos nenhum dado de jogo ou de conta. Os registros de compra de pacotes de moedas (ID da transação, produto, data – sem dados de pagamento) são excluídos com a conta, salvo obrigações legais de guarda; os dados de pagamento ficam apenas com a Apple ou o Google. Registros técnicos de curta duração do nosso provedor de servidores são apagados automaticamente após pouco tempo; eventuais cópias de segurança são sobrescritas no ciclo normal de backup. Guardamos seu e-mail de solicitação de exclusão apenas pelo tempo necessário para comprovar que ele foi atendido.",
     "notice": "<b>Atenção:</b> a exclusão não pode ser desfeita. Seu progresso, seus Dottis e suas moedas serão perdidos.",
     "deviceTitle": "Dados no seu aparelho",
     "deviceText": "Se você joga sem conta, seus dados de jogo ficam apenas no seu aparelho – nesse caso, não temos nenhum dado seu em nossos servidores. Para apagar esses dados locais, basta desinstalar o app. Se você tinha uma conta, saia dela no app em <b>{more} → {settings} → {logout}</b> e desinstale o app para remover também a cópia local.",

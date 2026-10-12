@@ -57,8 +57,8 @@
         "Ni bannières, ni vidéos entre deux parties."
       ],
       [
-        "Argent réel",
-        "Les pièces se gagnent en prenant soin de ton Dotti et en jouant."
+        "Pression à l’achat",
+        "Les pièces se gagnent en prenant soin de ton Dotti et en jouant. Le pack de pièces est facultatif et jamais nécessaire."
       ],
       [
         "Compte obligatoire",
@@ -165,7 +165,7 @@
       "les visites, combats et duels auxquels tu as participé, ainsi que les scores des mini-jeux,",
       "les adhésions à des groupes de Dottis partagés et les notifications programmées."
     ],
-    "retention": "Après la suppression, nous ne conservons aucune donnée de jeu ni de compte. Comme il n’y a pas d’achats avec de l’argent réel dans Tamdotti, il n’existe aucune obligation de conservation de données de paiement. Les journaux techniques de courte durée de notre hébergeur sont effacés automatiquement au bout de peu de temps ; les éventuelles sauvegardes sont écrasées lors du cycle de sauvegarde habituel. Nous ne conservons ton e-mail de demande de suppression que le temps nécessaire pour prouver qu’elle a été traitée.",
+    "retention": "Après la suppression, nous ne conservons aucune donnée de jeu ni de compte. Les enregistrements d’achat des packs de pièces (ID de transaction, produit, date – aucune donnée de paiement) sont supprimés avec le compte, sauf obligation légale de conservation ; seules Apple ou Google détiennent les données de paiement. Les journaux techniques de courte durée de notre hébergeur sont effacés automatiquement au bout de peu de temps ; les éventuelles sauvegardes sont écrasées lors du cycle de sauvegarde habituel. Nous ne conservons ton e-mail de demande de suppression que le temps nécessaire pour prouver qu’elle a été traitée.",
     "notice": "<b>Attention :</b> la suppression est définitive. Ta progression, tes Dottis et tes pièces seront perdus.",
     "deviceTitle": "Données sur ton appareil",
     "deviceText": "Si tu joues sans compte, tes données de jeu restent uniquement sur ton appareil : nous n’avons alors aucune donnée te concernant sur nos serveurs. Pour effacer ces données locales, il suffit de désinstaller l’app. Si tu avais un compte, déconnecte-toi dans l’app via <b>{more} → {settings} → {logout}</b>, puis désinstalle l’app pour supprimer aussi la copie locale.",
