@@ -25,14 +25,14 @@
   },
   "home": {
     "title": "Tamdotti – een rustig 3D-huisdierspel",
-    "description": "Tamdotti is een rustig 3D-huisdierspel: geef je Dotti eten, een bad en knuffels, richt een kamer in, oogst in de tuin en ontmoet vrienden op de weide. Nu gratis in bèta voor iPhone en Android.",
-    "ogDescription": "Zorg voor je Dotti, richt een kamer in, tuin en weide. Nu in bèta voor iPhone en Android.",
+    "description": "Tamdotti is een rustig 3D-huisdierspel: geef je Dotti eten, een bad en knuffels, richt een kamer in, oogst in de tuin en ontmoet vrienden op de weide. Gratis in de App Store en op Google Play.",
+    "ogDescription": "Zorg voor je Dotti, richt een kamer in, tuin en weide. Nu in de App Store en op Google Play.",
     "navLabel": "Pagina",
-    "navSoon": "Bètatest",
+    "navSoon": "Downloaden",
     "poke": "Tik me even aan",
     "h1": "Hoi, ik ben Wuffel.",
     "lead": "Tamdotti is een rustig 3D-huisdierspel. Je zorgt voor je Dotti, richt een kamer voor hem in en gaat samen naar buiten, de tuin in.",
-    "meta": "Nu in bèta voor iPhone en Android.",
+    "meta": "Nu in de App Store en op Google Play.",
     "chapters": [
       {
         "kicker": "Thuis",
@@ -85,28 +85,10 @@
         "Training"
       ]
     ],
-    "soonTitle": "Doe mee aan de bètatest.",
-    "soonText": "Tamdotti is bijna klaar. Probeer het nu al gratis op iPhone of Android en vertel ons wat je leuk vindt. Vragen? {email}",
-    "beta": "Bètatest",
-    "androidTitle": "Zo doe je mee op Android",
-    "androidSteps": [
-      [
-        "Word lid van de testgroep.",
-        "Google-groep openen",
-        "Tik met het Google-account van je Play Store op ‘Lid worden van groep’."
-      ],
-      [
-        "Word tester.",
-        "Testpagina openen",
-        "Tik daar op de knop om tester te worden."
-      ],
-      [
-        "Installeer Tamdotti.",
-        "Openen in de Play Store",
-        "Na een paar minuten installeer je Tamdotti zoals elke andere app."
-      ]
-    ],
-    "androidClose": "Sluiten"
+    "soonTitle": "Haal Tamdotti in huis.",
+    "soonText": "Tamdotti is er – gratis voor iPhone, iPad en Android. Vragen of ideeën? Schrijf ons: {email}",
+    "badgeApple": "Download in de",
+    "badgeGoogle": "ONTDEK HET OP"
   },
   "konto": {
     "title": "Account verwijderen – Tamdotti",

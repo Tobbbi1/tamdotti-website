@@ -26,14 +26,14 @@
   },
   "home": {
     "title": "Tamdotti – ein ruhiges 3D-Haustierspiel",
-    "description": "Tamdotti ist ein ruhiges 3D-Haustierspiel: dein Dotti füttern, baden und knuddeln, ein Zimmer einrichten, im Garten ernten und Freunde auf der Wiese treffen. Jetzt kostenlos im Beta-Test für iPhone und Android.",
-    "ogDescription": "Dotti pflegen, Zimmer einrichten, Garten und Wiese. Jetzt im Beta-Test für iPhone und Android.",
+    "description": "Tamdotti ist ein ruhiges 3D-Haustierspiel: dein Dotti füttern, baden und knuddeln, ein Zimmer einrichten, im Garten ernten und Freunde auf der Wiese treffen. Jetzt kostenlos im App Store und bei Google Play.",
+    "ogDescription": "Dotti pflegen, Zimmer einrichten, Garten und Wiese. Jetzt im App Store und bei Google Play.",
     "navLabel": "Seite",
-    "navSoon": "Beta-Test",
+    "navSoon": "Download",
     "poke": "Stups mich an",
     "h1": "Hallo, ich bin Wuffel.",
     "lead": "Tamdotti ist ein ruhiges 3D-Haustierspiel. Du kümmerst dich um dein Dotti, richtest ihm ein Zimmer ein und gehst mit ihm raus in den Garten.",
-    "meta": "Jetzt im Beta-Test für iPhone und Android.",
+    "meta": "Jetzt im App Store und bei Google Play.",
     "chapters": [
       {
         "kicker": "Zuhause",
@@ -86,28 +86,10 @@
         "Training"
       ]
     ],
-    "soonTitle": "Sei beim Beta-Test dabei.",
-    "soonText": "Tamdotti ist fast fertig. Teste es schon jetzt kostenlos auf iPhone oder Android und sag uns, was dir gefällt. Fragen? {email}",
-    "beta": "Beta-Test",
-    "androidTitle": "So machst du auf Android mit",
-    "androidSteps": [
-      [
-        "Tritt der Testgruppe bei.",
-        "Google-Gruppe öffnen",
-        "Mit dem Google-Konto, das du im Play Store nutzt, auf „Gruppe beitreten“ tippen."
-      ],
-      [
-        "Werde Tester.",
-        "Test-Seite öffnen",
-        "Dort auf „Tester werden“ tippen."
-      ],
-      [
-        "Installiere Tamdotti.",
-        "Im Play Store öffnen",
-        "Nach ein paar Minuten lässt sich Tamdotti ganz normal installieren."
-      ]
-    ],
-    "androidClose": "Schließen"
+    "soonTitle": "Hol dir Tamdotti.",
+    "soonText": "Tamdotti ist da – kostenlos für iPhone, iPad und Android. Fragen oder Ideen? Schreib uns: {email}",
+    "badgeApple": "Laden im",
+    "badgeGoogle": "JETZT BEI"
   },
   "konto": {
     "title": "Konto löschen – Tamdotti",

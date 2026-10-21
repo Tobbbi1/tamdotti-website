@@ -25,14 +25,14 @@
   },
   "home": {
     "title": "Tamdotti – spokojna gra 3D o zwierzaku",
-    "description": "Tamdotti to spokojna gra 3D o zwierzaku: karm, kąp i przytulaj swoje Dotti, urządź mu pokój, zbieraj plony w ogrodzie i spotykaj znajomych na łące. Darmowe beta-testy na iPhone’a i Androida już trwają.",
-    "ogDescription": "Opieka nad Dotti, własny pokój, ogród i łąka. Beta-testy na iPhone’a i Androida już trwają.",
+    "description": "Tamdotti to spokojna gra 3D o zwierzaku: karm, kąp i przytulaj swoje Dotti, urządź mu pokój, zbieraj plony w ogrodzie i spotykaj znajomych na łące. Za darmo w App Store i Google Play.",
+    "ogDescription": "Opieka nad Dotti, własny pokój, ogród i łąka. Już w App Store i Google Play.",
     "navLabel": "Strona",
-    "navSoon": "Beta-testy",
+    "navSoon": "Pobierz",
     "poke": "Szturchnij mnie",
     "h1": "Cześć, jestem Wuffel.",
     "lead": "Tamdotti to spokojna gra 3D o zwierzaku. Opiekujesz się swoim Dotti, urządzasz mu pokój i razem wychodzicie do ogrodu.",
-    "meta": "Beta-testy na iPhone’a i Androida już trwają.",
+    "meta": "Już w App Store i Google Play.",
     "chapters": [
       {
         "kicker": "Dom",
@@ -85,28 +85,10 @@
         "Trening"
       ]
     ],
-    "soonTitle": "Dołącz do beta-testów.",
-    "soonText": "Tamdotti jest prawie gotowe. Wypróbuj je już teraz za darmo na iPhonie lub Androidzie i napisz nam, co ci się podoba. Pytania? {email}",
-    "beta": "Beta-test",
-    "androidTitle": "Jak dołączyć na Androidzie",
-    "androidSteps": [
-      [
-        "Dołącz do grupy testerów.",
-        "Otwórz grupę Google",
-        "Kontem Google, którego używasz w Sklepie Play, stuknij „Dołącz do grupy”."
-      ],
-      [
-        "Zostań testerem.",
-        "Otwórz stronę testu",
-        "Stuknij tam przycisk, żeby zostać testerem."
-      ],
-      [
-        "Zainstaluj Tamdotti.",
-        "Otwórz w Sklepie Play",
-        "Po kilku minutach zainstalujesz Tamdotti jak każdą inną aplikację."
-      ]
-    ],
-    "androidClose": "Zamknij"
+    "soonTitle": "Pobierz Tamdotti.",
+    "soonText": "Tamdotti już jest – za darmo na iPhone’a, iPada i Androida. Pytania albo pomysły? Napisz do nas: {email}",
+    "badgeApple": "Pobierz z",
+    "badgeGoogle": "POBIERZ Z"
   },
   "konto": {
     "title": "Usuń konto – Tamdotti",

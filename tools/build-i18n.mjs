@@ -22,12 +22,12 @@ const esc = (s) => String(s).replace(/&(?!amp;|lt;|gt;|quot;|#\d+;)/g, '&amp;').
 const strip = (s) => String(s).replace(/<[^>]+>/g, '');
 const fill = (s, vars) => String(s).replace(/\{(\w+)\}/g, (m, k) => (k in vars ? vars[k] : m));
 const mail = '<a href="mailto:info@vidofood.de">info@vidofood.de</a>';
-// Company contact (Vidomedia UG): footer + the beta-test section on the start page. Legal pages and konto-loeschen keep `mail`.
+// Company contact (Vidomedia UG): footer + the download section on the start page. Legal pages and konto-loeschen keep `mail`.
 const footerMail = '<a href="mailto:info@vidomedia.de">info@vidomedia.de</a>';
-// Beta test (start page). iPhone: TestFlight public link. Android: closed test = Google Group -> opt-in -> Play Store.
-const BETA = {
-  ios: 'https://testflight.apple.com/join/ZPDdyCGJ',
-  android: ['https://groups.google.com/g/tamdotti-tester', 'https://play.google.com/apps/testing/de.vidomedia.tamdotti', 'https://play.google.com/store/apps/details?id=de.vidomedia.tamdotti'],
+// Official store listings (start page).
+const STORES = {
+  ios: 'https://apps.apple.com/app/id6820179356',
+  android: 'https://play.google.com/store/apps/details?id=de.vidomedia.tamdotti',
 };
 const prefix = (k) => (k === 'de' ? '' : `/${L[k].dir}`);
 
@@ -138,7 +138,7 @@ function masthead(k, page, nav) {
 
 /* ---------- page: home ---------- */
 const STORE_APPLE = '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M16.37 12.67c-.02-2.3 1.88-3.4 1.96-3.46-1.07-1.56-2.73-1.78-3.32-1.8-1.41-.14-2.76.83-3.48.83-.72 0-1.82-.81-3-.79-1.54.02-2.96.9-3.76 2.28-1.6 2.78-.41 6.9 1.15 9.16.76 1.1 1.67 2.34 2.86 2.3 1.15-.05 1.58-.74 2.97-.74 1.38 0 1.77.74 2.98.72 1.23-.02 2.01-1.12 2.76-2.23.87-1.28 1.23-2.51 1.25-2.58-.03-.01-2.4-.92-2.42-3.65zM14.1 5.9c.63-.77 1.06-1.83.94-2.9-.91.04-2.01.61-2.66 1.37-.58.67-1.1 1.76-.96 2.8 1.01.08 2.05-.52 2.68-1.27z"/></svg>';
-const STORE_GOOGLE = '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M4.5 2.6c-.3.2-.5.6-.5 1.1v16.6c0 .5.2.9.5 1.1l9.3-9.4zM15 13.1l2.6 2.6-11 6.3zM6.6 2l11 6.3L15 10.9zM18.9 9.1l3 1.7c.9.5.9 1.9 0 2.4l-3 1.7-2.9-2.9z"/></svg>';
+const STORE_GOOGLE = '<svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="#00D7FE" d="M4.5 2.6c-.3.2-.5.6-.5 1.1v16.6c0 .5.2.9.5 1.1l9.3-9.4z"/><path fill="#FF3A44" d="M15 13.1l2.6 2.6-11 6.3z"/><path fill="#00F076" d="M6.6 2l11 6.3L15 10.9z"/><path fill="#FFD400" d="M18.9 9.1l3 1.7c.9.5.9 1.9 0 2.4l-3 1.7-2.9-2.9z"/></svg>';
 
 function suggestData() {
   // compact table for the "view in your language?" hint on the German root
@@ -168,7 +168,7 @@ function home(k) {
   const suggest = k === 'de' ? `<script type="application/json" id="lang-suggest">${suggestData()}</script>\n` : '';
   return `${head(k, 'home', { title: h.title, description: h.description, ogTitle: h.title, ogDescription: h.ogDescription, extra })}
 <body class="home">
-${masthead(k, 'home', `<nav aria-label="${esc(h.navLabel)}"><a href="#beta">${h.navSoon}</a></nav>`)}
+${masthead(k, 'home', `<nav aria-label="${esc(h.navLabel)}"><a href="#download">${h.navSoon}</a></nav>`)}
 
 <main>
   <section class="story" id="story">
@@ -208,27 +208,18 @@ ${shots}
     </div>
   </section>
 
-  <section class="soon wrap" id="beta" aria-labelledby="soon-title">
+  <section class="soon wrap" id="download" aria-labelledby="soon-title">
     <h2 id="soon-title">${h.soonTitle}</h2>
     <p>${fill(h.soonText, { email: footerMail })}</p>
     <div class="stores">
-      <a class="btn store" href="${BETA.ios}" target="_blank" rel="noopener">
+      <a class="badge" href="${STORES.ios}" target="_blank" rel="noopener" aria-label="${esc(h.badgeApple)} App Store">
         ${STORE_APPLE}
-        <span><small>${h.beta} · TestFlight</small>iPhone</span>
+        <span><small>${h.badgeApple}</small>App Store</span>
       </a>
-      <button class="btn store" type="button" aria-expanded="false" aria-controls="beta-android">
+      <a class="badge" href="${STORES.android}" target="_blank" rel="noopener" aria-label="${esc(h.badgeGoogle)} Google Play">
         ${STORE_GOOGLE}
-        <span><small>${h.beta} · Google Play</small>Android</span>
-      </button>
-    </div>
-    <div class="beta-steps" id="beta-android" role="region" aria-labelledby="beta-android-title" hidden>
-      <div class="beta-steps-head">
-        <h3 id="beta-android-title">${h.androidTitle}</h3>
-        <button class="beta-close" type="button" aria-label="${esc(h.androidClose)}"><svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true"><path d="M2.5 2.5l7 7m0-7l-7 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
-      </div>
-      <ol class="steps">
-${h.androidSteps.map(([t, a, hint], i) => `        <li><b>${t}</b> <a href="${BETA.android[i]}" target="_blank" rel="noopener">${a}</a><span>${hint}</span></li>`).join('\n')}
-      </ol>
+        <span><small>${h.badgeGoogle}</small>Google Play</span>
+      </a>
     </div>
   </section>
 </main>

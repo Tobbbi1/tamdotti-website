@@ -26,8 +26,8 @@
   .btn-p{background:#ff7a45;color:#fff;border-bottom:3px solid #e85a28}
   .btn-s{background:#ddf2fb;color:#3a271c;height:46px;font-size:15px}
   .inv-steps{background:#eaf7e4;border:1px solid #cdebc1;color:#2f7a3b;border-radius:16px;padding:10px 14px;margin-top:16px;font-weight:600;font-size:14px}
-  .inv-beta{margin-top:22px;font-size:14px}
-  .inv-beta a{color:#e85a28;font-weight:600}
+  .inv-get{margin-top:22px;font-size:14px}
+  .inv-get a{color:#e85a28;font-weight:600}
   .inv-bad{color:#c2410c;font-weight:600}
 </style>
 </head>
@@ -46,25 +46,25 @@
     </div>
     <p class="inv-bad" id="t-bad" hidden>In diesem Link steckt kein gültiger Freundescode.</p>
   </div>
-  <p class="inv-beta"><span id="t-noapp">Noch keine App? Jetzt Beta testen:</span><br>
-    <a href="https://testflight.apple.com/join/ZPDdyCGJ" target="_blank" rel="noopener">iPhone (TestFlight)</a> ·
-    <a id="android" href="/#beta">Android</a></p>
+  <p class="inv-get"><span id="t-noapp">Noch keine App? Hier gibt’s Tamdotti kostenlos:</span><br>
+    <a href="https://apps.apple.com/app/id6820179356" target="_blank" rel="noopener">App Store</a> ·
+    <a href="https://play.google.com/store/apps/details?id=de.vidomedia.tamdotti" target="_blank" rel="noopener">Google Play</a></p>
 </main>
 <script>
 (function () {
   var T = {
-    de: ["Du wurdest zu Tamdotti eingeladen!", "Dein Freund möchte mit dir spielen – besucht euch, trefft euch auf der Wiese und tretet im Duell an.", "Freundescode", "In Tamdotti öffnen", "Code kopieren", "Kopiert ✓", "Oder: Tamdotti öffnen → Freunde → Freund hinzufügen → „Code eingeben“. Einer von euch reicht!", "In diesem Link steckt kein gültiger Freundescode.", "Noch keine App? Jetzt Beta testen:"],
-    en: ["You've been invited to Tamdotti!", "Your friend wants to play with you – visit each other, meet on the meadow and duel.", "Friend code", "Open in Tamdotti", "Copy code", "Copied ✓", "Or: open Tamdotti → Friends → Add a friend → “Enter a code”. Only one of you needs to do it!", "This link doesn't contain a valid friend code.", "No app yet? Join the beta:"],
-    es: ["¡Te han invitado a Tamdotti!", "Tu amigo quiere jugar contigo: visitaos, quedad en la pradera y retaos a un duelo.", "Código de amigo", "Abrir en Tamdotti", "Copiar código", "Copiado ✓", "O bien: abre Tamdotti → Amigos → Añadir amigo → «Introducir código». ¡Basta con que lo haga uno!", "Este enlace no contiene un código de amigo válido.", "¿Aún no tienes la app? Prueba la beta:"],
-    fr: ["Tu es invité·e sur Tamdotti !", "Ton ami veut jouer avec toi : rendez-vous visite, retrouvez-vous dans la prairie et affrontez-vous en duel.", "Code ami", "Ouvrir dans Tamdotti", "Copier le code", "Copié ✓", "Ou : ouvre Tamdotti → Amis → Ajouter un ami → « Saisir un code ». Un seul de vous deux suffit !", "Ce lien ne contient pas de code ami valide.", "Pas encore l'app ? Rejoins la bêta :"],
-    it: ["Sei stato invitato su Tamdotti!", "Il tuo amico vuole giocare con te: fatevi visita, incontratevi sul prato e sfidatevi a duello.", "Codice amico", "Apri in Tamdotti", "Copia codice", "Copiato ✓", "Oppure: apri Tamdotti → Amici → Aggiungi un amico → «Inserisci codice». Basta che lo faccia uno di voi!", "Questo link non contiene un codice amico valido.", "Non hai ancora l'app? Prova la beta:"],
-    "pt-br": ["Você foi convidado para o Tamdotti!", "Seu amigo quer jogar com você – visitem-se, encontrem-se no prado e duelem.", "Código de amigo", "Abrir no Tamdotti", "Copiar código", "Copiado ✓", "Ou: abra o Tamdotti → Amigos → Adicionar amigo → “Digitar código”. Basta um de vocês fazer isso!", "Este link não contém um código de amigo válido.", "Ainda não tem o app? Teste a beta:"],
-    nl: ["Je bent uitgenodigd voor Tamdotti!", "Je vriend wil met je spelen – bezoek elkaar, ontmoet elkaar op de weide en daag elkaar uit voor een duel.", "Vriendcode", "Openen in Tamdotti", "Code kopiëren", "Gekopieerd ✓", "Of: open Tamdotti → Vrienden → Vriend toevoegen → ‘Code invoeren’. Eén van jullie is genoeg!", "Deze link bevat geen geldige vriendcode.", "Nog geen app? Doe mee met de bèta:"],
-    pl: ["Zaproszono cię do Tamdotti!", "Twój znajomy chce z tobą grać – odwiedzajcie się, spotykajcie na łące i walczcie w pojedynkach.", "Kod znajomego", "Otwórz w Tamdotti", "Kopiuj kod", "Skopiowano ✓", "Albo: otwórz Tamdotti → Znajomi → Dodaj znajomego → „Wpisz kod”. Wystarczy, że zrobi to jedno z was!", "Ten link nie zawiera prawidłowego kodu znajomego.", "Nie masz jeszcze aplikacji? Testuj betę:"],
-    tr: ["Tamdotti'ye davet edildin!", "Arkadaşın seninle oynamak istiyor – birbirinizi ziyaret edin, çayırda buluşun ve düello yapın.", "Arkadaş kodu", "Tamdotti'de aç", "Kodu kopyala", "Kopyalandı ✓", "Ya da: Tamdotti'yi aç → Arkadaşlar → Arkadaş ekle → “Kod gir”. Birinizin yapması yeterli!", "Bu bağlantıda geçerli bir arkadaş kodu yok.", "Henüz uygulama yok mu? Betaya katıl:"],
-    ja: ["Tamdottiに招待されました！", "ともだちがいっしょに遊びたがっています。おたがいを訪ねたり、ひろばで会ったり、デュエルしたりしよう。", "フレンドコード", "Tamdottiで開く", "コードをコピー", "コピーしました ✓", "または：Tamdottiを開く → ともだち → ともだちを追加 → 「コードを入力」。どちらか1人が入力するだけでOK！", "このリンクには有効なフレンドコードが含まれていません。", "まだアプリがない？ベータに参加：", ],
-    ko: ["Tamdotti에 초대받았어요!", "친구가 함께 놀고 싶어 해요 – 서로 방문하고, 초원에서 만나고, 대결도 해 보세요.", "친구 코드", "Tamdotti에서 열기", "코드 복사", "복사됨 ✓", "또는: Tamdotti 열기 → 친구 → 친구 추가 → '코드 입력'. 둘 중 한 명만 입력하면 돼요!", "이 링크에는 올바른 친구 코드가 없어요.", "아직 앱이 없나요? 베타 참여하기:"],
-    zh: ["你被邀请加入 Tamdotti！", "你的朋友想和你一起玩——互相拜访、在草地上见面，还能来场对决。", "好友码", "在 Tamdotti 中打开", "复制好友码", "已复制 ✓", "或者：打开 Tamdotti → 好友 → 添加好友 →「输入代码」。你们其中一人输入就行！", "此链接中没有有效的好友码。", "还没有 App？加入测试版："]
+    de: ["Du wurdest zu Tamdotti eingeladen!", "Dein Freund möchte mit dir spielen – besucht euch, trefft euch auf der Wiese und tretet im Duell an.", "Freundescode", "In Tamdotti öffnen", "Code kopieren", "Kopiert ✓", "Oder: Tamdotti öffnen → Freunde → Freund hinzufügen → „Code eingeben“. Einer von euch reicht!", "In diesem Link steckt kein gültiger Freundescode.", "Noch keine App? Hier gibt’s Tamdotti kostenlos:"],
+    en: ["You've been invited to Tamdotti!", "Your friend wants to play with you – visit each other, meet on the meadow and duel.", "Friend code", "Open in Tamdotti", "Copy code", "Copied ✓", "Or: open Tamdotti → Friends → Add a friend → “Enter a code”. Only one of you needs to do it!", "This link doesn't contain a valid friend code.", "No app yet? Get Tamdotti for free:"],
+    es: ["¡Te han invitado a Tamdotti!", "Tu amigo quiere jugar contigo: visitaos, quedad en la pradera y retaos a un duelo.", "Código de amigo", "Abrir en Tamdotti", "Copiar código", "Copiado ✓", "O bien: abre Tamdotti → Amigos → Añadir amigo → «Introducir código». ¡Basta con que lo haga uno!", "Este enlace no contiene un código de amigo válido.", "¿Aún no tienes la app? Consigue Tamdotti gratis:"],
+    fr: ["Tu es invité·e sur Tamdotti !", "Ton ami veut jouer avec toi : rendez-vous visite, retrouvez-vous dans la prairie et affrontez-vous en duel.", "Code ami", "Ouvrir dans Tamdotti", "Copier le code", "Copié ✓", "Ou : ouvre Tamdotti → Amis → Ajouter un ami → « Saisir un code ». Un seul de vous deux suffit !", "Ce lien ne contient pas de code ami valide.", "Pas encore l’app ? Télécharge Tamdotti gratuitement :"],
+    it: ["Sei stato invitato su Tamdotti!", "Il tuo amico vuole giocare con te: fatevi visita, incontratevi sul prato e sfidatevi a duello.", "Codice amico", "Apri in Tamdotti", "Copia codice", "Copiato ✓", "Oppure: apri Tamdotti → Amici → Aggiungi un amico → «Inserisci codice». Basta che lo faccia uno di voi!", "Questo link non contiene un codice amico valido.", "Non hai ancora l’app? Scarica Tamdotti gratis:"],
+    "pt-br": ["Você foi convidado para o Tamdotti!", "Seu amigo quer jogar com você – visitem-se, encontrem-se no prado e duelem.", "Código de amigo", "Abrir no Tamdotti", "Copiar código", "Copiado ✓", "Ou: abra o Tamdotti → Amigos → Adicionar amigo → “Digitar código”. Basta um de vocês fazer isso!", "Este link não contém um código de amigo válido.", "Ainda não tem o app? Baixe o Tamdotti grátis:"],
+    nl: ["Je bent uitgenodigd voor Tamdotti!", "Je vriend wil met je spelen – bezoek elkaar, ontmoet elkaar op de weide en daag elkaar uit voor een duel.", "Vriendcode", "Openen in Tamdotti", "Code kopiëren", "Gekopieerd ✓", "Of: open Tamdotti → Vrienden → Vriend toevoegen → ‘Code invoeren’. Eén van jullie is genoeg!", "Deze link bevat geen geldige vriendcode.", "Nog geen app? Download Tamdotti gratis:"],
+    pl: ["Zaproszono cię do Tamdotti!", "Twój znajomy chce z tobą grać – odwiedzajcie się, spotykajcie na łące i walczcie w pojedynkach.", "Kod znajomego", "Otwórz w Tamdotti", "Kopiuj kod", "Skopiowano ✓", "Albo: otwórz Tamdotti → Znajomi → Dodaj znajomego → „Wpisz kod”. Wystarczy, że zrobi to jedno z was!", "Ten link nie zawiera prawidłowego kodu znajomego.", "Nie masz jeszcze aplikacji? Pobierz Tamdotti za darmo:"],
+    tr: ["Tamdotti'ye davet edildin!", "Arkadaşın seninle oynamak istiyor – birbirinizi ziyaret edin, çayırda buluşun ve düello yapın.", "Arkadaş kodu", "Tamdotti'de aç", "Kodu kopyala", "Kopyalandı ✓", "Ya da: Tamdotti'yi aç → Arkadaşlar → Arkadaş ekle → “Kod gir”. Birinizin yapması yeterli!", "Bu bağlantıda geçerli bir arkadaş kodu yok.", "Uygulama henüz yok mu? Tamdotti’yi ücretsiz indir:"],
+    ja: ["Tamdottiに招待されました！", "ともだちがいっしょに遊びたがっています。おたがいを訪ねたり、ひろばで会ったり、デュエルしたりしよう。", "フレンドコード", "Tamdottiで開く", "コードをコピー", "コピーしました ✓", "または：Tamdottiを開く → ともだち → ともだちを追加 → 「コードを入力」。どちらか1人が入力するだけでOK！", "このリンクには有効なフレンドコードが含まれていません。", "まだアプリがない？Tamdotti を無料でダウンロード："],
+    ko: ["Tamdotti에 초대받았어요!", "친구가 함께 놀고 싶어 해요 – 서로 방문하고, 초원에서 만나고, 대결도 해 보세요.", "친구 코드", "Tamdotti에서 열기", "코드 복사", "복사됨 ✓", "또는: Tamdotti 열기 → 친구 → 친구 추가 → '코드 입력'. 둘 중 한 명만 입력하면 돼요!", "이 링크에는 올바른 친구 코드가 없어요.", "아직 앱이 없나요? Tamdotti를 무료로 받아 보세요:"],
+    zh: ["你被邀请加入 Tamdotti！", "你的朋友想和你一起玩——互相拜访、在草地上见面，还能来场对决。", "好友码", "在 Tamdotti 中打开", "复制好友码", "已复制 ✓", "或者：打开 Tamdotti → 好友 → 添加好友 →「输入代码」。你们其中一人输入就行！", "此链接中没有有效的好友码。", "还没有 App？免费下载 Tamdotti："]
   };
   function pick() {
     var langs = (navigator.languages || [navigator.language || 'de']).map(function (l) { return String(l).toLowerCase(); });
@@ -82,7 +82,6 @@
   var ids = ['t-title', 't-lead', 't-kicker', 't-open', 't-copy', null, 't-steps', 't-bad', 't-noapp'];
   ids.forEach(function (id, i) { if (id) document.getElementById(id).textContent = s[i]; });
   document.title = 'Tamdotti – ' + s[2];
-  if (lang !== 'de') document.getElementById('android').href = '/' + lang + '/#beta';
   var q = new URLSearchParams(location.search);
   var raw = String(q.get('c') || q.get('code') || '').toUpperCase().replace(/[^A-Z0-9]/g, '');
   var ok = /^[A-HJ-NP-Z2-9]{8}$/.test(raw);

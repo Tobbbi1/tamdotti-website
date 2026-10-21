@@ -25,14 +25,14 @@
   },
   "home": {
     "title": "Tamdotti – un tranquillo gioco di animaletti in 3D",
-    "description": "Tamdotti è un tranquillo gioco di animaletti in 3D: dai da mangiare, fai il bagnetto e coccola il tuo Dotti, arreda una cameretta, raccogli in giardino e incontra gli amici sul prato. Beta gratuita aperta su iPhone e Android.",
-    "ogDescription": "Prenditi cura del tuo Dotti, arreda la cameretta, giardino e prato. Beta aperta su iPhone e Android.",
+    "description": "Tamdotti è un tranquillo gioco di animaletti in 3D: dai da mangiare, fai il bagnetto e coccola il tuo Dotti, arreda una cameretta, raccogli in giardino e incontra gli amici sul prato. Gratis su App Store e Google Play.",
+    "ogDescription": "Prenditi cura del tuo Dotti, arreda la cameretta, giardino e prato. Ora disponibile su App Store e Google Play.",
     "navLabel": "Pagina",
-    "navSoon": "Beta",
+    "navSoon": "Scarica",
     "poke": "Dammi un colpetto",
     "h1": "Ciao, sono Wuffel.",
     "lead": "Tamdotti è un tranquillo gioco di animaletti in 3D. Ti prendi cura del tuo Dotti, gli arredi una cameretta e uscite insieme in giardino.",
-    "meta": "Beta aperta su iPhone e Android.",
+    "meta": "Ora disponibile su App Store e Google Play.",
     "chapters": [
       {
         "kicker": "Casa",
@@ -85,28 +85,10 @@
         "Allenamento"
       ]
     ],
-    "soonTitle": "Partecipa alla beta.",
-    "soonText": "Tamdotti è quasi pronto. Provalo gratis già adesso su iPhone o Android e dicci cosa ti piace. Domande? {email}",
-    "beta": "Beta",
-    "androidTitle": "Come partecipare su Android",
-    "androidSteps": [
-      [
-        "Entra nel gruppo dei tester.",
-        "Apri il gruppo Google",
-        "Con l’account Google che usi nel Play Store, tocca «Iscriviti al gruppo»."
-      ],
-      [
-        "Diventa tester.",
-        "Apri la pagina del test",
-        "Lì tocca il pulsante per diventare tester."
-      ],
-      [
-        "Installa Tamdotti.",
-        "Apri nel Play Store",
-        "Dopo qualche minuto puoi installare Tamdotti come qualsiasi altra app."
-      ]
-    ],
-    "androidClose": "Chiudi"
+    "soonTitle": "Scarica Tamdotti.",
+    "soonText": "Tamdotti è arrivato: gratis per iPhone, iPad e Android. Domande o idee? Scrivici: {email}",
+    "badgeApple": "Scarica su",
+    "badgeGoogle": "DISPONIBILE SU"
   },
   "konto": {
     "title": "Elimina account – Tamdotti",
